@@ -1,0 +1,3874 @@
+... building the model
+... training
+2015-11-27 17:24:46
+epoch 1, test error 6853, learning_rate=1.0 **
+2015-11-27 17:24:57
+epoch 2, test error 2462, learning_rate=0.998000025749 **
+2015-11-27 17:25:08
+epoch 3, test error 1468, learning_rate=0.99600404501 **
+2015-11-27 17:25:19
+epoch 4, test error 1152, learning_rate=0.994012057781 **
+2015-11-27 17:25:31
+epoch 5, test error 995, learning_rate=0.992024064064 **
+2015-11-27 17:25:42
+epoch 6, test error 929, learning_rate=0.990040063858 **
+2015-11-27 17:25:53
+epoch 7, test error 861, learning_rate=0.988059997559 **
+2015-11-27 17:26:04
+epoch 8, test error 806, learning_rate=0.98608392477 **
+2015-11-27 17:26:15
+epoch 9, test error 783, learning_rate=0.984111785889 **
+2015-11-27 17:26:26
+epoch 10, test error 735, learning_rate=0.982143580914 **
+2015-11-27 17:26:38
+epoch 11, test error 685, learning_rate=0.980179309845 **
+2015-11-27 17:26:49
+epoch 12, test error 679, learning_rate=0.978218972683 **
+2015-11-27 17:27:00
+epoch 13, test error 648, learning_rate=0.976262569427 **
+2015-11-27 17:27:11
+epoch 14, test error 629, learning_rate=0.974310040474 **
+2015-11-27 17:27:21
+epoch 15, test error 593, learning_rate=0.972361445427 **
+2015-11-27 17:27:32
+epoch 16, test error 603, learning_rate=0.970416724682
+2015-11-27 17:27:43
+epoch 17, test error 577, learning_rate=0.968475937843 **
+2015-11-27 17:27:54
+epoch 18, test error 557, learning_rate=0.966539025307 **
+2015-11-27 17:28:05
+epoch 19, test error 541, learning_rate=0.964605987072 **
+2015-11-27 17:28:16
+epoch 20, test error 524, learning_rate=0.962676823139 **
+2015-11-27 17:28:27
+epoch 21, test error 524, learning_rate=0.960751473904
+2015-11-27 17:28:38
+epoch 22, test error 498, learning_rate=0.95882999897 **
+2015-11-27 17:28:49
+epoch 23, test error 495, learning_rate=0.956912338734 **
+2015-11-27 17:29:00
+epoch 24, test error 476, learning_rate=0.954998552799 **
+2015-11-27 17:29:11
+epoch 25, test error 477, learning_rate=0.953088581562
+2015-11-27 17:29:21
+epoch 26, test error 460, learning_rate=0.951182425022 **
+2015-11-27 17:29:32
+epoch 27, test error 446, learning_rate=0.949280083179 **
+2015-11-27 17:29:43
+epoch 28, test error 441, learning_rate=0.947381556034 **
+2015-11-27 17:29:54
+epoch 29, test error 432, learning_rate=0.945486843586 **
+2015-11-27 17:30:05
+epoch 30, test error 415, learning_rate=0.94359588623 **
+2015-11-27 17:30:16
+epoch 31, test error 414, learning_rate=0.941708743572 **
+2015-11-27 17:30:27
+epoch 32, test error 420, learning_rate=0.939825356007
+2015-11-27 17:30:38
+epoch 33, test error 410, learning_rate=0.937945723534 **
+2015-11-27 17:30:49
+epoch 34, test error 394, learning_rate=0.936069846153 **
+2015-11-27 17:31:00
+epoch 35, test error 407, learning_rate=0.934197723866
+2015-11-27 17:31:11
+epoch 36, test error 387, learning_rate=0.93232935667 **
+2015-11-27 17:31:22
+epoch 37, test error 382, learning_rate=0.930464744568 **
+2015-11-27 17:31:33
+epoch 38, test error 366, learning_rate=0.928603827953 **
+2015-11-27 17:31:44
+epoch 39, test error 364, learning_rate=0.926746666431 **
+2015-11-27 17:31:55
+epoch 40, test error 365, learning_rate=0.924893200397
+2015-11-27 17:32:06
+epoch 41, test error 361, learning_rate=0.923043429852 **
+2015-11-27 17:32:17
+epoch 42, test error 364, learning_rate=0.921197354794
+2015-11-27 17:32:28
+epoch 43, test error 357, learning_rate=0.919354975224 **
+2015-11-27 17:32:39
+epoch 44, test error 358, learning_rate=0.917516291142
+2015-11-27 17:32:49
+epoch 45, test error 351, learning_rate=0.915681302547 **
+2015-11-27 17:33:00
+epoch 46, test error 340, learning_rate=0.913849949837 **
+2015-11-27 17:33:11
+epoch 47, test error 335, learning_rate=0.912022292614 **
+2015-11-27 17:33:22
+epoch 48, test error 338, learning_rate=0.910198271275
+2015-11-27 17:33:33
+epoch 49, test error 327, learning_rate=0.908377885818 **
+2015-11-27 17:33:44
+epoch 50, test error 334, learning_rate=0.906561136246
+2015-11-27 17:33:55
+epoch 51, test error 323, learning_rate=0.904748022556 **
+2015-11-27 17:34:06
+epoch 52, test error 326, learning_rate=0.90293854475
+2015-11-27 17:34:17
+epoch 53, test error 330, learning_rate=0.901132702827
+2015-11-27 17:34:28
+epoch 54, test error 315, learning_rate=0.899330437183 **
+2015-11-27 17:34:39
+epoch 55, test error 320, learning_rate=0.897531807423
+2015-11-27 17:34:50
+epoch 56, test error 310, learning_rate=0.895736753941 **
+2015-11-27 17:35:01
+epoch 57, test error 307, learning_rate=0.893945276737 **
+2015-11-27 17:35:11
+epoch 58, test error 298, learning_rate=0.892157435417 **
+2015-11-27 17:35:22
+epoch 59, test error 298, learning_rate=0.890373170376
+2015-11-27 17:35:33
+epoch 60, test error 295, learning_rate=0.888592422009 **
+2015-11-27 17:35:44
+epoch 61, test error 290, learning_rate=0.88681524992 **
+2015-11-27 17:35:55
+epoch 62, test error 295, learning_rate=0.88504165411
+2015-11-27 17:36:06
+epoch 63, test error 298, learning_rate=0.883271574974
+2015-11-27 17:36:17
+epoch 64, test error 282, learning_rate=0.881505072117 **
+2015-11-27 17:36:28
+epoch 65, test error 294, learning_rate=0.879742085934
+2015-11-27 17:36:39
+epoch 66, test error 300, learning_rate=0.877982616425
+2015-11-27 17:36:50
+epoch 67, test error 283, learning_rate=0.876226663589
+2015-11-27 17:37:01
+epoch 68, test error 290, learning_rate=0.874474227428
+2015-11-27 17:37:12
+epoch 69, test error 282, learning_rate=0.872725307941
+2015-11-27 17:37:23
+epoch 70, test error 273, learning_rate=0.870979905128 **
+2015-11-27 17:37:34
+epoch 71, test error 284, learning_rate=0.869237959385
+2015-11-27 17:37:45
+epoch 72, test error 266, learning_rate=0.867499530315 **
+2015-11-27 17:37:56
+epoch 73, test error 278, learning_rate=0.865764558315
+2015-11-27 17:38:07
+epoch 74, test error 282, learning_rate=0.864033043385
+2015-11-27 17:38:17
+epoch 75, test error 271, learning_rate=0.862304985523
+2015-11-27 17:38:28
+epoch 76, test error 279, learning_rate=0.860580384731
+2015-11-27 17:38:39
+epoch 77, test error 260, learning_rate=0.858859241009 **
+2015-11-27 17:38:50
+epoch 78, test error 264, learning_rate=0.857141554356
+2015-11-27 17:39:01
+epoch 79, test error 267, learning_rate=0.855427265167
+2015-11-27 17:39:12
+epoch 80, test error 258, learning_rate=0.853716433048 **
+2015-11-27 17:39:23
+epoch 81, test error 259, learning_rate=0.852008998394
+2015-11-27 17:39:34
+epoch 82, test error 259, learning_rate=0.850305020809
+2015-11-27 17:39:45
+epoch 83, test error 264, learning_rate=0.848604440689
+2015-11-27 17:39:56
+epoch 84, test error 262, learning_rate=0.846907258034
+2015-11-27 17:40:07
+epoch 85, test error 263, learning_rate=0.845213472843
+2015-11-27 17:40:18
+epoch 86, test error 261, learning_rate=0.843523085117
+2015-11-27 17:40:29
+epoch 87, test error 253, learning_rate=0.841836035252 **
+2015-11-27 17:40:40
+epoch 88, test error 254, learning_rate=0.840152382851
+2015-11-27 17:40:51
+epoch 89, test error 258, learning_rate=0.838472127914
+2015-11-27 17:41:02
+epoch 90, test error 247, learning_rate=0.836795210838 **
+2015-11-27 17:41:13
+epoch 91, test error 250, learning_rate=0.835121631622
+2015-11-27 17:41:24
+epoch 92, test error 250, learning_rate=0.833451390266
+2015-11-27 17:41:35
+epoch 93, test error 246, learning_rate=0.831784486771 **
+2015-11-27 17:41:46
+epoch 94, test error 240, learning_rate=0.830120921135 **
+2015-11-27 17:41:57
+epoch 95, test error 246, learning_rate=0.828460693359
+2015-11-27 17:42:08
+epoch 96, test error 245, learning_rate=0.826803803444
+2015-11-27 17:42:19
+epoch 97, test error 249, learning_rate=0.825150191784
+2015-11-27 17:42:30
+epoch 98, test error 244, learning_rate=0.823499917984
+2015-11-27 17:42:41
+epoch 99, test error 239, learning_rate=0.82185292244 **
+2015-11-27 17:42:52
+epoch 100, test error 243, learning_rate=0.820209264755
+2015-11-27 17:43:03
+epoch 101, test error 240, learning_rate=0.818568885326
+2015-11-27 17:43:14
+epoch 102, test error 240, learning_rate=0.816931784153
+2015-11-27 17:43:25
+epoch 103, test error 248, learning_rate=0.815297961235
+2015-11-27 17:43:36
+epoch 104, test error 240, learning_rate=0.813667356968
+2015-11-27 17:43:47
+epoch 105, test error 230, learning_rate=0.812040030956 **
+2015-11-27 17:43:58
+epoch 106, test error 232, learning_rate=0.8104159832
+2015-11-27 17:44:09
+epoch 107, test error 246, learning_rate=0.808795154095
+2015-11-27 17:44:20
+epoch 108, test error 245, learning_rate=0.807177603245
+2015-11-27 17:44:31
+epoch 109, test error 236, learning_rate=0.805563271046
+2015-11-27 17:44:42
+epoch 110, test error 227, learning_rate=0.803952157497 **
+2015-11-27 17:44:53
+epoch 111, test error 231, learning_rate=0.8023442626
+2015-11-27 17:45:04
+epoch 112, test error 232, learning_rate=0.800739586353
+2015-11-27 17:45:15
+epoch 113, test error 229, learning_rate=0.799138128757
+2015-11-27 17:45:26
+epoch 114, test error 225, learning_rate=0.797539889812 **
+2015-11-27 17:45:37
+epoch 115, test error 231, learning_rate=0.795944809914
+2015-11-27 17:45:48
+epoch 116, test error 229, learning_rate=0.794352948666
+2015-11-27 17:45:58
+epoch 117, test error 228, learning_rate=0.792764246464
+2015-11-27 17:46:09
+epoch 118, test error 221, learning_rate=0.791178762913 **
+2015-11-27 17:46:20
+epoch 119, test error 228, learning_rate=0.789596438408
+2015-11-27 17:46:31
+epoch 120, test error 226, learning_rate=0.788017272949
+2015-11-27 17:46:42
+epoch 121, test error 212, learning_rate=0.786441266537 **
+2015-11-27 17:46:53
+epoch 122, test error 217, learning_rate=0.78486841917
+2015-11-27 17:47:04
+epoch 123, test error 217, learning_rate=0.78329873085
+2015-11-27 17:47:15
+epoch 124, test error 224, learning_rate=0.781732141972
+2015-11-27 17:47:26
+epoch 125, test error 221, learning_rate=0.780168712139
+2015-11-27 17:47:37
+epoch 126, test error 229, learning_rate=0.778608381748
+2015-11-27 17:47:48
+epoch 127, test error 216, learning_rate=0.777051210403
+2015-11-27 17:47:59
+epoch 128, test error 214, learning_rate=0.7754971385
+2015-11-27 17:48:10
+epoch 129, test error 216, learning_rate=0.773946166039
+2015-11-27 17:48:21
+epoch 130, test error 218, learning_rate=0.772398293018
+2015-11-27 17:48:32
+epoch 131, test error 216, learning_rate=0.77085351944
+2015-11-27 17:48:43
+epoch 132, test error 217, learning_rate=0.769311845303
+2015-11-27 17:48:54
+epoch 133, test error 215, learning_rate=0.767773270607
+2015-11-27 17:49:05
+epoch 134, test error 207, learning_rate=0.766237735748 **
+2015-11-27 17:49:16
+epoch 135, test error 211, learning_rate=0.764705300331
+2015-11-27 17:49:27
+epoch 136, test error 215, learning_rate=0.763175904751
+2015-11-27 17:49:38
+epoch 137, test error 218, learning_rate=0.761649549007
+2015-11-27 17:49:49
+epoch 138, test error 214, learning_rate=0.760126292706
+2015-11-27 17:50:00
+epoch 139, test error 215, learning_rate=0.758606076241
+2015-11-27 17:50:11
+epoch 140, test error 211, learning_rate=0.757088899612
+2015-11-27 17:50:22
+epoch 141, test error 206, learning_rate=0.755574762821 **
+2015-11-27 17:50:33
+epoch 142, test error 217, learning_rate=0.754063606262
+2015-11-27 17:50:44
+epoch 143, test error 208, learning_rate=0.75255548954
+2015-11-27 17:50:55
+epoch 144, test error 207, learning_rate=0.751050412655
+2015-11-27 17:51:06
+epoch 145, test error 210, learning_rate=0.749548316002
+2015-11-27 17:51:17
+epoch 146, test error 206, learning_rate=0.748049259186
+2015-11-27 17:51:28
+epoch 147, test error 208, learning_rate=0.746553182602
+2015-11-27 17:51:39
+epoch 148, test error 205, learning_rate=0.74506008625 **
+2015-11-27 17:51:50
+epoch 149, test error 201, learning_rate=0.743569970131 **
+2015-11-27 17:52:01
+epoch 150, test error 202, learning_rate=0.742082834244
+2015-11-27 17:52:12
+epoch 151, test error 208, learning_rate=0.740598678589
+2015-11-27 17:52:23
+epoch 152, test error 205, learning_rate=0.739117503166
+2015-11-27 17:52:34
+epoch 153, test error 193, learning_rate=0.737639307976 **
+2015-11-27 17:52:45
+epoch 154, test error 206, learning_rate=0.736164033413
+2015-11-27 17:52:56
+epoch 155, test error 206, learning_rate=0.734691739082
+2015-11-27 17:53:07
+epoch 156, test error 206, learning_rate=0.733222365379
+2015-11-27 17:53:18
+epoch 157, test error 202, learning_rate=0.731755912304
+2015-11-27 17:53:29
+epoch 158, test error 205, learning_rate=0.730292439461
+2015-11-27 17:53:40
+epoch 159, test error 200, learning_rate=0.728831887245
+2015-11-27 17:53:51
+epoch 160, test error 200, learning_rate=0.727374255657
+2015-11-27 17:54:02
+epoch 161, test error 201, learning_rate=0.725919544697
+2015-11-27 17:54:13
+epoch 162, test error 196, learning_rate=0.724467694759
+2015-11-27 17:54:24
+epoch 163, test error 204, learning_rate=0.72301876545
+2015-11-27 17:54:35
+epoch 164, test error 206, learning_rate=0.721572756767
+2015-11-27 17:54:46
+epoch 165, test error 201, learning_rate=0.720129609108
+2015-11-27 17:54:56
+epoch 166, test error 190, learning_rate=0.718689382076 **
+2015-11-27 17:55:07
+epoch 167, test error 193, learning_rate=0.717252016068
+2015-11-27 17:55:18
+epoch 168, test error 201, learning_rate=0.715817511082
+2015-11-27 17:55:29
+epoch 169, test error 194, learning_rate=0.714385867119
+2015-11-27 17:55:40
+epoch 170, test error 199, learning_rate=0.712957084179
+2015-11-27 17:55:51
+epoch 171, test error 197, learning_rate=0.711531162262
+2015-11-27 17:56:02
+epoch 172, test error 202, learning_rate=0.710108101368
+2015-11-27 17:56:13
+epoch 173, test error 198, learning_rate=0.708687901497
+2015-11-27 17:56:24
+epoch 174, test error 196, learning_rate=0.707270562649
+2015-11-27 17:56:35
+epoch 175, test error 200, learning_rate=0.705856025219
+2015-11-27 17:56:46
+epoch 176, test error 193, learning_rate=0.704444348812
+2015-11-27 17:56:57
+epoch 177, test error 201, learning_rate=0.703035473824
+2015-11-27 17:57:08
+epoch 178, test error 198, learning_rate=0.701629400253
+2015-11-27 17:57:19
+epoch 179, test error 197, learning_rate=0.700226187706
+2015-11-27 17:57:30
+epoch 180, test error 185, learning_rate=0.698825776577 **
+2015-11-27 17:57:41
+epoch 181, test error 190, learning_rate=0.697428166866
+2015-11-27 17:57:52
+epoch 182, test error 194, learning_rate=0.696033298969
+2015-11-27 17:58:03
+epoch 183, test error 199, learning_rate=0.694641232491
+2015-11-27 17:58:14
+epoch 184, test error 192, learning_rate=0.69325196743
+2015-11-27 17:58:25
+epoch 185, test error 198, learning_rate=0.691865503788
+2015-11-27 17:58:36
+epoch 186, test error 196, learning_rate=0.69048178196
+2015-11-27 17:58:47
+epoch 187, test error 195, learning_rate=0.689100861549
+2015-11-27 17:58:58
+epoch 188, test error 195, learning_rate=0.687722682953
+2015-11-27 17:59:09
+epoch 189, test error 185, learning_rate=0.68634724617
+2015-11-27 17:59:20
+epoch 190, test error 189, learning_rate=0.684974551201
+2015-11-27 17:59:31
+epoch 191, test error 194, learning_rate=0.683604598045
+2015-11-27 17:59:42
+epoch 192, test error 185, learning_rate=0.682237386703
+2015-11-27 17:59:53
+epoch 193, test error 191, learning_rate=0.680872917175
+2015-11-27 18:00:04
+epoch 194, test error 189, learning_rate=0.679511189461
+2015-11-27 18:00:15
+epoch 195, test error 187, learning_rate=0.67815220356
+2015-11-27 18:00:26
+epoch 196, test error 193, learning_rate=0.676795899868
+2015-11-27 18:00:37
+epoch 197, test error 192, learning_rate=0.67544233799
+2015-11-27 18:00:48
+epoch 198, test error 189, learning_rate=0.674091458321
+2015-11-27 18:00:59
+epoch 199, test error 188, learning_rate=0.672743320465
+2015-11-27 18:01:10
+epoch 200, test error 189, learning_rate=0.671397864819
+2015-11-27 18:01:20
+epoch 201, test error 190, learning_rate=0.670055091381
+2015-11-27 18:01:31
+epoch 202, test error 187, learning_rate=0.668715000153
+2015-11-27 18:01:42
+epoch 203, test error 197, learning_rate=0.667377591133
+2015-11-27 18:01:53
+epoch 204, test error 187, learning_rate=0.666042864323
+2015-11-27 18:02:04
+epoch 205, test error 185, learning_rate=0.664710819721
+2015-11-27 18:02:15
+epoch 206, test error 189, learning_rate=0.663381397724
+2015-11-27 18:02:26
+epoch 207, test error 187, learning_rate=0.662054657936
+2015-11-27 18:02:37
+epoch 208, test error 187, learning_rate=0.660730540752
+2015-11-27 18:02:48
+epoch 209, test error 185, learning_rate=0.659409105778
+2015-11-27 18:02:59
+epoch 210, test error 186, learning_rate=0.658090293407
+2015-11-27 18:03:10
+epoch 211, test error 186, learning_rate=0.656774103642
+2015-11-27 18:03:21
+epoch 212, test error 193, learning_rate=0.655460596085
+2015-11-27 18:03:32
+epoch 213, test error 191, learning_rate=0.654149711132
+2015-11-27 18:03:43
+epoch 214, test error 189, learning_rate=0.652841448784
+2015-11-27 18:03:54
+epoch 215, test error 184, learning_rate=0.65153580904 **
+2015-11-27 18:04:05
+epoch 216, test error 182, learning_rate=0.650232732296 **
+2015-11-27 18:04:16
+epoch 217, test error 181, learning_rate=0.648932278156 **
+2015-11-27 18:04:27
+epoch 218, test error 186, learning_rate=0.647634446621
+2015-11-27 18:04:38
+epoch 219, test error 185, learning_rate=0.646339178085
+2015-11-27 18:04:49
+epoch 220, test error 181, learning_rate=0.645046532154
+2015-11-27 18:05:00
+epoch 221, test error 183, learning_rate=0.643756449223
+2015-11-27 18:05:11
+epoch 222, test error 182, learning_rate=0.642468929291
+2015-11-27 18:05:22
+epoch 223, test error 179, learning_rate=0.641184031963 **
+2015-11-27 18:05:33
+epoch 224, test error 187, learning_rate=0.639901697636
+2015-11-27 18:05:44
+epoch 225, test error 188, learning_rate=0.638621926308
+2015-11-27 18:05:55
+epoch 226, test error 180, learning_rate=0.637344717979
+2015-11-27 18:06:05
+epoch 227, test error 186, learning_rate=0.636070072651
+2015-11-27 18:06:16
+epoch 228, test error 180, learning_rate=0.634797930717
+2015-11-27 18:06:27
+epoch 229, test error 181, learning_rate=0.633528351784
+2015-11-27 18:06:38
+epoch 230, test error 183, learning_rate=0.63226133585
+2015-11-27 18:06:49
+epoch 231, test error 181, learning_rate=0.630996823311
+2015-11-27 18:07:00
+epoch 232, test error 179, learning_rate=0.629734873772
+2015-11-27 18:07:11
+epoch 233, test error 182, learning_rate=0.628475427628
+2015-11-27 18:07:22
+epoch 234, test error 180, learning_rate=0.627218484879
+2015-11-27 18:07:33
+epoch 235, test error 186, learning_rate=0.625964045525
+2015-11-27 18:07:44
+epoch 236, test error 181, learning_rate=0.624712109566
+2015-11-27 18:07:55
+epoch 237, test error 183, learning_rate=0.623462677002
+2015-11-27 18:08:06
+epoch 238, test error 183, learning_rate=0.622215747833
+2015-11-27 18:08:17
+epoch 239, test error 183, learning_rate=0.62097132206
+2015-11-27 18:08:28
+epoch 240, test error 184, learning_rate=0.619729399681
+2015-11-27 18:08:39
+epoch 241, test error 180, learning_rate=0.618489980698
+2015-11-27 18:08:50
+epoch 242, test error 176, learning_rate=0.617253005505 **
+2015-11-27 18:09:01
+epoch 243, test error 184, learning_rate=0.616018533707
+2015-11-27 18:09:12
+epoch 244, test error 182, learning_rate=0.614786505699
+2015-11-27 18:09:23
+epoch 245, test error 186, learning_rate=0.613556921482
+2015-11-27 18:09:34
+epoch 246, test error 187, learning_rate=0.61232984066
+2015-11-27 18:09:45
+epoch 247, test error 177, learning_rate=0.611105203629
+2015-11-27 18:09:56
+epoch 248, test error 179, learning_rate=0.609883010387
+2015-11-27 18:10:07
+epoch 249, test error 185, learning_rate=0.608663260937
+2015-11-27 18:10:18
+epoch 250, test error 178, learning_rate=0.607445955276
+2015-11-27 18:10:29
+epoch 251, test error 184, learning_rate=0.606231093407
+2015-11-27 18:10:40
+epoch 252, test error 176, learning_rate=0.605018675327
+2015-11-27 18:10:51
+epoch 253, test error 180, learning_rate=0.603808641434
+2015-11-27 18:11:02
+epoch 254, test error 176, learning_rate=0.602601051331
+2015-11-27 18:11:13
+epoch 255, test error 182, learning_rate=0.601395845413
+2015-11-27 18:11:24
+epoch 256, test error 172, learning_rate=0.600193083286 **
+2015-11-27 18:11:34
+epoch 257, test error 183, learning_rate=0.598992705345
+2015-11-27 18:11:45
+epoch 258, test error 183, learning_rate=0.59779471159
+2015-11-27 18:11:56
+epoch 259, test error 182, learning_rate=0.596599161625
+2015-11-27 18:12:07
+epoch 260, test error 180, learning_rate=0.595405995846
+2015-11-27 18:12:18
+epoch 261, test error 185, learning_rate=0.594215214252
+2015-11-27 18:12:29
+epoch 262, test error 174, learning_rate=0.593026816845
+2015-11-27 18:12:40
+epoch 263, test error 181, learning_rate=0.591840803623
+2015-11-27 18:12:51
+epoch 264, test error 178, learning_rate=0.590657114983
+2015-11-27 18:13:02
+epoch 265, test error 180, learning_rate=0.589475810528
+2015-11-27 18:13:13
+epoch 266, test error 172, learning_rate=0.588296890259
+2015-11-27 18:13:24
+epoch 267, test error 178, learning_rate=0.587120294571
+2015-11-27 18:13:35
+epoch 268, test error 182, learning_rate=0.585946083069
+2015-11-27 18:13:46
+epoch 269, test error 172, learning_rate=0.584774196148
+2015-11-27 18:13:57
+epoch 270, test error 178, learning_rate=0.583604633808
+2015-11-27 18:14:08
+epoch 271, test error 176, learning_rate=0.582437455654
+2015-11-27 18:14:19
+epoch 272, test error 178, learning_rate=0.581272602081
+2015-11-27 18:14:30
+epoch 273, test error 174, learning_rate=0.58011007309
+2015-11-27 18:14:41
+epoch 274, test error 175, learning_rate=0.578949868679
+2015-11-27 18:14:52
+epoch 275, test error 176, learning_rate=0.57779198885
+2015-11-27 18:15:03
+epoch 276, test error 185, learning_rate=0.576636433601
+2015-11-27 18:15:14
+epoch 277, test error 176, learning_rate=0.575483202934
+2015-11-27 18:15:25
+epoch 278, test error 178, learning_rate=0.574332237244
+2015-11-27 18:15:36
+epoch 279, test error 184, learning_rate=0.573183596134
+2015-11-27 18:15:47
+epoch 280, test error 186, learning_rate=0.572037220001
+2015-11-27 18:15:58
+epoch 281, test error 176, learning_rate=0.570893168449
+2015-11-27 18:16:09
+epoch 282, test error 179, learning_rate=0.569751381874
+2015-11-27 18:16:20
+epoch 283, test error 165, learning_rate=0.56861191988 **
+2015-11-27 18:16:31
+epoch 284, test error 178, learning_rate=0.567474722862
+2015-11-27 18:16:42
+epoch 285, test error 171, learning_rate=0.566339790821
+2015-11-27 18:16:53
+epoch 286, test error 177, learning_rate=0.565207123756
+2015-11-27 18:17:04
+epoch 287, test error 175, learning_rate=0.564076721668
+2015-11-27 18:17:15
+epoch 288, test error 168, learning_rate=0.562948584557
+2015-11-27 18:17:26
+epoch 289, test error 172, learning_rate=0.561822712421
+2015-11-27 18:17:37
+epoch 290, test error 176, learning_rate=0.560699105263
+2015-11-27 18:17:47
+epoch 291, test error 184, learning_rate=0.559577703476
+2015-11-27 18:17:58
+epoch 292, test error 174, learning_rate=0.558458566666
+2015-11-27 18:18:09
+epoch 293, test error 173, learning_rate=0.557341635227
+2015-11-27 18:18:20
+epoch 294, test error 180, learning_rate=0.556226968765
+2015-11-27 18:18:31
+epoch 295, test error 175, learning_rate=0.555114507675
+2015-11-27 18:18:42
+epoch 296, test error 172, learning_rate=0.554004311562
+2015-11-27 18:18:53
+epoch 297, test error 178, learning_rate=0.55289632082
+2015-11-27 18:19:04
+epoch 298, test error 186, learning_rate=0.55179053545
+2015-11-27 18:19:15
+epoch 299, test error 179, learning_rate=0.550686955452
+2015-11-27 18:19:26
+epoch 300, test error 169, learning_rate=0.549585580826
+2015-11-27 18:19:37
+epoch 301, test error 176, learning_rate=0.548486411572
+2015-11-27 18:19:48
+epoch 302, test error 174, learning_rate=0.547389447689
+2015-11-27 18:19:59
+epoch 303, test error 178, learning_rate=0.546294689178
+2015-11-27 18:20:10
+epoch 304, test error 180, learning_rate=0.54520213604
+2015-11-27 18:20:21
+epoch 305, test error 175, learning_rate=0.544111728668
+2015-11-27 18:20:32
+epoch 306, test error 176, learning_rate=0.543023526669
+2015-11-27 18:20:43
+epoch 307, test error 172, learning_rate=0.541937470436
+2015-11-27 18:20:54
+epoch 308, test error 170, learning_rate=0.540853619576
+2015-11-27 18:21:05
+epoch 309, test error 178, learning_rate=0.539771914482
+2015-11-27 18:21:16
+epoch 310, test error 178, learning_rate=0.538692355156
+2015-11-27 18:21:27
+epoch 311, test error 178, learning_rate=0.537615001202
+2015-11-27 18:21:38
+epoch 312, test error 178, learning_rate=0.536539793015
+2015-11-27 18:21:49
+epoch 313, test error 178, learning_rate=0.535466730595
+2015-11-27 18:22:00
+epoch 314, test error 170, learning_rate=0.534395813942
+2015-11-27 18:22:11
+epoch 315, test error 169, learning_rate=0.533327043056
+2015-11-27 18:22:22
+epoch 316, test error 170, learning_rate=0.532260417938
+2015-11-27 18:22:33
+epoch 317, test error 172, learning_rate=0.531195938587
+2015-11-27 18:22:44
+epoch 318, test error 180, learning_rate=0.530133545399
+2015-11-27 18:22:55
+epoch 319, test error 169, learning_rate=0.529073297977
+2015-11-27 18:23:06
+epoch 320, test error 175, learning_rate=0.528015136719
+2015-11-27 18:23:17
+epoch 321, test error 166, learning_rate=0.526959121227
+2015-11-27 18:23:28
+epoch 322, test error 171, learning_rate=0.525905191898
+2015-11-27 18:23:39
+epoch 323, test error 172, learning_rate=0.524853408337
+2015-11-27 18:23:50
+epoch 324, test error 171, learning_rate=0.523803710938
+2015-11-27 18:24:01
+epoch 325, test error 170, learning_rate=0.522756099701
+2015-11-27 18:24:12
+epoch 326, test error 168, learning_rate=0.521710574627
+2015-11-27 18:24:23
+epoch 327, test error 172, learning_rate=0.52066719532
+2015-11-27 18:24:34
+epoch 328, test error 171, learning_rate=0.519625902176
+2015-11-27 18:24:45
+epoch 329, test error 175, learning_rate=0.51858663559
+2015-11-27 18:24:56
+epoch 330, test error 171, learning_rate=0.517549455166
+2015-11-27 18:25:06
+epoch 331, test error 172, learning_rate=0.516514360905
+2015-11-27 18:25:17
+epoch 332, test error 175, learning_rate=0.515481352806
+2015-11-27 18:25:28
+epoch 333, test error 172, learning_rate=0.51445043087
+2015-11-27 18:25:39
+epoch 334, test error 171, learning_rate=0.513421535492
+2015-11-27 18:25:51
+epoch 335, test error 168, learning_rate=0.512394726276
+2015-11-27 18:26:02
+epoch 336, test error 172, learning_rate=0.511369943619
+2015-11-27 18:26:13
+epoch 337, test error 172, learning_rate=0.510347187519
+2015-11-27 18:26:24
+epoch 338, test error 177, learning_rate=0.509326517582
+2015-11-27 18:26:35
+epoch 339, test error 172, learning_rate=0.508307874203
+2015-11-27 18:26:46
+epoch 340, test error 168, learning_rate=0.507291257381
+2015-11-27 18:26:57
+epoch 341, test error 171, learning_rate=0.506276667118
+2015-11-27 18:27:08
+epoch 342, test error 174, learning_rate=0.505264103413
+2015-11-27 18:27:19
+epoch 343, test error 171, learning_rate=0.504253566265
+2015-11-27 18:27:30
+epoch 344, test error 169, learning_rate=0.503245055676
+2015-11-27 18:27:41
+epoch 345, test error 168, learning_rate=0.502238571644
+2015-11-27 18:27:52
+epoch 346, test error 169, learning_rate=0.50123411417
+2015-11-27 18:28:03
+epoch 347, test error 173, learning_rate=0.500231683254
+2015-11-27 18:28:14
+epoch 348, test error 167, learning_rate=0.499231219292
+2015-11-27 18:28:25
+epoch 349, test error 177, learning_rate=0.498232781887
+2015-11-27 18:28:35
+epoch 350, test error 169, learning_rate=0.497236341238
+2015-11-27 18:28:46
+epoch 351, test error 165, learning_rate=0.496241867542
+2015-11-27 18:28:57
+epoch 352, test error 173, learning_rate=0.495249390602
+2015-11-27 18:29:08
+epoch 353, test error 172, learning_rate=0.494258910418
+2015-11-27 18:29:19
+epoch 354, test error 169, learning_rate=0.493270397186
+2015-11-27 18:29:30
+epoch 355, test error 172, learning_rate=0.492283880711
+2015-11-27 18:29:41
+epoch 356, test error 163, learning_rate=0.491299331188 **
+2015-11-27 18:29:52
+epoch 357, test error 163, learning_rate=0.490316748619
+2015-11-27 18:30:03
+epoch 358, test error 165, learning_rate=0.489336133003
+2015-11-27 18:30:14
+epoch 359, test error 165, learning_rate=0.488357484341
+2015-11-27 18:30:25
+epoch 360, test error 167, learning_rate=0.487380772829
+2015-11-27 18:30:36
+epoch 361, test error 164, learning_rate=0.486406028271
+2015-11-27 18:30:47
+epoch 362, test error 171, learning_rate=0.485433220863
+2015-11-27 18:30:58
+epoch 363, test error 167, learning_rate=0.484462380409
+2015-11-27 18:31:09
+epoch 364, test error 164, learning_rate=0.483493477106
+2015-11-27 18:31:20
+epoch 365, test error 168, learning_rate=0.482526510954
+2015-11-27 18:31:31
+epoch 366, test error 170, learning_rate=0.481561481953
+2015-11-27 18:31:41
+epoch 367, test error 167, learning_rate=0.4805983603
+2015-11-27 18:31:52
+epoch 368, test error 167, learning_rate=0.479637175798
+2015-11-27 18:32:03
+epoch 369, test error 173, learning_rate=0.478677928448
+2015-11-27 18:32:14
+epoch 370, test error 173, learning_rate=0.477720588446
+2015-11-27 18:32:25
+epoch 371, test error 168, learning_rate=0.476765155792
+2015-11-27 18:32:36
+epoch 372, test error 175, learning_rate=0.475811630487
+2015-11-27 18:32:47
+epoch 373, test error 167, learning_rate=0.474860012531
+2015-11-27 18:32:58
+epoch 374, test error 169, learning_rate=0.473910301924
+2015-11-27 18:33:09
+epoch 375, test error 168, learning_rate=0.472962498665
+2015-11-27 18:33:20
+epoch 376, test error 169, learning_rate=0.472016572952
+2015-11-27 18:33:31
+epoch 377, test error 164, learning_rate=0.471072554588
+2015-11-27 18:33:42
+epoch 378, test error 166, learning_rate=0.470130413771
+2015-11-27 18:33:53
+epoch 379, test error 169, learning_rate=0.469190150499
+2015-11-27 18:34:04
+epoch 380, test error 167, learning_rate=0.468251794577
+2015-11-27 18:34:15
+epoch 381, test error 167, learning_rate=0.4673153162
+2015-11-27 18:34:26
+epoch 382, test error 162, learning_rate=0.466380685568 **
+2015-11-27 18:34:37
+epoch 383, test error 171, learning_rate=0.465447932482
+2015-11-27 18:34:48
+epoch 384, test error 164, learning_rate=0.464517056942
+2015-11-27 18:34:59
+epoch 385, test error 171, learning_rate=0.463588029146
+2015-11-27 18:35:10
+epoch 386, test error 168, learning_rate=0.462660878897
+2015-11-27 18:35:21
+epoch 387, test error 169, learning_rate=0.461735576391
+2015-11-27 18:35:32
+epoch 388, test error 167, learning_rate=0.46081212163
+2015-11-27 18:35:43
+epoch 389, test error 162, learning_rate=0.459890514612
+2015-11-27 18:35:54
+epoch 390, test error 169, learning_rate=0.458970755339
+2015-11-27 18:36:05
+epoch 391, test error 169, learning_rate=0.458052814007
+2015-11-27 18:36:16
+epoch 392, test error 167, learning_rate=0.457136720419
+2015-11-27 18:36:27
+epoch 393, test error 170, learning_rate=0.456222444773
+2015-11-27 18:36:38
+epoch 394, test error 175, learning_rate=0.45531001687
+2015-11-27 18:36:49
+epoch 395, test error 168, learning_rate=0.45439940691
+2015-11-27 18:37:00
+epoch 396, test error 167, learning_rate=0.453490614891
+2015-11-27 18:37:11
+epoch 397, test error 170, learning_rate=0.452583640814
+2015-11-27 18:37:22
+epoch 398, test error 162, learning_rate=0.451678484678
+2015-11-27 18:37:33
+epoch 399, test error 168, learning_rate=0.450775146484
+2015-11-27 18:37:44
+epoch 400, test error 167, learning_rate=0.44987359643
+2015-11-27 18:37:55
+epoch 401, test error 164, learning_rate=0.448973864317
+2015-11-27 18:38:06
+epoch 402, test error 168, learning_rate=0.448075920343
+2015-11-27 18:38:17
+epoch 403, test error 163, learning_rate=0.447179794312
+2015-11-27 18:38:28
+epoch 404, test error 167, learning_rate=0.446285456419
+2015-11-27 18:38:39
+epoch 405, test error 164, learning_rate=0.445392906666
+2015-11-27 18:38:50
+epoch 406, test error 170, learning_rate=0.444502145052
+2015-11-27 18:39:01
+epoch 407, test error 166, learning_rate=0.443613141775
+2015-11-27 18:39:12
+epoch 408, test error 169, learning_rate=0.442725926638
+2015-11-27 18:39:23
+epoch 409, test error 168, learning_rate=0.44184049964
+2015-11-27 18:39:34
+epoch 410, test error 159, learning_rate=0.440956830978 **
+2015-11-27 18:39:45
+epoch 411, test error 167, learning_rate=0.440074920654
+2015-11-27 18:39:56
+epoch 412, test error 167, learning_rate=0.439194768667
+2015-11-27 18:40:07
+epoch 413, test error 163, learning_rate=0.438316404819
+2015-11-27 18:40:19
+epoch 414, test error 165, learning_rate=0.437439769506
+2015-11-27 18:40:30
+epoch 415, test error 164, learning_rate=0.43656489253
+2015-11-27 18:40:41
+epoch 416, test error 170, learning_rate=0.435691773891
+2015-11-27 18:40:52
+epoch 417, test error 169, learning_rate=0.434820413589
+2015-11-27 18:41:03
+epoch 418, test error 164, learning_rate=0.433950781822
+2015-11-27 18:41:14
+epoch 419, test error 164, learning_rate=0.43308287859
+2015-11-27 18:41:25
+epoch 420, test error 166, learning_rate=0.432216733694
+2015-11-27 18:41:36
+epoch 421, test error 168, learning_rate=0.431352317333
+2015-11-27 18:41:47
+epoch 422, test error 168, learning_rate=0.430489629507
+2015-11-27 18:41:58
+epoch 423, test error 165, learning_rate=0.429628670216
+2015-11-27 18:42:09
+epoch 424, test error 159, learning_rate=0.428769409657
+2015-11-27 18:42:20
+epoch 425, test error 162, learning_rate=0.427911877632
+2015-11-27 18:42:31
+epoch 426, test error 164, learning_rate=0.427056074142
+2015-11-27 18:42:42
+epoch 427, test error 164, learning_rate=0.426201969385
+2015-11-27 18:42:52
+epoch 428, test error 163, learning_rate=0.42534956336
+2015-11-27 18:43:03
+epoch 429, test error 164, learning_rate=0.42449888587
+2015-11-27 18:43:14
+epoch 430, test error 164, learning_rate=0.423649907112
+2015-11-27 18:43:25
+epoch 431, test error 166, learning_rate=0.422802627087
+2015-11-27 18:43:37
+epoch 432, test error 164, learning_rate=0.421957045794
+2015-11-27 18:43:48
+epoch 433, test error 161, learning_rate=0.42111313343
+2015-11-27 18:43:58
+epoch 434, test error 170, learning_rate=0.4202709198
+2015-11-27 18:44:09
+epoch 435, test error 160, learning_rate=0.419430375099
+2015-11-27 18:44:21
+epoch 436, test error 160, learning_rate=0.418591529131
+2015-11-27 18:44:32
+epoch 437, test error 161, learning_rate=0.417754352093
+2015-11-27 18:44:43
+epoch 438, test error 168, learning_rate=0.416918843985
+2015-11-27 18:44:54
+epoch 439, test error 158, learning_rate=0.416085004807 **
+2015-11-27 18:45:05
+epoch 440, test error 159, learning_rate=0.415252834558
+2015-11-27 18:45:16
+epoch 441, test error 158, learning_rate=0.414422333241
+2015-11-27 18:45:27
+epoch 442, test error 159, learning_rate=0.413593500853
+2015-11-27 18:45:38
+epoch 443, test error 164, learning_rate=0.412766337395
+2015-11-27 18:45:49
+epoch 444, test error 163, learning_rate=0.411940813065
+2015-11-27 18:46:00
+epoch 445, test error 167, learning_rate=0.411116927862
+2015-11-27 18:46:11
+epoch 446, test error 164, learning_rate=0.41029471159
+2015-11-27 18:46:22
+epoch 447, test error 166, learning_rate=0.409474134445
+2015-11-27 18:46:33
+epoch 448, test error 162, learning_rate=0.408655196428
+2015-11-27 18:46:44
+epoch 449, test error 166, learning_rate=0.407837897539
+2015-11-27 18:46:55
+epoch 450, test error 160, learning_rate=0.407022237778
+2015-11-27 18:47:06
+epoch 451, test error 162, learning_rate=0.406208217144
+2015-11-27 18:47:17
+epoch 452, test error 164, learning_rate=0.405395805836
+2015-11-27 18:47:28
+epoch 453, test error 161, learning_rate=0.404585033655
+2015-11-27 18:47:39
+epoch 454, test error 166, learning_rate=0.4037758708
+2015-11-27 18:47:50
+epoch 455, test error 168, learning_rate=0.40296831727
+2015-11-27 18:48:01
+epoch 456, test error 162, learning_rate=0.402162402868
+2015-11-27 18:48:12
+epoch 457, test error 157, learning_rate=0.401358097792 **
+2015-11-27 18:48:23
+epoch 458, test error 170, learning_rate=0.40055540204
+2015-11-27 18:48:34
+epoch 459, test error 160, learning_rate=0.399754315615
+2015-11-27 18:48:45
+epoch 460, test error 167, learning_rate=0.398954808712
+2015-11-27 18:48:56
+epoch 461, test error 169, learning_rate=0.398156911135
+2015-11-27 18:49:07
+epoch 462, test error 158, learning_rate=0.397360593081
+2015-11-27 18:49:18
+epoch 463, test error 164, learning_rate=0.396565884352
+2015-11-27 18:49:29
+epoch 464, test error 157, learning_rate=0.395772755146
+2015-11-27 18:49:40
+epoch 465, test error 162, learning_rate=0.394981205463
+2015-11-27 18:49:51
+epoch 466, test error 162, learning_rate=0.394191265106
+2015-11-27 18:50:02
+epoch 467, test error 157, learning_rate=0.393402904272
+2015-11-27 18:50:13
+epoch 468, test error 159, learning_rate=0.392616122961
+2015-11-27 18:50:24
+epoch 469, test error 159, learning_rate=0.391830891371
+2015-11-27 18:50:35
+epoch 470, test error 158, learning_rate=0.391047239304
+2015-11-27 18:50:46
+epoch 471, test error 157, learning_rate=0.390265166759
+2015-11-27 18:50:57
+epoch 472, test error 160, learning_rate=0.389484643936
+2015-11-27 18:51:08
+epoch 473, test error 160, learning_rate=0.388705670834
+2015-11-27 18:51:19
+epoch 474, test error 156, learning_rate=0.387928277254 **
+2015-11-27 18:51:30
+epoch 475, test error 161, learning_rate=0.387152433395
+2015-11-27 18:51:41
+epoch 476, test error 158, learning_rate=0.386378139257
+2015-11-27 18:51:52
+epoch 477, test error 169, learning_rate=0.38560539484
+2015-11-27 18:52:03
+epoch 478, test error 154, learning_rate=0.384834200144 **
+2015-11-27 18:52:14
+epoch 479, test error 163, learning_rate=0.384064555168
+2015-11-27 18:52:25
+epoch 480, test error 158, learning_rate=0.383296430111
+2015-11-27 18:52:36
+epoch 481, test error 159, learning_rate=0.382529854774
+2015-11-27 18:52:47
+epoch 482, test error 151, learning_rate=0.381764799356 **
+2015-11-27 18:52:58
+epoch 483, test error 160, learning_rate=0.381001293659
+2015-11-27 18:53:09
+epoch 484, test error 157, learning_rate=0.38023930788
+2015-11-27 18:53:20
+epoch 485, test error 164, learning_rate=0.37947884202
+2015-11-27 18:53:31
+epoch 486, test error 161, learning_rate=0.378719896078
+2015-11-27 18:53:42
+epoch 487, test error 156, learning_rate=0.377962470055
+2015-11-27 18:53:53
+epoch 488, test error 161, learning_rate=0.37720656395
+2015-11-27 18:54:04
+epoch 489, test error 154, learning_rate=0.376452147961
+2015-11-27 18:54:15
+epoch 490, test error 157, learning_rate=0.37569925189
+2015-11-27 18:54:26
+epoch 491, test error 155, learning_rate=0.374947875738
+2015-11-27 18:54:37
+epoch 492, test error 158, learning_rate=0.374197989702
+2015-11-27 18:54:48
+epoch 493, test error 159, learning_rate=0.373449593782
+2015-11-27 18:54:59
+epoch 494, test error 165, learning_rate=0.372702717781
+2015-11-27 18:55:10
+epoch 495, test error 155, learning_rate=0.371957331896
+2015-11-27 18:55:21
+epoch 496, test error 159, learning_rate=0.371213436127
+2015-11-27 18:55:32
+epoch 497, test error 154, learning_rate=0.370471030474
+2015-11-27 18:55:43
+epoch 498, test error 158, learning_rate=0.369730085135
+2015-11-27 18:55:54
+epoch 499, test error 154, learning_rate=0.368990629911
+2015-11-27 18:56:05
+epoch 500, test error 157, learning_rate=0.368252664804
+2015-11-27 18:56:16
+epoch 501, test error 159, learning_rate=0.367516160011
+2015-11-27 18:56:27
+epoch 502, test error 164, learning_rate=0.366781145334
+2015-11-27 18:56:38
+epoch 503, test error 158, learning_rate=0.366047590971
+2015-11-27 18:56:49
+epoch 504, test error 155, learning_rate=0.365315496922
+2015-11-27 18:57:00
+epoch 505, test error 160, learning_rate=0.364584863186
+2015-11-27 18:57:11
+epoch 506, test error 153, learning_rate=0.363855689764
+2015-11-27 18:57:22
+epoch 507, test error 156, learning_rate=0.363127976656
+2015-11-27 18:57:33
+epoch 508, test error 158, learning_rate=0.362401723862
+2015-11-27 18:57:44
+epoch 509, test error 154, learning_rate=0.361676931381
+2015-11-27 18:57:55
+epoch 510, test error 154, learning_rate=0.360953599215
+2015-11-27 18:58:06
+epoch 511, test error 157, learning_rate=0.360231697559
+2015-11-27 18:58:17
+epoch 512, test error 159, learning_rate=0.359511256218
+2015-11-27 18:58:28
+epoch 513, test error 157, learning_rate=0.358792245388
+2015-11-27 18:58:39
+epoch 514, test error 153, learning_rate=0.35807466507
+2015-11-27 18:58:50
+epoch 515, test error 154, learning_rate=0.357358515263
+2015-11-27 18:59:01
+epoch 516, test error 160, learning_rate=0.356643795967
+2015-11-27 18:59:12
+epoch 517, test error 156, learning_rate=0.355930507183
+2015-11-27 18:59:23
+epoch 518, test error 155, learning_rate=0.355218648911
+2015-11-27 18:59:34
+epoch 519, test error 156, learning_rate=0.354508221149
+2015-11-27 18:59:45
+epoch 520, test error 160, learning_rate=0.3537992239
+2015-11-27 18:59:56
+epoch 521, test error 156, learning_rate=0.353091627359
+2015-11-27 19:00:07
+epoch 522, test error 153, learning_rate=0.35238546133
+2015-11-27 19:00:18
+epoch 523, test error 153, learning_rate=0.351680696011
+2015-11-27 19:00:29
+epoch 524, test error 154, learning_rate=0.3509773314
+2015-11-27 19:00:40
+epoch 525, test error 152, learning_rate=0.350275397301
+2015-11-27 19:00:51
+epoch 526, test error 153, learning_rate=0.349574863911
+2015-11-27 19:01:02
+epoch 527, test error 156, learning_rate=0.34887573123
+2015-11-27 19:01:13
+epoch 528, test error 154, learning_rate=0.348177999258
+2015-11-27 19:01:24
+epoch 529, test error 151, learning_rate=0.347481638193
+2015-11-27 19:01:35
+epoch 530, test error 156, learning_rate=0.346786677837
+2015-11-27 19:01:46
+epoch 531, test error 157, learning_rate=0.346093118191
+2015-11-27 19:01:57
+epoch 532, test error 155, learning_rate=0.345400929451
+2015-11-27 19:02:08
+epoch 533, test error 157, learning_rate=0.34471014142
+2015-11-27 19:02:19
+epoch 534, test error 154, learning_rate=0.344020724297
+2015-11-27 19:02:30
+epoch 535, test error 154, learning_rate=0.34333267808
+2015-11-27 19:02:41
+epoch 536, test error 152, learning_rate=0.342646032572
+2015-11-27 19:02:52
+epoch 537, test error 155, learning_rate=0.341960757971
+2015-11-27 19:03:03
+epoch 538, test error 156, learning_rate=0.341276854277
+2015-11-27 19:03:14
+epoch 539, test error 151, learning_rate=0.340594321489
+2015-11-27 19:03:25
+epoch 540, test error 150, learning_rate=0.339913129807 **
+2015-11-27 19:03:36
+epoch 541, test error 154, learning_rate=0.339233309031
+2015-11-27 19:03:47
+epoch 542, test error 153, learning_rate=0.338554859161
+2015-11-27 19:03:58
+epoch 543, test error 159, learning_rate=0.337877750397
+2015-11-27 19:04:09
+epoch 544, test error 164, learning_rate=0.337202012539
+2015-11-27 19:04:20
+epoch 545, test error 156, learning_rate=0.336527615786
+2015-11-27 19:04:31
+epoch 546, test error 159, learning_rate=0.335854560137
+2015-11-27 19:04:42
+epoch 547, test error 151, learning_rate=0.335182845592
+2015-11-27 19:04:53
+epoch 548, test error 154, learning_rate=0.334512501955
+2015-11-27 19:05:04
+epoch 549, test error 155, learning_rate=0.333843499422
+2015-11-27 19:05:15
+epoch 550, test error 156, learning_rate=0.333175808191
+2015-11-27 19:05:26
+epoch 551, test error 158, learning_rate=0.332509458065
+2015-11-27 19:05:37
+epoch 552, test error 157, learning_rate=0.331844449043
+2015-11-27 19:05:48
+epoch 553, test error 157, learning_rate=0.331180781126
+2015-11-27 19:05:59
+epoch 554, test error 162, learning_rate=0.330518424511
+2015-11-27 19:06:10
+epoch 555, test error 153, learning_rate=0.329857409
+2015-11-27 19:06:21
+epoch 556, test error 152, learning_rate=0.329197704792
+2015-11-27 19:06:32
+epoch 557, test error 150, learning_rate=0.328539311886
+2015-11-27 19:06:43
+epoch 558, test error 156, learning_rate=0.327882230282
+2015-11-27 19:06:54
+epoch 559, test error 154, learning_rate=0.32722645998
+2015-11-27 19:07:05
+epoch 560, test error 150, learning_rate=0.32657200098
+2015-11-27 19:07:16
+epoch 561, test error 151, learning_rate=0.325918853283
+2015-11-27 19:07:27
+epoch 562, test error 160, learning_rate=0.325267016888
+2015-11-27 19:07:38
+epoch 563, test error 154, learning_rate=0.324616491795
+2015-11-27 19:07:49
+epoch 564, test error 155, learning_rate=0.323967278004
+2015-11-27 19:08:00
+epoch 565, test error 153, learning_rate=0.323319345713
+2015-11-27 19:08:11
+epoch 566, test error 152, learning_rate=0.322672724724
+2015-11-27 19:08:22
+epoch 567, test error 156, learning_rate=0.322027385235
+2015-11-27 19:08:33
+epoch 568, test error 153, learning_rate=0.321383327246
+2015-11-27 19:08:44
+epoch 569, test error 153, learning_rate=0.320740580559
+2015-11-27 19:08:55
+epoch 570, test error 154, learning_rate=0.320099115372
+2015-11-27 19:09:05
+epoch 571, test error 155, learning_rate=0.319458931684
+2015-11-27 19:09:16
+epoch 572, test error 156, learning_rate=0.318820029497
+2015-11-27 19:09:27
+epoch 573, test error 155, learning_rate=0.31818240881
+2015-11-27 19:09:38
+epoch 574, test error 153, learning_rate=0.31754603982
+2015-11-27 19:09:49
+epoch 575, test error 154, learning_rate=0.31691095233
+2015-11-27 19:10:00
+epoch 576, test error 148, learning_rate=0.316277146339 **
+2015-11-27 19:10:11
+epoch 577, test error 150, learning_rate=0.315644592047
+2015-11-27 19:10:22
+epoch 578, test error 154, learning_rate=0.315013319254
+2015-11-27 19:10:33
+epoch 579, test error 153, learning_rate=0.314383298159
+2015-11-27 19:10:44
+epoch 580, test error 152, learning_rate=0.313754528761
+2015-11-27 19:10:55
+epoch 581, test error 152, learning_rate=0.313127040863
+2015-11-27 19:11:06
+epoch 582, test error 152, learning_rate=0.312500804663
+2015-11-27 19:11:17
+epoch 583, test error 152, learning_rate=0.31187582016
+2015-11-27 19:11:28
+epoch 584, test error 157, learning_rate=0.311252087355
+2015-11-27 19:11:39
+epoch 585, test error 153, learning_rate=0.310629576445
+2015-11-27 19:11:50
+epoch 586, test error 155, learning_rate=0.310008317232
+2015-11-27 19:12:01
+epoch 587, test error 156, learning_rate=0.309388309717
+2015-11-27 19:12:12
+epoch 588, test error 154, learning_rate=0.3087695539
+2015-11-27 19:12:23
+epoch 589, test error 150, learning_rate=0.308152019978
+2015-11-27 19:12:34
+epoch 590, test error 157, learning_rate=0.307535737753
+2015-11-27 19:12:45
+epoch 591, test error 149, learning_rate=0.306920677423
+2015-11-27 19:12:56
+epoch 592, test error 162, learning_rate=0.306306838989
+2015-11-27 19:13:07
+epoch 593, test error 158, learning_rate=0.30569422245
+2015-11-27 19:13:18
+epoch 594, test error 155, learning_rate=0.305082827806
+2015-11-27 19:13:29
+epoch 595, test error 155, learning_rate=0.30447268486
+2015-11-27 19:13:40
+epoch 596, test error 155, learning_rate=0.303863734007
+2015-11-27 19:13:51
+epoch 597, test error 157, learning_rate=0.303256005049
+2015-11-27 19:14:02
+epoch 598, test error 156, learning_rate=0.302649497986
+2015-11-27 19:14:13
+epoch 599, test error 155, learning_rate=0.302044212818
+2015-11-27 19:14:24
+epoch 600, test error 156, learning_rate=0.301440119743
+2015-11-27 19:14:35
+epoch 601, test error 152, learning_rate=0.300837248564
+2015-11-27 19:14:46
+epoch 602, test error 152, learning_rate=0.300235569477
+2015-11-27 19:14:57
+epoch 603, test error 154, learning_rate=0.299635112286
+2015-11-27 19:15:08
+epoch 604, test error 153, learning_rate=0.299035847187
+2015-11-27 19:15:19
+epoch 605, test error 151, learning_rate=0.298437774181
+2015-11-27 19:15:30
+epoch 606, test error 155, learning_rate=0.297840893269
+2015-11-27 19:15:41
+epoch 607, test error 148, learning_rate=0.297245204449
+2015-11-27 19:15:52
+epoch 608, test error 154, learning_rate=0.296650707722
+2015-11-27 19:16:03
+epoch 609, test error 154, learning_rate=0.296057403088
+2015-11-27 19:16:14
+epoch 610, test error 152, learning_rate=0.295465290546
+2015-11-27 19:16:25
+epoch 611, test error 157, learning_rate=0.294874370098
+2015-11-27 19:16:36
+epoch 612, test error 156, learning_rate=0.294284641743
+2015-11-27 19:16:47
+epoch 613, test error 155, learning_rate=0.293696075678
+2015-11-27 19:16:58
+epoch 614, test error 151, learning_rate=0.293108701706
+2015-11-27 19:17:09
+epoch 615, test error 155, learning_rate=0.292522490025
+2015-11-27 19:17:19
+epoch 616, test error 152, learning_rate=0.291937440634
+2015-11-27 19:17:30
+epoch 617, test error 147, learning_rate=0.291353583336 **
+2015-11-27 19:17:41
+epoch 618, test error 151, learning_rate=0.290770888329
+2015-11-27 19:17:52
+epoch 619, test error 154, learning_rate=0.290189355612
+2015-11-27 19:18:03
+epoch 620, test error 151, learning_rate=0.289608985186
+2015-11-27 19:18:14
+epoch 621, test error 154, learning_rate=0.28902977705
+2015-11-27 19:18:25
+epoch 622, test error 151, learning_rate=0.288451731205
+2015-11-27 19:18:36
+epoch 623, test error 151, learning_rate=0.287874847651
+2015-11-27 19:18:47
+epoch 624, test error 154, learning_rate=0.287299096584
+2015-11-27 19:18:58
+epoch 625, test error 154, learning_rate=0.286724507809
+2015-11-27 19:19:09
+epoch 626, test error 153, learning_rate=0.286151051521
+2015-11-27 19:19:20
+epoch 627, test error 150, learning_rate=0.285578757524
+2015-11-27 19:19:31
+epoch 628, test error 157, learning_rate=0.285007596016
+2015-11-27 19:19:42
+epoch 629, test error 148, learning_rate=0.284437596798
+2015-11-27 19:19:53
+epoch 630, test error 153, learning_rate=0.283868730068
+2015-11-27 19:20:04
+epoch 631, test error 151, learning_rate=0.283300995827
+2015-11-27 19:20:15
+epoch 632, test error 153, learning_rate=0.282734394073
+2015-11-27 19:20:26
+epoch 633, test error 154, learning_rate=0.282168924809
+2015-11-27 19:20:37
+epoch 634, test error 155, learning_rate=0.281604588032
+2015-11-27 19:20:48
+epoch 635, test error 151, learning_rate=0.281041383743
+2015-11-27 19:20:59
+epoch 636, test error 153, learning_rate=0.280479311943
+2015-11-27 19:21:10
+epoch 637, test error 154, learning_rate=0.279918372631
+2015-11-27 19:21:21
+epoch 638, test error 152, learning_rate=0.279358536005
+2015-11-27 19:21:32
+epoch 639, test error 153, learning_rate=0.278799831867
+2015-11-27 19:21:43
+epoch 640, test error 154, learning_rate=0.278242230415
+2015-11-27 19:21:55
+epoch 641, test error 151, learning_rate=0.277685761452
+2015-11-27 19:22:06
+epoch 642, test error 148, learning_rate=0.277130395174
+2015-11-27 19:22:17
+epoch 643, test error 153, learning_rate=0.276576131582
+2015-11-27 19:22:28
+epoch 644, test error 157, learning_rate=0.276023000479
+2015-11-27 19:22:39
+epoch 645, test error 151, learning_rate=0.275470972061
+2015-11-27 19:22:50
+epoch 646, test error 159, learning_rate=0.274920046329
+2015-11-27 19:23:01
+epoch 647, test error 154, learning_rate=0.274370223284
+2015-11-27 19:23:12
+epoch 648, test error 149, learning_rate=0.273821502924
+2015-11-27 19:23:23
+epoch 649, test error 158, learning_rate=0.273273855448
+2015-11-27 19:23:34
+epoch 650, test error 150, learning_rate=0.272727310658
+2015-11-27 19:23:45
+epoch 651, test error 151, learning_rate=0.272181868553
+2015-11-27 19:23:56
+epoch 652, test error 149, learning_rate=0.271637499332
+2015-11-27 19:24:08
+epoch 653, test error 153, learning_rate=0.271094232798
+2015-11-27 19:24:19
+epoch 654, test error 153, learning_rate=0.270552039146
+2015-11-27 19:24:30
+epoch 655, test error 155, learning_rate=0.270010948181
+2015-11-27 19:24:41
+epoch 656, test error 157, learning_rate=0.269470930099
+2015-11-27 19:24:52
+epoch 657, test error 154, learning_rate=0.268931984901
+2015-11-27 19:25:03
+epoch 658, test error 153, learning_rate=0.268394142389
+2015-11-27 19:25:14
+epoch 659, test error 152, learning_rate=0.267857372761
+2015-11-27 19:25:25
+epoch 660, test error 152, learning_rate=0.267321676016
+2015-11-27 19:25:36
+epoch 661, test error 152, learning_rate=0.266787052155
+2015-11-27 19:25:47
+epoch 662, test error 151, learning_rate=0.266253471375
+2015-11-27 19:25:58
+epoch 663, test error 151, learning_rate=0.265720963478
+2015-11-27 19:26:09
+epoch 664, test error 150, learning_rate=0.265189528465
+2015-11-27 19:26:21
+epoch 665, test error 154, learning_rate=0.264659166336
+2015-11-27 19:26:32
+epoch 666, test error 151, learning_rate=0.264129847288
+2015-11-27 19:26:43
+epoch 667, test error 152, learning_rate=0.263601601124
+2015-11-27 19:26:54
+epoch 668, test error 150, learning_rate=0.263074398041
+2015-11-27 19:27:05
+epoch 669, test error 154, learning_rate=0.262548267841
+2015-11-27 19:27:16
+epoch 670, test error 157, learning_rate=0.262023180723
+2015-11-27 19:27:27
+epoch 671, test error 152, learning_rate=0.261499136686
+2015-11-27 19:27:38
+epoch 672, test error 150, learning_rate=0.260976135731
+2015-11-27 19:27:49
+epoch 673, test error 157, learning_rate=0.260454177856
+2015-11-27 19:28:00
+epoch 674, test error 150, learning_rate=0.259933263063
+2015-11-27 19:28:11
+epoch 675, test error 153, learning_rate=0.259413391352
+2015-11-27 19:28:22
+epoch 676, test error 146, learning_rate=0.258894562721 **
+2015-11-27 19:28:33
+epoch 677, test error 151, learning_rate=0.258376777172
+2015-11-27 19:28:44
+epoch 678, test error 151, learning_rate=0.257860034704
+2015-11-27 19:28:55
+epoch 679, test error 152, learning_rate=0.257344335318
+2015-11-27 19:29:06
+epoch 680, test error 148, learning_rate=0.25682964921
+2015-11-27 19:29:17
+epoch 681, test error 152, learning_rate=0.256316006184
+2015-11-27 19:29:28
+epoch 682, test error 153, learning_rate=0.255803376436
+2015-11-27 19:29:40
+epoch 683, test error 152, learning_rate=0.25529178977
+2015-11-27 19:29:51
+epoch 684, test error 155, learning_rate=0.254781216383
+2015-11-27 19:30:02
+epoch 685, test error 160, learning_rate=0.254271656275
+2015-11-27 19:30:13
+epoch 686, test error 149, learning_rate=0.253763109446
+2015-11-27 19:30:24
+epoch 687, test error 154, learning_rate=0.253255575895
+2015-11-27 19:30:36
+epoch 688, test error 151, learning_rate=0.252749085426
+2015-11-27 19:30:47
+epoch 689, test error 149, learning_rate=0.252243608236
+2015-11-27 19:30:58
+epoch 690, test error 150, learning_rate=0.251739114523
+2015-11-27 19:31:09
+epoch 691, test error 154, learning_rate=0.251235634089
+2015-11-27 19:31:20
+epoch 692, test error 153, learning_rate=0.250733166933
+2015-11-27 19:31:31
+epoch 693, test error 153, learning_rate=0.250231713057
+2015-11-27 19:31:42
+epoch 694, test error 150, learning_rate=0.249731257558
+2015-11-27 19:31:53
+epoch 695, test error 153, learning_rate=0.249231800437
+2015-11-27 19:32:04
+epoch 696, test error 152, learning_rate=0.248733341694
+2015-11-27 19:32:15
+epoch 697, test error 155, learning_rate=0.248235881329
+2015-11-27 19:32:27
+epoch 698, test error 149, learning_rate=0.247739419341
+2015-11-27 19:32:38
+epoch 699, test error 158, learning_rate=0.24724394083
+2015-11-27 19:32:49
+epoch 700, test error 153, learning_rate=0.246749460697
+2015-11-27 19:33:00
+epoch 701, test error 150, learning_rate=0.246255964041
+2015-11-27 19:33:11
+epoch 702, test error 148, learning_rate=0.245763465762
+2015-11-27 19:33:22
+epoch 703, test error 149, learning_rate=0.24527195096
+2015-11-27 19:33:33
+epoch 704, test error 152, learning_rate=0.244781419635
+2015-11-27 19:33:44
+epoch 705, test error 151, learning_rate=0.244291856885
+2015-11-27 19:33:55
+epoch 706, test error 157, learning_rate=0.243803277612
+2015-11-27 19:34:06
+epoch 707, test error 154, learning_rate=0.243315681815
+2015-11-27 19:34:17
+epoch 708, test error 150, learning_rate=0.242829054594
+2015-11-27 19:34:28
+epoch 709, test error 153, learning_rate=0.242343395948
+2015-11-27 19:34:40
+epoch 710, test error 156, learning_rate=0.241858720779
+2015-11-27 19:34:51
+epoch 711, test error 153, learning_rate=0.241375014186
+2015-11-27 19:35:02
+epoch 712, test error 148, learning_rate=0.240892276168
+2015-11-27 19:35:13
+epoch 713, test error 148, learning_rate=0.240410491824
+2015-11-27 19:35:24
+epoch 714, test error 153, learning_rate=0.239929676056
+2015-11-27 19:35:35
+epoch 715, test error 148, learning_rate=0.239449828863
+2015-11-27 19:35:46
+epoch 716, test error 146, learning_rate=0.238970935345
+2015-11-27 19:35:58
+epoch 717, test error 151, learning_rate=0.238492995501
+2015-11-27 19:36:09
+epoch 718, test error 149, learning_rate=0.238016009331
+2015-11-27 19:36:20
+epoch 719, test error 147, learning_rate=0.237539976835
+2015-11-27 19:36:31
+epoch 720, test error 145, learning_rate=0.237064898014 **
+2015-11-27 19:36:42
+epoch 721, test error 152, learning_rate=0.236590772867
+2015-11-27 19:36:53
+epoch 722, test error 151, learning_rate=0.236117601395
+2015-11-27 19:37:04
+epoch 723, test error 148, learning_rate=0.235645368695
+2015-11-27 19:37:15
+epoch 724, test error 154, learning_rate=0.23517408967
+2015-11-27 19:37:26
+epoch 725, test error 154, learning_rate=0.234703749418
+2015-11-27 19:37:37
+epoch 726, test error 154, learning_rate=0.234234347939
+2015-11-27 19:37:48
+epoch 727, test error 151, learning_rate=0.233765885234
+2015-11-27 19:37:59
+epoch 728, test error 152, learning_rate=0.233298361301
+2015-11-27 19:38:10
+epoch 729, test error 155, learning_rate=0.232831776142
+2015-11-27 19:38:21
+epoch 730, test error 150, learning_rate=0.232366114855
+2015-11-27 19:38:32
+epoch 731, test error 154, learning_rate=0.231901392341
+2015-11-27 19:38:43
+epoch 732, test error 149, learning_rate=0.231437593699
+2015-11-27 19:38:54
+epoch 733, test error 150, learning_rate=0.230974718928
+2015-11-27 19:39:05
+epoch 734, test error 152, learning_rate=0.23051276803
+2015-11-27 19:39:16
+epoch 735, test error 148, learning_rate=0.230051741004
+2015-11-27 19:39:27
+epoch 736, test error 153, learning_rate=0.22959163785
+2015-11-27 19:39:38
+epoch 737, test error 147, learning_rate=0.229132458568
+2015-11-27 19:39:49
+epoch 738, test error 152, learning_rate=0.228674203157
+2015-11-27 19:40:00
+epoch 739, test error 154, learning_rate=0.228216856718
+2015-11-27 19:40:11
+epoch 740, test error 149, learning_rate=0.227760434151
+2015-11-27 19:40:22
+epoch 741, test error 150, learning_rate=0.227304920554
+2015-11-27 19:40:33
+epoch 742, test error 150, learning_rate=0.226850315928
+2015-11-27 19:40:44
+epoch 743, test error 149, learning_rate=0.226396620274
+2015-11-27 19:40:55
+epoch 744, test error 155, learning_rate=0.22594383359
+2015-11-27 19:41:06
+epoch 745, test error 150, learning_rate=0.225491955876
+2015-11-27 19:41:17
+epoch 746, test error 149, learning_rate=0.225040972233
+2015-11-27 19:41:28
+epoch 747, test error 151, learning_rate=0.22459089756
+2015-11-27 19:41:39
+epoch 748, test error 154, learning_rate=0.224141716957
+2015-11-27 19:41:50
+epoch 749, test error 148, learning_rate=0.223693445325
+2015-11-27 19:42:01
+epoch 750, test error 148, learning_rate=0.223246067762
+2015-11-27 19:42:12
+epoch 751, test error 150, learning_rate=0.22279958427
+2015-11-27 19:42:23
+epoch 752, test error 146, learning_rate=0.222353994846
+2015-11-27 19:42:35
+epoch 753, test error 155, learning_rate=0.221909299493
+2015-11-27 19:42:46
+epoch 754, test error 150, learning_rate=0.221465483308
+2015-11-27 19:42:57
+epoch 755, test error 150, learning_rate=0.221022561193
+2015-11-27 19:43:08
+epoch 756, test error 148, learning_rate=0.220580518246
+2015-11-27 19:43:19
+epoch 757, test error 153, learning_rate=0.220139369369
+2015-11-27 19:43:30
+epoch 758, test error 152, learning_rate=0.21969909966
+2015-11-27 19:43:41
+epoch 759, test error 149, learning_rate=0.21925970912
+2015-11-27 19:43:52
+epoch 760, test error 151, learning_rate=0.218821197748
+2015-11-27 19:44:03
+epoch 761, test error 152, learning_rate=0.218383565545
+2015-11-27 19:44:14
+epoch 762, test error 151, learning_rate=0.217946797609
+2015-11-27 19:44:25
+epoch 763, test error 149, learning_rate=0.217510908842
+2015-11-27 19:44:36
+epoch 764, test error 147, learning_rate=0.217075899243
+2015-11-27 19:44:47
+epoch 765, test error 152, learning_rate=0.216641753912
+2015-11-27 19:44:58
+epoch 766, test error 150, learning_rate=0.216208472848
+2015-11-27 19:45:09
+epoch 767, test error 152, learning_rate=0.215776056051
+2015-11-27 19:45:20
+epoch 768, test error 148, learning_rate=0.215344503522
+2015-11-27 19:45:31
+epoch 769, test error 150, learning_rate=0.21491381526
+2015-11-27 19:45:42
+epoch 770, test error 152, learning_rate=0.214483991265
+2015-11-27 19:45:53
+epoch 771, test error 146, learning_rate=0.214055031538
+2015-11-27 19:46:04
+epoch 772, test error 148, learning_rate=0.213626921177
+2015-11-27 19:46:15
+epoch 773, test error 149, learning_rate=0.213199675083
+2015-11-27 19:46:26
+epoch 774, test error 152, learning_rate=0.212773278356
+2015-11-27 19:46:37
+epoch 775, test error 154, learning_rate=0.212347730994
+2015-11-27 19:46:48
+epoch 776, test error 150, learning_rate=0.2119230479
+2015-11-27 19:46:59
+epoch 777, test error 150, learning_rate=0.211499214172
+2015-11-27 19:47:10
+epoch 778, test error 149, learning_rate=0.21107621491
+2015-11-27 19:47:21
+epoch 779, test error 149, learning_rate=0.210654065013
+2015-11-27 19:47:32
+epoch 780, test error 148, learning_rate=0.210232764482
+2015-11-27 19:47:43
+epoch 781, test error 148, learning_rate=0.209812298417
+2015-11-27 19:47:54
+epoch 782, test error 151, learning_rate=0.209392681718
+2015-11-27 19:48:05
+epoch 783, test error 144, learning_rate=0.208973899484 **
+2015-11-27 19:48:16
+epoch 784, test error 150, learning_rate=0.208555951715
+2015-11-27 19:48:27
+epoch 785, test error 152, learning_rate=0.20813883841
+2015-11-27 19:48:38
+epoch 786, test error 147, learning_rate=0.207722559571
+2015-11-27 19:48:49
+epoch 787, test error 147, learning_rate=0.207307115197
+2015-11-27 19:49:00
+epoch 788, test error 150, learning_rate=0.206892505288
+2015-11-27 19:49:11
+epoch 789, test error 148, learning_rate=0.206478729844
+2015-11-27 19:49:22
+epoch 790, test error 147, learning_rate=0.206065773964
+2015-11-27 19:49:33
+epoch 791, test error 152, learning_rate=0.205653652549
+2015-11-27 19:49:44
+epoch 792, test error 145, learning_rate=0.205242350698
+2015-11-27 19:49:55
+epoch 793, test error 152, learning_rate=0.20483186841
+2015-11-27 19:50:06
+epoch 794, test error 146, learning_rate=0.204422205687
+2015-11-27 19:50:17
+epoch 795, test error 149, learning_rate=0.204013362527
+2015-11-27 19:50:28
+epoch 796, test error 148, learning_rate=0.203605338931
+2015-11-27 19:50:39
+epoch 797, test error 148, learning_rate=0.203198134899
+2015-11-27 19:50:50
+epoch 798, test error 149, learning_rate=0.202791750431
+2015-11-27 19:51:01
+epoch 799, test error 148, learning_rate=0.202386170626
+2015-11-27 19:51:12
+epoch 800, test error 150, learning_rate=0.201981410384
+2015-11-27 19:51:23
+epoch 801, test error 147, learning_rate=0.201577454805
+2015-11-27 19:51:34
+epoch 802, test error 151, learning_rate=0.201174303889
+2015-11-27 19:51:45
+epoch 803, test error 150, learning_rate=0.200771957636
+2015-11-27 19:51:56
+epoch 804, test error 144, learning_rate=0.200370416045
+2015-11-27 19:52:07
+epoch 805, test error 147, learning_rate=0.199969679117
+2015-11-27 19:52:18
+epoch 806, test error 151, learning_rate=0.199569746852
+2015-11-27 19:52:29
+epoch 807, test error 152, learning_rate=0.199170619249
+2015-11-27 19:52:40
+epoch 808, test error 149, learning_rate=0.198772281408
+2015-11-27 19:52:51
+epoch 809, test error 151, learning_rate=0.19837474823
+2015-11-27 19:53:02
+epoch 810, test error 152, learning_rate=0.197978004813
+2015-11-27 19:53:13
+epoch 811, test error 153, learning_rate=0.197582051158
+2015-11-27 19:53:24
+epoch 812, test error 147, learning_rate=0.197186887264
+2015-11-27 19:53:35
+epoch 813, test error 151, learning_rate=0.196792513132
+2015-11-27 19:53:46
+epoch 814, test error 151, learning_rate=0.196398928761
+2015-11-27 19:53:57
+epoch 815, test error 147, learning_rate=0.196006134152
+2015-11-27 19:54:08
+epoch 816, test error 145, learning_rate=0.195614129305
+2015-11-27 19:54:19
+epoch 817, test error 146, learning_rate=0.195222899318
+2015-11-27 19:54:30
+epoch 818, test error 146, learning_rate=0.194832459092
+2015-11-27 19:54:41
+epoch 819, test error 148, learning_rate=0.194442793727
+2015-11-27 19:54:52
+epoch 820, test error 144, learning_rate=0.194053918123
+2015-11-27 19:55:03
+epoch 821, test error 145, learning_rate=0.19366581738
+2015-11-27 19:55:14
+epoch 822, test error 146, learning_rate=0.193278491497
+2015-11-27 19:55:25
+epoch 823, test error 144, learning_rate=0.192891940475
+2015-11-27 19:55:36
+epoch 824, test error 155, learning_rate=0.192506164312
+2015-11-27 19:55:47
+epoch 825, test error 143, learning_rate=0.192121163011 **
+2015-11-27 19:55:58
+epoch 826, test error 150, learning_rate=0.191736921668
+2015-11-27 19:56:09
+epoch 827, test error 144, learning_rate=0.191353455186
+2015-11-27 19:56:20
+epoch 828, test error 142, learning_rate=0.190970748663 **
+2015-11-27 19:56:31
+epoch 829, test error 147, learning_rate=0.190588817
+2015-11-27 19:56:42
+epoch 830, test error 144, learning_rate=0.190207645297
+2015-11-27 19:56:53
+epoch 831, test error 146, learning_rate=0.189827233553
+2015-11-27 19:57:04
+epoch 832, test error 141, learning_rate=0.189447581768 **
+2015-11-27 19:57:15
+epoch 833, test error 146, learning_rate=0.189068689942
+2015-11-27 19:57:26
+epoch 834, test error 144, learning_rate=0.188690558076
+2015-11-27 19:57:37
+epoch 835, test error 150, learning_rate=0.188313186169
+2015-11-27 19:57:48
+epoch 836, test error 145, learning_rate=0.187936559319
+2015-11-27 19:57:59
+epoch 837, test error 147, learning_rate=0.18756069243
+2015-11-27 19:58:10
+epoch 838, test error 141, learning_rate=0.187185570598
+2015-11-27 19:58:21
+epoch 839, test error 144, learning_rate=0.186811208725
+2015-11-27 19:58:32
+epoch 840, test error 148, learning_rate=0.18643759191
+2015-11-27 19:58:43
+epoch 841, test error 145, learning_rate=0.186064720154
+2015-11-27 19:58:54
+epoch 842, test error 144, learning_rate=0.185692593455
+2015-11-27 19:59:05
+epoch 843, test error 145, learning_rate=0.185321211815
+2015-11-27 19:59:16
+epoch 844, test error 146, learning_rate=0.184950575233
+2015-11-27 19:59:27
+epoch 845, test error 145, learning_rate=0.184580683708
+2015-11-27 19:59:38
+epoch 846, test error 145, learning_rate=0.184211522341
+2015-11-27 19:59:49
+epoch 847, test error 141, learning_rate=0.183843106031
+2015-11-27 20:00:00
+epoch 848, test error 145, learning_rate=0.183475419879
+2015-11-27 20:00:11
+epoch 849, test error 151, learning_rate=0.183108478785
+2015-11-27 20:00:22
+epoch 850, test error 145, learning_rate=0.182742267847
+2015-11-27 20:00:33
+epoch 851, test error 146, learning_rate=0.182376787066
+2015-11-27 20:00:44
+epoch 852, test error 149, learning_rate=0.182012036443
+2015-11-27 20:00:55
+epoch 853, test error 147, learning_rate=0.181648015976
+2015-11-27 20:01:06
+epoch 854, test error 146, learning_rate=0.181284725666
+2015-11-27 20:01:17
+epoch 855, test error 146, learning_rate=0.180922165513
+2015-11-27 20:01:28
+epoch 856, test error 146, learning_rate=0.180560320616
+2015-11-27 20:01:39
+epoch 857, test error 148, learning_rate=0.180199205875
+2015-11-27 20:01:50
+epoch 858, test error 144, learning_rate=0.179838806391
+2015-11-27 20:02:01
+epoch 859, test error 145, learning_rate=0.179479137063
+2015-11-27 20:02:12
+epoch 860, test error 143, learning_rate=0.179120182991
+2015-11-27 20:02:23
+epoch 861, test error 146, learning_rate=0.178761944175
+2015-11-27 20:02:34
+epoch 862, test error 144, learning_rate=0.178404420614
+2015-11-27 20:02:45
+epoch 863, test error 149, learning_rate=0.178047612309
+2015-11-27 20:02:56
+epoch 864, test error 147, learning_rate=0.17769151926
+2015-11-27 20:03:07
+epoch 865, test error 146, learning_rate=0.177336141467
+2015-11-27 20:03:18
+epoch 866, test error 145, learning_rate=0.17698147893
+2015-11-27 20:03:29
+epoch 867, test error 146, learning_rate=0.176627516747
+2015-11-27 20:03:40
+epoch 868, test error 148, learning_rate=0.176274269819
+2015-11-27 20:03:51
+epoch 869, test error 140, learning_rate=0.175921723247 **
+2015-11-27 20:04:02
+epoch 870, test error 144, learning_rate=0.175569877028
+2015-11-27 20:04:13
+epoch 871, test error 147, learning_rate=0.175218746066
+2015-11-27 20:04:24
+epoch 872, test error 145, learning_rate=0.174868315458
+2015-11-27 20:04:35
+epoch 873, test error 149, learning_rate=0.174518585205
+2015-11-27 20:04:46
+epoch 874, test error 145, learning_rate=0.174169555306
+2015-11-27 20:04:57
+epoch 875, test error 148, learning_rate=0.173821225762
+2015-11-27 20:05:08
+epoch 876, test error 147, learning_rate=0.173473581672
+2015-11-27 20:05:19
+epoch 877, test error 146, learning_rate=0.173126637936
+2015-11-27 20:05:30
+epoch 878, test error 146, learning_rate=0.172780394554
+2015-11-27 20:05:41
+epoch 879, test error 149, learning_rate=0.172434836626
+2015-11-27 20:05:52
+epoch 880, test error 150, learning_rate=0.172089964151
+2015-11-27 20:06:03
+epoch 881, test error 146, learning_rate=0.171745792031
+2015-11-27 20:06:14
+epoch 882, test error 148, learning_rate=0.171402305365
+2015-11-27 20:06:25
+epoch 883, test error 146, learning_rate=0.171059504151
+2015-11-27 20:06:36
+epoch 884, test error 149, learning_rate=0.170717388391
+2015-11-27 20:06:47
+epoch 885, test error 146, learning_rate=0.170375958085
+2015-11-27 20:06:58
+epoch 886, test error 145, learning_rate=0.170035213232
+2015-11-27 20:07:09
+epoch 887, test error 146, learning_rate=0.169695153832
+2015-11-27 20:07:20
+epoch 888, test error 145, learning_rate=0.169355764985
+2015-11-27 20:07:31
+epoch 889, test error 145, learning_rate=0.169017061591
+2015-11-27 20:07:42
+epoch 890, test error 148, learning_rate=0.168679028749
+2015-11-27 20:07:53
+epoch 891, test error 144, learning_rate=0.168341681361
+2015-11-27 20:08:04
+epoch 892, test error 148, learning_rate=0.168005004525
+2015-11-27 20:08:15
+epoch 893, test error 148, learning_rate=0.167668998241
+2015-11-27 20:08:26
+epoch 894, test error 144, learning_rate=0.16733366251
+2015-11-27 20:08:37
+epoch 895, test error 145, learning_rate=0.166998997331
+2015-11-27 20:08:48
+epoch 896, test error 145, learning_rate=0.166665002704
+2015-11-27 20:08:59
+epoch 897, test error 145, learning_rate=0.166331678629
+2015-11-27 20:09:10
+epoch 898, test error 145, learning_rate=0.165999025106
+2015-11-27 20:09:21
+epoch 899, test error 144, learning_rate=0.165667027235
+2015-11-27 20:09:32
+epoch 900, test error 142, learning_rate=0.165335699916
+2015-11-27 20:09:43
+epoch 901, test error 146, learning_rate=0.165005028248
+2015-11-27 20:09:54
+epoch 902, test error 140, learning_rate=0.164675027132
+2015-11-27 20:10:05
+epoch 903, test error 142, learning_rate=0.164345681667
+2015-11-27 20:10:16
+epoch 904, test error 141, learning_rate=0.164016991854
+2015-11-27 20:10:27
+epoch 905, test error 145, learning_rate=0.163688957691
+2015-11-27 20:10:38
+epoch 906, test error 144, learning_rate=0.16336157918
+2015-11-27 20:10:49
+epoch 907, test error 147, learning_rate=0.163034856319
+2015-11-27 20:11:00
+epoch 908, test error 150, learning_rate=0.16270878911
+2015-11-27 20:11:11
+epoch 909, test error 148, learning_rate=0.162383377552
+2015-11-27 20:11:22
+epoch 910, test error 145, learning_rate=0.162058621645
+2015-11-27 20:11:33
+epoch 911, test error 146, learning_rate=0.161734506488
+2015-11-27 20:11:44
+epoch 912, test error 146, learning_rate=0.161411046982
+2015-11-27 20:11:55
+epoch 913, test error 145, learning_rate=0.161088228226
+2015-11-27 20:12:06
+epoch 914, test error 142, learning_rate=0.16076605022
+2015-11-27 20:12:17
+epoch 915, test error 146, learning_rate=0.160444527864
+2015-11-27 20:12:28
+epoch 916, test error 144, learning_rate=0.160123646259
+2015-11-27 20:12:39
+epoch 917, test error 147, learning_rate=0.159803405404
+2015-11-27 20:12:50
+epoch 918, test error 144, learning_rate=0.159483805299
+2015-11-27 20:13:01
+epoch 919, test error 142, learning_rate=0.159164845943
+2015-11-27 20:13:12
+epoch 920, test error 142, learning_rate=0.158846527338
+2015-11-27 20:13:23
+epoch 921, test error 147, learning_rate=0.158528834581
+2015-11-27 20:13:34
+epoch 922, test error 142, learning_rate=0.158211782575
+2015-11-27 20:13:45
+epoch 923, test error 141, learning_rate=0.157895356417
+2015-11-27 20:13:56
+epoch 924, test error 139, learning_rate=0.157579571009 **
+2015-11-27 20:14:07
+epoch 925, test error 146, learning_rate=0.157264411449
+2015-11-27 20:14:18
+epoch 926, test error 144, learning_rate=0.15694989264
+2015-11-27 20:14:29
+epoch 927, test error 144, learning_rate=0.15663599968
+2015-11-27 20:14:40
+epoch 928, test error 145, learning_rate=0.156322732568
+2015-11-27 20:14:51
+epoch 929, test error 147, learning_rate=0.156010091305
+2015-11-27 20:15:02
+epoch 930, test error 150, learning_rate=0.155698075891
+2015-11-27 20:15:13
+epoch 931, test error 147, learning_rate=0.155386686325
+2015-11-27 20:15:24
+epoch 932, test error 146, learning_rate=0.155075922608
+2015-11-27 20:15:35
+epoch 933, test error 145, learning_rate=0.154765769839
+2015-11-27 20:15:46
+epoch 934, test error 145, learning_rate=0.154456242919
+2015-11-27 20:15:57
+epoch 935, test error 146, learning_rate=0.154147341847
+2015-11-27 20:16:08
+epoch 936, test error 140, learning_rate=0.153839051723
+2015-11-27 20:16:19
+epoch 937, test error 143, learning_rate=0.153531372547
+2015-11-27 20:16:30
+epoch 938, test error 141, learning_rate=0.15322431922
+2015-11-27 20:16:41
+epoch 939, test error 145, learning_rate=0.15291787684
+2015-11-27 20:16:52
+epoch 940, test error 146, learning_rate=0.152612045407
+2015-11-27 20:17:03
+epoch 941, test error 143, learning_rate=0.152306824923
+2015-11-27 20:17:14
+epoch 942, test error 140, learning_rate=0.152002215385
+2015-11-27 20:17:25
+epoch 943, test error 140, learning_rate=0.151698216796
+2015-11-27 20:17:36
+epoch 944, test error 144, learning_rate=0.151394829154
+2015-11-27 20:17:47
+epoch 945, test error 142, learning_rate=0.151092037559
+2015-11-27 20:17:58
+epoch 946, test error 139, learning_rate=0.150789856911
+2015-11-27 20:18:09
+epoch 947, test error 144, learning_rate=0.15048828721
+2015-11-27 20:18:20
+epoch 948, test error 141, learning_rate=0.150187313557
+2015-11-27 20:18:31
+epoch 949, test error 145, learning_rate=0.149886935949
+2015-11-27 20:18:42
+epoch 950, test error 144, learning_rate=0.14958716929
+2015-11-27 20:18:53
+epoch 951, test error 144, learning_rate=0.149287998676
+2015-11-27 20:19:04
+epoch 952, test error 141, learning_rate=0.148989424109
+2015-11-27 20:19:15
+epoch 953, test error 142, learning_rate=0.148691445589
+2015-11-27 20:19:26
+epoch 954, test error 141, learning_rate=0.148394063115
+2015-11-27 20:19:37
+epoch 955, test error 145, learning_rate=0.148097276688
+2015-11-27 20:19:48
+epoch 956, test error 147, learning_rate=0.147801086307
+2015-11-27 20:19:59
+epoch 957, test error 145, learning_rate=0.147505491972
+2015-11-27 20:20:10
+epoch 958, test error 143, learning_rate=0.147210478783
+2015-11-27 20:20:21
+epoch 959, test error 142, learning_rate=0.14691606164
+2015-11-27 20:20:32
+epoch 960, test error 146, learning_rate=0.146622240543
+2015-11-27 20:20:43
+epoch 961, test error 140, learning_rate=0.146329000592
+2015-11-27 20:20:54
+epoch 962, test error 142, learning_rate=0.146036341786
+2015-11-27 20:21:05
+epoch 963, test error 146, learning_rate=0.145744279027
+2015-11-27 20:21:16
+epoch 964, test error 141, learning_rate=0.145452797413
+2015-11-27 20:21:27
+epoch 965, test error 140, learning_rate=0.145161896944
+2015-11-27 20:21:38
+epoch 966, test error 146, learning_rate=0.144871577621
+2015-11-27 20:21:49
+epoch 967, test error 145, learning_rate=0.144581839442
+2015-11-27 20:21:59
+epoch 968, test error 142, learning_rate=0.144292682409
+2015-11-27 20:22:10
+epoch 969, test error 141, learning_rate=0.144004106522
+2015-11-27 20:22:21
+epoch 970, test error 145, learning_rate=0.143716096878
+2015-11-27 20:22:32
+epoch 971, test error 147, learning_rate=0.14342866838
+2015-11-27 20:22:43
+epoch 972, test error 148, learning_rate=0.143141821027
+2015-11-27 20:22:54
+epoch 973, test error 148, learning_rate=0.142855539918
+2015-11-27 20:23:05
+epoch 974, test error 146, learning_rate=0.142569839954
+2015-11-27 20:23:16
+epoch 975, test error 141, learning_rate=0.142284706235
+2015-11-27 20:23:27
+epoch 976, test error 141, learning_rate=0.14200013876
+2015-11-27 20:23:38
+epoch 977, test error 142, learning_rate=0.141716137528
+2015-11-27 20:23:49
+epoch 978, test error 144, learning_rate=0.141432702541
+2015-11-27 20:24:00
+epoch 979, test error 143, learning_rate=0.141149833798
+2015-11-27 20:24:11
+epoch 980, test error 145, learning_rate=0.1408675313
+2015-11-27 20:24:22
+epoch 981, test error 147, learning_rate=0.140585795045
+2015-11-27 20:24:33
+epoch 982, test error 145, learning_rate=0.140304625034
+2015-11-27 20:24:44
+epoch 983, test error 145, learning_rate=0.140024021268
+2015-11-27 20:24:55
+epoch 984, test error 147, learning_rate=0.139743983746
+2015-11-27 20:25:06
+epoch 985, test error 144, learning_rate=0.139464497566
+2015-11-27 20:25:17
+epoch 986, test error 145, learning_rate=0.139185577631
+2015-11-27 20:25:28
+epoch 987, test error 141, learning_rate=0.138907209039
+2015-11-27 20:25:39
+epoch 988, test error 139, learning_rate=0.138629391789
+2015-11-27 20:25:50
+epoch 989, test error 139, learning_rate=0.138352140784
+2015-11-27 20:26:01
+epoch 990, test error 141, learning_rate=0.138075441122
+2015-11-27 20:26:12
+epoch 991, test error 141, learning_rate=0.137799292803
+2015-11-27 20:26:23
+epoch 992, test error 147, learning_rate=0.137523695827
+2015-11-27 20:26:33
+epoch 993, test error 141, learning_rate=0.137248650193
+2015-11-27 20:26:44
+epoch 994, test error 144, learning_rate=0.136974155903
+2015-11-27 20:26:55
+epoch 995, test error 142, learning_rate=0.136700212955
+2015-11-27 20:27:06
+epoch 996, test error 143, learning_rate=0.136426821351
+2015-11-27 20:27:17
+epoch 997, test error 141, learning_rate=0.136153966188
+2015-11-27 20:27:28
+epoch 998, test error 144, learning_rate=0.135881662369
+2015-11-27 20:27:39
+epoch 999, test error 143, learning_rate=0.135609909892
+2015-11-27 20:27:50
+epoch 1000, test error 140, learning_rate=0.135338693857
+2015-11-27 20:28:01
+epoch 1001, test error 143, learning_rate=0.135068014264
+2015-11-27 20:28:12
+epoch 1002, test error 145, learning_rate=0.134797886014
+2015-11-27 20:28:23
+epoch 1003, test error 141, learning_rate=0.134528294206
+2015-11-27 20:28:34
+epoch 1004, test error 142, learning_rate=0.134259238839
+2015-11-27 20:28:45
+epoch 1005, test error 145, learning_rate=0.133990719914
+2015-11-27 20:28:56
+epoch 1006, test error 145, learning_rate=0.133722737432
+2015-11-27 20:29:07
+epoch 1007, test error 143, learning_rate=0.13345529139
+2015-11-27 20:29:18
+epoch 1008, test error 140, learning_rate=0.133188381791
+2015-11-27 20:29:29
+epoch 1009, test error 147, learning_rate=0.132922008634
+2015-11-27 20:29:40
+epoch 1010, test error 147, learning_rate=0.132656171918
+2015-11-27 20:29:51
+epoch 1011, test error 143, learning_rate=0.132390856743
+2015-11-27 20:30:02
+epoch 1012, test error 143, learning_rate=0.13212607801
+2015-11-27 20:30:13
+epoch 1013, test error 145, learning_rate=0.131861835718
+2015-11-27 20:30:24
+epoch 1014, test error 145, learning_rate=0.131598114967
+2015-11-27 20:30:35
+epoch 1015, test error 146, learning_rate=0.131334915757
+2015-11-27 20:30:46
+epoch 1016, test error 144, learning_rate=0.131072252989
+2015-11-27 20:30:57
+epoch 1017, test error 140, learning_rate=0.130810111761
+2015-11-27 20:31:08
+epoch 1018, test error 143, learning_rate=0.130548492074
+2015-11-27 20:31:19
+epoch 1019, test error 144, learning_rate=0.130287393928
+2015-11-27 20:31:30
+epoch 1020, test error 149, learning_rate=0.130026817322
+2015-11-27 20:31:41
+epoch 1021, test error 145, learning_rate=0.129766762257
+2015-11-27 20:31:52
+epoch 1022, test error 141, learning_rate=0.129507228732
+2015-11-27 20:32:02
+epoch 1023, test error 143, learning_rate=0.129248216748
+2015-11-27 20:32:13
+epoch 1024, test error 142, learning_rate=0.128989726305
+2015-11-27 20:32:24
+epoch 1025, test error 142, learning_rate=0.128731757402
+2015-11-27 20:32:35
+epoch 1026, test error 144, learning_rate=0.128474295139
+2015-11-27 20:32:46
+epoch 1027, test error 143, learning_rate=0.128217354417
+2015-11-27 20:32:57
+epoch 1028, test error 141, learning_rate=0.127960920334
+2015-11-27 20:33:08
+epoch 1029, test error 144, learning_rate=0.127705007792
+2015-11-27 20:33:19
+epoch 1030, test error 142, learning_rate=0.127449601889
+2015-11-27 20:33:30
+epoch 1031, test error 144, learning_rate=0.127194702625
+2015-11-27 20:33:41
+epoch 1032, test error 145, learning_rate=0.126940310001
+2015-11-27 20:33:52
+epoch 1033, test error 146, learning_rate=0.126686438918
+2015-11-27 20:34:03
+epoch 1034, test error 147, learning_rate=0.126433074474
+2015-11-27 20:34:14
+epoch 1035, test error 146, learning_rate=0.12618021667
+2015-11-27 20:34:25
+epoch 1036, test error 145, learning_rate=0.125927865505
+2015-11-27 20:34:36
+epoch 1037, test error 143, learning_rate=0.125676006079
+2015-11-27 20:34:47
+epoch 1038, test error 147, learning_rate=0.125424653292
+2015-11-27 20:34:58
+epoch 1039, test error 142, learning_rate=0.125173807144
+2015-11-27 20:35:09
+epoch 1040, test error 143, learning_rate=0.124923460186
+2015-11-27 20:35:20
+epoch 1041, test error 145, learning_rate=0.124673619866
+2015-11-27 20:35:31
+epoch 1042, test error 141, learning_rate=0.124424278736
+2015-11-27 20:35:42
+epoch 1043, test error 142, learning_rate=0.124175436795
+2015-11-27 20:35:53
+epoch 1044, test error 139, learning_rate=0.123927086592
+2015-11-27 20:36:04
+epoch 1045, test error 144, learning_rate=0.123679235578
+2015-11-27 20:36:15
+epoch 1046, test error 143, learning_rate=0.123431883752
+2015-11-27 20:36:25
+epoch 1047, test error 145, learning_rate=0.123185023665
+2015-11-27 20:36:36
+epoch 1048, test error 142, learning_rate=0.122938655317
+2015-11-27 20:36:47
+epoch 1049, test error 143, learning_rate=0.122692778707
+2015-11-27 20:36:58
+epoch 1050, test error 149, learning_rate=0.122447393835
+2015-11-27 20:37:09
+epoch 1051, test error 147, learning_rate=0.122202500701
+2015-11-27 20:37:20
+epoch 1052, test error 143, learning_rate=0.121958099306
+2015-11-27 20:37:31
+epoch 1053, test error 146, learning_rate=0.121714189649
+2015-11-27 20:37:42
+epoch 1054, test error 144, learning_rate=0.121470764279
+2015-11-27 20:37:53
+epoch 1055, test error 141, learning_rate=0.121227823198
+2015-11-27 20:38:04
+epoch 1056, test error 142, learning_rate=0.120985373855
+2015-11-27 20:38:15
+epoch 1057, test error 140, learning_rate=0.120743408799
+2015-11-27 20:38:26
+epoch 1058, test error 144, learning_rate=0.120501928031
+2015-11-27 20:38:37
+epoch 1059, test error 146, learning_rate=0.120260924101
+2015-11-27 20:38:48
+epoch 1060, test error 140, learning_rate=0.120020404458
+2015-11-27 20:38:59
+epoch 1061, test error 144, learning_rate=0.119780369103
+2015-11-27 20:39:10
+epoch 1062, test error 146, learning_rate=0.119540810585
+2015-11-27 20:39:21
+epoch 1063, test error 145, learning_rate=0.119301728904
+2015-11-27 20:39:32
+epoch 1064, test error 145, learning_rate=0.119063131511
+2015-11-27 20:39:43
+epoch 1065, test error 145, learning_rate=0.118825010955
+2015-11-27 20:39:54
+epoch 1066, test error 144, learning_rate=0.118587367237
+2015-11-27 20:40:05
+epoch 1067, test error 142, learning_rate=0.118350192904
+2015-11-27 20:40:16
+epoch 1068, test error 142, learning_rate=0.118113495409
+2015-11-27 20:40:27
+epoch 1069, test error 143, learning_rate=0.117877274752
+2015-11-27 20:40:38
+epoch 1070, test error 147, learning_rate=0.11764152348
+2015-11-27 20:40:49
+epoch 1071, test error 144, learning_rate=0.117406241596
+2015-11-27 20:41:00
+epoch 1072, test error 142, learning_rate=0.117171429098
+2015-11-27 20:41:11
+epoch 1073, test error 141, learning_rate=0.116937085986
+2015-11-27 20:41:22
+epoch 1074, test error 145, learning_rate=0.116703212261
+2015-11-27 20:41:33
+epoch 1075, test error 145, learning_rate=0.116469807923
+2015-11-27 20:41:43
+epoch 1076, test error 140, learning_rate=0.116236872971
+2015-11-27 20:41:54
+epoch 1077, test error 139, learning_rate=0.116004399955
+2015-11-27 20:42:05
+epoch 1078, test error 145, learning_rate=0.115772396326
+2015-11-27 20:42:16
+epoch 1079, test error 138, learning_rate=0.115540854633 **
+2015-11-27 20:42:27
+epoch 1080, test error 139, learning_rate=0.115309774876
+2015-11-27 20:42:38
+epoch 1081, test error 139, learning_rate=0.115079157054
+2015-11-27 20:42:49
+epoch 1082, test error 143, learning_rate=0.114849001169
+2015-11-27 20:43:00
+epoch 1083, test error 143, learning_rate=0.11461930722
+2015-11-27 20:43:11
+epoch 1084, test error 145, learning_rate=0.114390075207
+2015-11-27 20:43:22
+epoch 1085, test error 142, learning_rate=0.114161297679
+2015-11-27 20:43:33
+epoch 1086, test error 144, learning_rate=0.113932974637
+2015-11-27 20:43:44
+epoch 1087, test error 143, learning_rate=0.11370511353
+2015-11-27 20:43:55
+epoch 1088, test error 144, learning_rate=0.113477706909
+2015-11-27 20:44:06
+epoch 1089, test error 146, learning_rate=0.113250754774
+2015-11-27 20:44:17
+epoch 1090, test error 143, learning_rate=0.113024257123
+2015-11-27 20:44:28
+epoch 1091, test error 143, learning_rate=0.112798213959
+2015-11-27 20:44:39
+epoch 1092, test error 146, learning_rate=0.112572617829
+2015-11-27 20:44:50
+epoch 1093, test error 145, learning_rate=0.112347476184
+2015-11-27 20:45:01
+epoch 1094, test error 147, learning_rate=0.112122781575
+2015-11-27 20:45:12
+epoch 1095, test error 144, learning_rate=0.111898541451
+2015-11-27 20:45:23
+epoch 1096, test error 143, learning_rate=0.111674748361
+2015-11-27 20:45:34
+epoch 1097, test error 144, learning_rate=0.111451402307
+2015-11-27 20:45:45
+epoch 1098, test error 140, learning_rate=0.111228503287
+2015-11-27 20:45:56
+epoch 1099, test error 142, learning_rate=0.111006051302
+2015-11-27 20:46:07
+epoch 1100, test error 137, learning_rate=0.110784038901 **
+2015-11-27 20:46:17
+epoch 1101, test error 144, learning_rate=0.110562473536
+2015-11-27 20:46:28
+epoch 1102, test error 143, learning_rate=0.110341347754
+2015-11-27 20:46:39
+epoch 1103, test error 140, learning_rate=0.110120669007
+2015-11-27 20:46:50
+epoch 1104, test error 144, learning_rate=0.109900429845
+2015-11-27 20:47:01
+epoch 1105, test error 145, learning_rate=0.109680630267
+2015-11-27 20:47:12
+epoch 1106, test error 144, learning_rate=0.109461270273
+2015-11-27 20:47:23
+epoch 1107, test error 142, learning_rate=0.109242349863
+2015-11-27 20:47:34
+epoch 1108, test error 139, learning_rate=0.109023869038
+2015-11-27 20:47:45
+epoch 1109, test error 138, learning_rate=0.108805827796
+2015-11-27 20:47:56
+epoch 1110, test error 143, learning_rate=0.108588218689
+2015-11-27 20:48:07
+epoch 1111, test error 141, learning_rate=0.108371041715
+2015-11-27 20:48:18
+epoch 1112, test error 143, learning_rate=0.108154304326
+2015-11-27 20:48:29
+epoch 1113, test error 142, learning_rate=0.10793799907
+2015-11-27 20:48:40
+epoch 1114, test error 143, learning_rate=0.107722125947
+2015-11-27 20:48:51
+epoch 1115, test error 137, learning_rate=0.107506684959
+2015-11-27 20:49:02
+epoch 1116, test error 139, learning_rate=0.107291676104
+2015-11-27 20:49:13
+epoch 1117, test error 138, learning_rate=0.107077091932
+2015-11-27 20:49:24
+epoch 1118, test error 145, learning_rate=0.106862939894
+2015-11-27 20:49:35
+epoch 1119, test error 145, learning_rate=0.10664921999
+2015-11-27 20:49:46
+epoch 1120, test error 141, learning_rate=0.106435924768
+2015-11-27 20:49:57
+epoch 1121, test error 140, learning_rate=0.10622305423
+2015-11-27 20:50:08
+epoch 1122, test error 140, learning_rate=0.106010608375
+2015-11-27 20:50:19
+epoch 1123, test error 140, learning_rate=0.105798587203
+2015-11-27 20:50:30
+epoch 1124, test error 145, learning_rate=0.105586990714
+2015-11-27 20:50:41
+epoch 1125, test error 143, learning_rate=0.105375818908
+2015-11-27 20:50:52
+epoch 1126, test error 142, learning_rate=0.105165071785
+2015-11-27 20:51:03
+epoch 1127, test error 149, learning_rate=0.104954741895
+2015-11-27 20:51:13
+epoch 1128, test error 143, learning_rate=0.104744836688
+2015-11-27 20:51:24
+epoch 1129, test error 146, learning_rate=0.104535348713
+2015-11-27 20:51:35
+epoch 1130, test error 142, learning_rate=0.104326277971
+2015-11-27 20:51:46
+epoch 1131, test error 144, learning_rate=0.104117624462
+2015-11-27 20:51:57
+epoch 1132, test error 144, learning_rate=0.103909388185
+2015-11-27 20:52:08
+epoch 1133, test error 143, learning_rate=0.10370156914
+2015-11-27 20:52:19
+epoch 1134, test error 143, learning_rate=0.103494167328
+2015-11-27 20:52:30
+epoch 1135, test error 140, learning_rate=0.103287182748
+2015-11-27 20:52:41
+epoch 1136, test error 145, learning_rate=0.103080607951
+2015-11-27 20:52:52
+epoch 1137, test error 142, learning_rate=0.102874450386
+2015-11-27 20:53:03
+epoch 1138, test error 146, learning_rate=0.102668702602
+2015-11-27 20:53:14
+epoch 1139, test error 142, learning_rate=0.102463364601
+2015-11-27 20:53:25
+epoch 1140, test error 144, learning_rate=0.102258443832
+2015-11-27 20:53:36
+epoch 1141, test error 140, learning_rate=0.102053932846
+2015-11-27 20:53:47
+epoch 1142, test error 143, learning_rate=0.10184982419
+2015-11-27 20:53:58
+epoch 1143, test error 140, learning_rate=0.101646125317
+2015-11-27 20:54:09
+epoch 1144, test error 143, learning_rate=0.101442836225
+2015-11-27 20:54:20
+epoch 1145, test error 142, learning_rate=0.101239949465
+2015-11-27 20:54:31
+epoch 1146, test error 143, learning_rate=0.101037472486
+2015-11-27 20:54:42
+epoch 1147, test error 142, learning_rate=0.10083539784
+2015-11-27 20:54:53
+epoch 1148, test error 147, learning_rate=0.100633732975
+2015-11-27 20:55:04
+epoch 1149, test error 139, learning_rate=0.100432470441
+2015-11-27 20:55:15
+epoch 1150, test error 144, learning_rate=0.100231610239
+2015-11-27 20:55:25
+epoch 1151, test error 144, learning_rate=0.100031152368
+2015-11-27 20:55:36
+epoch 1152, test error 145, learning_rate=0.0998310893774
+2015-11-27 20:55:47
+epoch 1153, test error 141, learning_rate=0.0996314287186
+2015-11-27 20:55:58
+epoch 1154, test error 143, learning_rate=0.0994321703911
+2015-11-27 20:56:09
+epoch 1155, test error 145, learning_rate=0.0992333069444
+2015-11-27 20:56:20
+epoch 1156, test error 140, learning_rate=0.099034845829
+2015-11-27 20:56:31
+epoch 1157, test error 142, learning_rate=0.0988367795944
+2015-11-27 20:56:42
+epoch 1158, test error 141, learning_rate=0.0986391082406
+2015-11-27 20:56:53
+epoch 1159, test error 141, learning_rate=0.0984418317676
+2015-11-27 20:57:04
+epoch 1160, test error 140, learning_rate=0.0982449501753
+2015-11-27 20:57:15
+epoch 1161, test error 143, learning_rate=0.0980484634638
+2015-11-27 20:57:26
+epoch 1162, test error 143, learning_rate=0.0978523716331
+2015-11-27 20:57:37
+epoch 1163, test error 143, learning_rate=0.0976566672325
+2015-11-27 20:57:48
+epoch 1164, test error 140, learning_rate=0.0974613577127
+2015-11-27 20:57:59
+epoch 1165, test error 139, learning_rate=0.0972664356232
+2015-11-27 20:58:10
+epoch 1166, test error 142, learning_rate=0.0970719084144
+2015-11-27 20:58:21
+epoch 1167, test error 144, learning_rate=0.0968777686357
+2015-11-27 20:58:32
+epoch 1168, test error 140, learning_rate=0.0966840162873
+2015-11-27 20:58:43
+epoch 1169, test error 141, learning_rate=0.0964906513691
+2015-11-27 20:58:54
+epoch 1170, test error 142, learning_rate=0.0962976738811
+2015-11-27 20:59:05
+epoch 1171, test error 143, learning_rate=0.0961050838232
+2015-11-27 20:59:16
+epoch 1172, test error 139, learning_rate=0.095912873745
+2015-11-27 20:59:27
+epoch 1173, test error 143, learning_rate=0.0957210510969
+2015-11-27 20:59:38
+epoch 1174, test error 141, learning_rate=0.0955296084285
+2015-11-27 20:59:49
+epoch 1175, test error 142, learning_rate=0.0953385531902
+2015-11-27 21:00:00
+epoch 1176, test error 144, learning_rate=0.0951478779316
+2015-11-27 21:00:11
+epoch 1177, test error 142, learning_rate=0.0949575826526
+2015-11-27 21:00:22
+epoch 1178, test error 139, learning_rate=0.0947676673532
+2015-11-27 21:00:33
+epoch 1179, test error 141, learning_rate=0.0945781320333
+2015-11-27 21:00:43
+epoch 1180, test error 144, learning_rate=0.0943889766932
+2015-11-27 21:00:54
+epoch 1181, test error 143, learning_rate=0.0942002013326
+2015-11-27 21:01:05
+epoch 1182, test error 141, learning_rate=0.0940118059516
+2015-11-27 21:01:16
+epoch 1183, test error 142, learning_rate=0.0938237830997
+2015-11-27 21:01:27
+epoch 1184, test error 144, learning_rate=0.0936361402273
+2015-11-27 21:01:38
+epoch 1185, test error 144, learning_rate=0.093448869884
+2015-11-27 21:01:49
+epoch 1186, test error 144, learning_rate=0.0932619720697
+2015-11-27 21:02:00
+epoch 1187, test error 144, learning_rate=0.0930754542351
+2015-11-27 21:02:11
+epoch 1188, test error 139, learning_rate=0.0928893089294
+2015-11-27 21:02:22
+epoch 1189, test error 145, learning_rate=0.0927035361528
+2015-11-27 21:02:33
+epoch 1190, test error 143, learning_rate=0.0925181284547
+2015-11-27 21:02:44
+epoch 1191, test error 143, learning_rate=0.0923330932856
+2015-11-27 21:02:55
+epoch 1192, test error 139, learning_rate=0.0921484306455
+2015-11-27 21:03:06
+epoch 1193, test error 143, learning_rate=0.0919641330838
+2015-11-27 21:03:17
+epoch 1194, test error 142, learning_rate=0.0917802080512
+2015-11-27 21:03:28
+epoch 1195, test error 142, learning_rate=0.091596648097
+2015-11-27 21:03:39
+epoch 1196, test error 142, learning_rate=0.0914134606719
+2015-11-27 21:03:50
+epoch 1197, test error 144, learning_rate=0.0912306383252
+2015-11-27 21:04:01
+epoch 1198, test error 145, learning_rate=0.091048181057
+2015-11-27 21:04:12
+epoch 1199, test error 139, learning_rate=0.0908660888672
+2015-11-27 21:04:23
+epoch 1200, test error 142, learning_rate=0.0906843617558
+2015-11-27 21:04:34
+epoch 1201, test error 138, learning_rate=0.0905029922724
+2015-11-27 21:04:45
+epoch 1202, test error 138, learning_rate=0.0903219878674
+2015-11-27 21:04:56
+epoch 1203, test error 140, learning_rate=0.0901413485408
+2015-11-27 21:05:07
+epoch 1204, test error 139, learning_rate=0.0899610668421
+2015-11-27 21:05:18
+epoch 1205, test error 141, learning_rate=0.0897811502218
+2015-11-27 21:05:29
+epoch 1206, test error 141, learning_rate=0.0896015912294
+2015-11-27 21:05:40
+epoch 1207, test error 141, learning_rate=0.0894223898649
+2015-11-27 21:05:51
+epoch 1208, test error 146, learning_rate=0.0892435461283
+2015-11-27 21:06:02
+epoch 1209, test error 143, learning_rate=0.0890650600195
+2015-11-27 21:06:13
+epoch 1210, test error 139, learning_rate=0.0888869315386
+2015-11-27 21:06:24
+epoch 1211, test error 138, learning_rate=0.0887091606855
+2015-11-27 21:06:35
+epoch 1212, test error 141, learning_rate=0.0885317474604
+2015-11-27 21:06:46
+epoch 1213, test error 144, learning_rate=0.0883546844125
+2015-11-27 21:06:56
+epoch 1214, test error 140, learning_rate=0.0881779789925
+2015-11-27 21:07:07
+epoch 1215, test error 143, learning_rate=0.0880016237497
+2015-11-27 21:07:18
+epoch 1216, test error 138, learning_rate=0.0878256261349
+2015-11-27 21:07:29
+epoch 1217, test error 142, learning_rate=0.0876499786973
+2015-11-27 21:07:40
+epoch 1218, test error 139, learning_rate=0.087474681437
+2015-11-27 21:07:51
+epoch 1219, test error 142, learning_rate=0.087299734354
+2015-11-27 21:08:02
+epoch 1220, test error 143, learning_rate=0.0871251374483
+2015-11-27 21:08:13
+epoch 1221, test error 145, learning_rate=0.0869508907199
+2015-11-27 21:08:24
+epoch 1222, test error 146, learning_rate=0.0867769941688
+2015-11-27 21:08:35
+epoch 1223, test error 143, learning_rate=0.0866034403443
+2015-11-27 21:08:46
+epoch 1224, test error 143, learning_rate=0.0864302366972
+2015-11-27 21:08:57
+epoch 1225, test error 146, learning_rate=0.0862573757768
+2015-11-27 21:09:08
+epoch 1226, test error 143, learning_rate=0.0860848650336
+2015-11-27 21:09:19
+epoch 1227, test error 143, learning_rate=0.0859126970172
+2015-11-27 21:09:30
+epoch 1228, test error 142, learning_rate=0.0857408717275
+2015-11-27 21:09:41
+epoch 1229, test error 139, learning_rate=0.0855693891644
+2015-11-27 21:09:52
+epoch 1230, test error 142, learning_rate=0.0853982493281
+2015-11-27 21:10:03
+epoch 1231, test error 139, learning_rate=0.0852274522185
+2015-11-27 21:10:14
+epoch 1232, test error 143, learning_rate=0.0850569978356
+2015-11-27 21:10:25
+epoch 1233, test error 141, learning_rate=0.0848868861794
+2015-11-27 21:10:36
+epoch 1234, test error 141, learning_rate=0.08471711725
+2015-11-27 21:10:47
+epoch 1235, test error 144, learning_rate=0.0845476835966
+2015-11-27 21:10:58
+epoch 1236, test error 141, learning_rate=0.08437859267
+2015-11-27 21:11:09
+epoch 1237, test error 144, learning_rate=0.0842098370194
+2015-11-27 21:11:20
+epoch 1238, test error 144, learning_rate=0.0840414166451
+2015-11-27 21:11:31
+epoch 1239, test error 140, learning_rate=0.0838733389974
+2015-11-27 21:11:42
+epoch 1240, test error 142, learning_rate=0.0837055966258
+2015-11-27 21:11:53
+epoch 1241, test error 144, learning_rate=0.0835381895304
+2015-11-27 21:12:04
+epoch 1242, test error 140, learning_rate=0.0833711177111
+2015-11-27 21:12:14
+epoch 1243, test error 141, learning_rate=0.0832043811679
+2015-11-27 21:12:25
+epoch 1244, test error 141, learning_rate=0.0830379724503
+2015-11-27 21:12:36
+epoch 1245, test error 144, learning_rate=0.0828718990088
+2015-11-27 21:12:47
+epoch 1246, test error 141, learning_rate=0.0827061608434
+2015-11-27 21:12:58
+epoch 1247, test error 141, learning_rate=0.0825407505035
+2015-11-27 21:13:09
+epoch 1248, test error 142, learning_rate=0.0823756679893
+2015-11-27 21:13:20
+epoch 1249, test error 142, learning_rate=0.0822109207511
+2015-11-27 21:13:31
+epoch 1250, test error 143, learning_rate=0.0820465013385
+2015-11-27 21:13:42
+epoch 1251, test error 145, learning_rate=0.0818824097514
+2015-11-27 21:13:53
+epoch 1252, test error 141, learning_rate=0.0817186459899
+2015-11-27 21:14:04
+epoch 1253, test error 143, learning_rate=0.0815552100539
+2015-11-27 21:14:15
+epoch 1254, test error 145, learning_rate=0.0813921019435
+2015-11-27 21:14:26
+epoch 1255, test error 139, learning_rate=0.0812293216586
+2015-11-27 21:14:37
+epoch 1256, test error 140, learning_rate=0.0810668617487
+2015-11-27 21:14:48
+epoch 1257, test error 139, learning_rate=0.0809047296643
+2015-11-27 21:14:59
+epoch 1258, test error 139, learning_rate=0.0807429254055
+2015-11-27 21:15:10
+epoch 1259, test error 147, learning_rate=0.0805814415216
+2015-11-27 21:15:21
+epoch 1260, test error 144, learning_rate=0.0804202780128
+2015-11-27 21:15:32
+epoch 1261, test error 138, learning_rate=0.0802594423294
+2015-11-27 21:15:43
+epoch 1262, test error 142, learning_rate=0.080098927021
+2015-11-27 21:15:54
+epoch 1263, test error 138, learning_rate=0.0799387320876
+2015-11-27 21:16:05
+epoch 1264, test error 142, learning_rate=0.0797788575292
+2015-11-27 21:16:16
+epoch 1265, test error 140, learning_rate=0.0796193033457
+2015-11-27 21:16:27
+epoch 1266, test error 146, learning_rate=0.0794600695372
+2015-11-27 21:16:38
+epoch 1267, test error 146, learning_rate=0.079301148653
+2015-11-27 21:16:49
+epoch 1268, test error 144, learning_rate=0.0791425481439
+2015-11-27 21:17:00
+epoch 1269, test error 138, learning_rate=0.0789842680097
+2015-11-27 21:17:11
+epoch 1270, test error 140, learning_rate=0.0788263007998
+2015-11-27 21:17:22
+epoch 1271, test error 141, learning_rate=0.0786686465144
+2015-11-27 21:17:33
+epoch 1272, test error 141, learning_rate=0.078511312604
+2015-11-27 21:17:44
+epoch 1273, test error 142, learning_rate=0.0783542916179
+2015-11-27 21:17:54
+epoch 1274, test error 142, learning_rate=0.0781975835562
+2015-11-27 21:18:05
+epoch 1275, test error 142, learning_rate=0.0780411884189
+2015-11-27 21:18:16
+epoch 1276, test error 140, learning_rate=0.0778851062059
+2015-11-27 21:18:27
+epoch 1277, test error 139, learning_rate=0.0777293369174
+2015-11-27 21:18:38
+epoch 1278, test error 142, learning_rate=0.0775738805532
+2015-11-27 21:18:49
+epoch 1279, test error 141, learning_rate=0.0774187371135
+2015-11-27 21:19:00
+epoch 1280, test error 142, learning_rate=0.0772638991475
+2015-11-27 21:19:11
+epoch 1281, test error 145, learning_rate=0.0771093741059
+2015-11-27 21:19:22
+epoch 1282, test error 142, learning_rate=0.0769551545382
+2015-11-27 21:19:33
+epoch 1283, test error 142, learning_rate=0.0768012478948
+2015-11-27 21:19:44
+epoch 1284, test error 137, learning_rate=0.0766476467252
+2015-11-27 21:19:55
+epoch 1285, test error 138, learning_rate=0.0764943510294
+2015-11-27 21:20:06
+epoch 1286, test error 141, learning_rate=0.0763413608074
+2015-11-27 21:20:17
+epoch 1287, test error 143, learning_rate=0.0761886835098
+2015-11-27 21:20:28
+epoch 1288, test error 138, learning_rate=0.076036311686
+2015-11-27 21:20:39
+epoch 1289, test error 141, learning_rate=0.0758842378855
+2015-11-27 21:20:50
+epoch 1290, test error 139, learning_rate=0.0757324695587
+2015-11-27 21:21:01
+epoch 1291, test error 142, learning_rate=0.0755810067058
+2015-11-27 21:21:12
+epoch 1292, test error 142, learning_rate=0.0754298493266
+2015-11-27 21:21:23
+epoch 1293, test error 138, learning_rate=0.0752789899707
+2015-11-27 21:21:34
+epoch 1294, test error 143, learning_rate=0.0751284360886
+2015-11-27 21:21:45
+epoch 1295, test error 142, learning_rate=0.0749781802297
+2015-11-27 21:21:56
+epoch 1296, test error 143, learning_rate=0.074828222394
+2015-11-27 21:22:07
+epoch 1297, test error 139, learning_rate=0.0746785700321
+2015-11-27 21:22:18
+epoch 1298, test error 143, learning_rate=0.0745292156935
+2015-11-27 21:22:29
+epoch 1299, test error 138, learning_rate=0.0743801593781
+2015-11-27 21:22:40
+epoch 1300, test error 141, learning_rate=0.0742314010859
+2015-11-27 21:22:51
+epoch 1301, test error 140, learning_rate=0.0740829408169
+2015-11-27 21:23:02
+epoch 1302, test error 145, learning_rate=0.0739347785711
+2015-11-27 21:23:13
+epoch 1303, test error 140, learning_rate=0.0737869143486
+2015-11-27 21:23:23
+epoch 1304, test error 141, learning_rate=0.0736393406987
+2015-11-27 21:23:34
+epoch 1305, test error 144, learning_rate=0.0734920650721
+2015-11-27 21:23:45
+epoch 1306, test error 139, learning_rate=0.073345080018
+2015-11-27 21:23:56
+epoch 1307, test error 142, learning_rate=0.0731983929873
+2015-11-27 21:24:07
+epoch 1308, test error 141, learning_rate=0.0730519965291
+2015-11-27 21:24:18
+epoch 1309, test error 136, learning_rate=0.0729058980942 **
+2015-11-27 21:24:29
+epoch 1310, test error 145, learning_rate=0.0727600902319
+2015-11-27 21:24:40
+epoch 1311, test error 147, learning_rate=0.0726145729423
+2015-11-27 21:24:51
+epoch 1312, test error 140, learning_rate=0.0724693462253
+2015-11-27 21:25:02
+epoch 1313, test error 144, learning_rate=0.0723244100809
+2015-11-27 21:25:13
+epoch 1314, test error 143, learning_rate=0.0721797645092
+2015-11-27 21:25:24
+epoch 1315, test error 140, learning_rate=0.0720354095101
+2015-11-27 21:25:35
+epoch 1316, test error 147, learning_rate=0.0718913376331
+2015-11-27 21:25:46
+epoch 1317, test error 140, learning_rate=0.0717475563288
+2015-11-27 21:25:57
+epoch 1318, test error 139, learning_rate=0.0716040655971
+2015-11-27 21:26:08
+epoch 1319, test error 140, learning_rate=0.0714608579874
+2015-11-27 21:26:19
+epoch 1320, test error 144, learning_rate=0.0713179409504
+2015-11-27 21:26:30
+epoch 1321, test error 146, learning_rate=0.0711753070354
+2015-11-27 21:26:41
+epoch 1322, test error 145, learning_rate=0.0710329562426
+2015-11-27 21:26:52
+epoch 1323, test error 141, learning_rate=0.0708908885717
+2015-11-27 21:27:03
+epoch 1324, test error 142, learning_rate=0.0707491114736
+2015-11-27 21:27:14
+epoch 1325, test error 143, learning_rate=0.0706076174974
+2015-11-27 21:27:25
+epoch 1326, test error 146, learning_rate=0.0704664066434
+2015-11-27 21:27:36
+epoch 1327, test error 141, learning_rate=0.0703254789114
+2015-11-27 21:27:47
+epoch 1328, test error 139, learning_rate=0.0701848268509
+2015-11-27 21:27:57
+epoch 1329, test error 145, learning_rate=0.0700444579124
+2015-11-27 21:28:08
+epoch 1330, test error 144, learning_rate=0.0699043720961
+2015-11-27 21:28:19
+epoch 1331, test error 144, learning_rate=0.0697645619512
+2015-11-27 21:28:30
+epoch 1332, test error 141, learning_rate=0.0696250349283
+2015-11-27 21:28:41
+epoch 1333, test error 144, learning_rate=0.069485783577
+2015-11-27 21:28:52
+epoch 1334, test error 143, learning_rate=0.0693468153477
+2015-11-27 21:29:03
+epoch 1335, test error 142, learning_rate=0.0692081227899
+2015-11-27 21:29:14
+epoch 1336, test error 144, learning_rate=0.0690697059035
+2015-11-27 21:29:25
+epoch 1337, test error 143, learning_rate=0.0689315646887
+2015-11-27 21:29:36
+epoch 1338, test error 141, learning_rate=0.0687937065959
+2015-11-27 21:29:47
+epoch 1339, test error 144, learning_rate=0.0686561241746
+2015-11-27 21:29:58
+epoch 1340, test error 142, learning_rate=0.0685188099742
+2015-11-27 21:30:09
+epoch 1341, test error 145, learning_rate=0.0683817714453
+2015-11-27 21:30:20
+epoch 1342, test error 143, learning_rate=0.0682450085878
+2015-11-27 21:30:31
+epoch 1343, test error 141, learning_rate=0.0681085214019
+2015-11-27 21:30:42
+epoch 1344, test error 143, learning_rate=0.0679723024368
+2015-11-27 21:30:53
+epoch 1345, test error 146, learning_rate=0.0678363591433
+2015-11-27 21:31:04
+epoch 1346, test error 143, learning_rate=0.0677006915212
+2015-11-27 21:31:15
+epoch 1347, test error 141, learning_rate=0.06756529212
+2015-11-27 21:31:26
+epoch 1348, test error 142, learning_rate=0.0674301609397
+2015-11-27 21:31:36
+epoch 1349, test error 145, learning_rate=0.0672953054309
+2015-11-27 21:31:47
+epoch 1350, test error 140, learning_rate=0.067160718143
+2015-11-27 21:31:58
+epoch 1351, test error 141, learning_rate=0.067026399076
+2015-11-27 21:32:09
+epoch 1352, test error 145, learning_rate=0.0668923482299
+2015-11-27 21:32:20
+epoch 1353, test error 138, learning_rate=0.0667585656047
+2015-11-27 21:32:31
+epoch 1354, test error 139, learning_rate=0.0666250512004
+2015-11-27 21:32:42
+epoch 1355, test error 143, learning_rate=0.066491805017
+2015-11-27 21:32:53
+epoch 1356, test error 140, learning_rate=0.0663588196039
+2015-11-27 21:33:04
+epoch 1357, test error 140, learning_rate=0.0662261024117
+2015-11-27 21:33:15
+epoch 1358, test error 139, learning_rate=0.0660936534405
+2015-11-27 21:33:26
+epoch 1359, test error 143, learning_rate=0.0659614652395
+2015-11-27 21:33:37
+epoch 1360, test error 145, learning_rate=0.0658295452595
+2015-11-27 21:33:48
+epoch 1361, test error 139, learning_rate=0.0656978860497
+2015-11-27 21:33:59
+epoch 1362, test error 141, learning_rate=0.0655664950609
+2015-11-27 21:34:10
+epoch 1363, test error 144, learning_rate=0.0654353648424
+2015-11-27 21:34:21
+epoch 1364, test error 141, learning_rate=0.0653044953942
+2015-11-27 21:34:32
+epoch 1365, test error 143, learning_rate=0.0651738867164
+2015-11-27 21:34:43
+epoch 1366, test error 141, learning_rate=0.0650435388088
+2015-11-27 21:34:54
+epoch 1367, test error 142, learning_rate=0.0649134516716
+2015-11-27 21:35:05
+epoch 1368, test error 138, learning_rate=0.0647836253047
+2015-11-27 21:35:16
+epoch 1369, test error 141, learning_rate=0.0646540597081
+2015-11-27 21:35:27
+epoch 1370, test error 140, learning_rate=0.0645247548819
+2015-11-27 21:35:38
+epoch 1371, test error 140, learning_rate=0.0643957033753
+2015-11-27 21:35:49
+epoch 1372, test error 140, learning_rate=0.0642669126391
+2015-11-27 21:36:00
+epoch 1373, test error 140, learning_rate=0.0641383826733
+2015-11-27 21:36:11
+epoch 1374, test error 138, learning_rate=0.0640101060271
+2015-11-27 21:36:22
+epoch 1375, test error 142, learning_rate=0.0638820901513
+2015-11-27 21:36:33
+epoch 1376, test error 140, learning_rate=0.0637543275952
+2015-11-27 21:36:44
+epoch 1377, test error 141, learning_rate=0.0636268183589
+2015-11-27 21:36:55
+epoch 1378, test error 139, learning_rate=0.0634995698929
+2015-11-27 21:37:06
+epoch 1379, test error 143, learning_rate=0.0633725747466
+2015-11-27 21:37:17
+epoch 1380, test error 141, learning_rate=0.0632458329201
+2015-11-27 21:37:28
+epoch 1381, test error 138, learning_rate=0.0631193444133
+2015-11-27 21:37:39
+epoch 1382, test error 146, learning_rate=0.0629931092262
+2015-11-27 21:37:49
+epoch 1383, test error 143, learning_rate=0.0628671273589
+2015-11-27 21:38:00
+epoch 1384, test error 140, learning_rate=0.0627413913608
+2015-11-27 21:38:11
+epoch 1385, test error 142, learning_rate=0.0626159086823
+2015-11-27 21:38:22
+epoch 1386, test error 144, learning_rate=0.0624906793237
+2015-11-27 21:38:33
+epoch 1387, test error 141, learning_rate=0.0623656995595
+2015-11-27 21:38:44
+epoch 1388, test error 145, learning_rate=0.0622409693897
+2015-11-27 21:38:55
+epoch 1389, test error 143, learning_rate=0.0621164888144
+2015-11-27 21:39:06
+epoch 1390, test error 141, learning_rate=0.0619922578335
+2015-11-27 21:39:17
+epoch 1391, test error 146, learning_rate=0.0618682764471
+2015-11-27 21:39:28
+epoch 1392, test error 143, learning_rate=0.0617445409298
+2015-11-27 21:39:39
+epoch 1393, test error 144, learning_rate=0.061621055007
+2015-11-27 21:39:50
+epoch 1394, test error 146, learning_rate=0.0614978149533
+2015-11-27 21:40:01
+epoch 1395, test error 140, learning_rate=0.0613748207688
+2015-11-27 21:40:12
+epoch 1396, test error 144, learning_rate=0.0612520724535
+2015-11-27 21:40:23
+epoch 1397, test error 142, learning_rate=0.0611295700073
+2015-11-27 21:40:34
+epoch 1398, test error 140, learning_rate=0.0610073134303
+2015-11-27 21:40:45
+epoch 1399, test error 139, learning_rate=0.0608852989972
+2015-11-27 21:40:56
+epoch 1400, test error 141, learning_rate=0.0607635304332
+2015-11-27 21:41:07
+epoch 1401, test error 138, learning_rate=0.0606420040131
+2015-11-27 21:41:18
+epoch 1402, test error 143, learning_rate=0.0605207197368
+2015-11-27 21:41:29
+epoch 1403, test error 142, learning_rate=0.0603996813297
+2015-11-27 21:41:40
+epoch 1404, test error 143, learning_rate=0.0602788850665
+2015-11-27 21:41:51
+epoch 1405, test error 139, learning_rate=0.0601583272219
+2015-11-27 21:42:02
+epoch 1406, test error 139, learning_rate=0.0600380115211
+2015-11-27 21:42:13
+epoch 1407, test error 136, learning_rate=0.0599179379642
+2015-11-27 21:42:24
+epoch 1408, test error 140, learning_rate=0.0597981028259
+2015-11-27 21:42:35
+epoch 1409, test error 138, learning_rate=0.0596785098314
+2015-11-27 21:42:46
+epoch 1410, test error 142, learning_rate=0.0595591552556
+2015-11-27 21:42:57
+epoch 1411, test error 141, learning_rate=0.0594400390983
+2015-11-27 21:43:08
+epoch 1412, test error 137, learning_rate=0.0593211613595
+2015-11-27 21:43:19
+epoch 1413, test error 141, learning_rate=0.0592025220394
+2015-11-27 21:43:30
+epoch 1414, test error 145, learning_rate=0.0590841174126
+2015-11-27 21:43:41
+epoch 1415, test error 140, learning_rate=0.0589659512043
+2015-11-27 21:43:51
+epoch 1416, test error 144, learning_rate=0.0588480196893
+2015-11-27 21:44:02
+epoch 1417, test error 141, learning_rate=0.0587303265929
+2015-11-27 21:44:13
+epoch 1418, test error 142, learning_rate=0.0586128681898
+2015-11-27 21:44:24
+epoch 1419, test error 144, learning_rate=0.05849564448
+2015-11-27 21:44:35
+epoch 1420, test error 145, learning_rate=0.0583786554635
+2015-11-27 21:44:46
+epoch 1421, test error 140, learning_rate=0.0582619011402
+2015-11-27 21:44:57
+epoch 1422, test error 137, learning_rate=0.058145377785
+2015-11-27 21:45:08
+epoch 1423, test error 144, learning_rate=0.058029089123
+2015-11-27 21:45:19
+epoch 1424, test error 140, learning_rate=0.0579130314291
+2015-11-27 21:45:30
+epoch 1425, test error 144, learning_rate=0.0577972084284
+2015-11-27 21:45:41
+epoch 1426, test error 141, learning_rate=0.0576816163957
+2015-11-27 21:45:52
+epoch 1427, test error 142, learning_rate=0.057566255331
+2015-11-27 21:46:03
+epoch 1428, test error 141, learning_rate=0.0574511252344
+2015-11-27 21:46:14
+epoch 1429, test error 140, learning_rate=0.0573362261057
+2015-11-27 21:46:25
+epoch 1430, test error 144, learning_rate=0.0572215542197
+2015-11-27 21:46:36
+epoch 1431, test error 137, learning_rate=0.0571071133018
+2015-11-27 21:46:47
+epoch 1432, test error 138, learning_rate=0.0569928996265
+2015-11-27 21:46:58
+epoch 1433, test error 141, learning_rate=0.0568789169192
+2015-11-27 21:47:09
+epoch 1434, test error 144, learning_rate=0.0567651614547
+2015-11-27 21:47:20
+epoch 1435, test error 142, learning_rate=0.0566516332328
+2015-11-27 21:47:31
+epoch 1436, test error 143, learning_rate=0.0565383322537
+2015-11-27 21:47:42
+epoch 1437, test error 141, learning_rate=0.0564252585173
+2015-11-27 21:47:53
+epoch 1438, test error 141, learning_rate=0.0563124082983
+2015-11-27 21:48:04
+epoch 1439, test error 138, learning_rate=0.056199785322
+2015-11-27 21:48:15
+epoch 1440, test error 137, learning_rate=0.0560873858631
+2015-11-27 21:48:26
+epoch 1441, test error 142, learning_rate=0.0559752136469
+2015-11-27 21:48:37
+epoch 1442, test error 140, learning_rate=0.0558632649481
+2015-11-27 21:48:48
+epoch 1443, test error 136, learning_rate=0.0557515397668
+2015-11-27 21:48:59
+epoch 1444, test error 142, learning_rate=0.0556400381029
+2015-11-27 21:49:10
+epoch 1445, test error 137, learning_rate=0.0555287599564
+2015-11-27 21:49:21
+epoch 1446, test error 143, learning_rate=0.0554177053273
+2015-11-27 21:49:32
+epoch 1447, test error 140, learning_rate=0.0553068704903
+2015-11-27 21:49:43
+epoch 1448, test error 139, learning_rate=0.0551962591708
+2015-11-27 21:49:54
+epoch 1449, test error 139, learning_rate=0.0550858676434
+2015-11-27 21:50:05
+epoch 1450, test error 138, learning_rate=0.0549756959081
+2015-11-27 21:50:16
+epoch 1451, test error 142, learning_rate=0.0548657476902
+2015-11-27 21:50:27
+epoch 1452, test error 139, learning_rate=0.0547560192645
+2015-11-27 21:50:38
+epoch 1453, test error 138, learning_rate=0.0546465069056
+2015-11-27 21:50:49
+epoch 1454, test error 139, learning_rate=0.0545372143388
+2015-11-27 21:51:00
+epoch 1455, test error 139, learning_rate=0.0544281415641
+2015-11-27 21:51:11
+epoch 1456, test error 137, learning_rate=0.0543192848563
+2015-11-27 21:51:22
+epoch 1457, test error 138, learning_rate=0.0542106479406
+2015-11-27 21:51:33
+epoch 1458, test error 140, learning_rate=0.0541022270918
+2015-11-27 21:51:44
+epoch 1459, test error 143, learning_rate=0.0539940223098
+2015-11-27 21:51:55
+epoch 1460, test error 141, learning_rate=0.0538860373199
+2015-11-27 21:52:05
+epoch 1461, test error 138, learning_rate=0.0537782683969
+2015-11-27 21:52:16
+epoch 1462, test error 140, learning_rate=0.0536707118154
+2015-11-27 21:52:27
+epoch 1463, test error 140, learning_rate=0.0535633713007
+2015-11-27 21:52:38
+epoch 1464, test error 140, learning_rate=0.0534562468529
+2015-11-27 21:52:49
+epoch 1465, test error 142, learning_rate=0.0533493347466
+2015-11-27 21:53:00
+epoch 1466, test error 137, learning_rate=0.0532426387072
+2015-11-27 21:53:11
+epoch 1467, test error 138, learning_rate=0.0531361550093
+2015-11-27 21:53:22
+epoch 1468, test error 138, learning_rate=0.0530298836529
+2015-11-27 21:53:33
+epoch 1469, test error 140, learning_rate=0.0529238246381
+2015-11-27 21:53:44
+epoch 1470, test error 139, learning_rate=0.0528179779649
+2015-11-27 21:53:55
+epoch 1471, test error 142, learning_rate=0.0527123436332
+2015-11-27 21:54:06
+epoch 1472, test error 139, learning_rate=0.052606921643
+2015-11-27 21:54:17
+epoch 1473, test error 137, learning_rate=0.0525017082691
+2015-11-27 21:54:28
+epoch 1474, test error 139, learning_rate=0.0523967072368
+2015-11-27 21:54:39
+epoch 1475, test error 142, learning_rate=0.0522919148207
+2015-11-27 21:54:50
+epoch 1476, test error 137, learning_rate=0.0521873310208
+2015-11-27 21:55:01
+epoch 1477, test error 139, learning_rate=0.0520829595625
+2015-11-27 21:55:12
+epoch 1478, test error 141, learning_rate=0.0519787967205
+2015-11-27 21:55:23
+epoch 1479, test error 139, learning_rate=0.0518748387694
+2015-11-27 21:55:34
+epoch 1480, test error 140, learning_rate=0.0517710894346
+2015-11-27 21:55:45
+epoch 1481, test error 140, learning_rate=0.0516675487161
+2015-11-27 21:55:56
+epoch 1482, test error 141, learning_rate=0.0515642166138
+2015-11-27 21:56:07
+epoch 1483, test error 140, learning_rate=0.0514610894024
+2015-11-27 21:56:18
+epoch 1484, test error 138, learning_rate=0.0513581670821
+2015-11-27 21:56:29
+epoch 1485, test error 139, learning_rate=0.051255453378
+2015-11-27 21:56:40
+epoch 1486, test error 138, learning_rate=0.0511529445648
+2015-11-27 21:56:51
+epoch 1487, test error 142, learning_rate=0.0510506406426
+2015-11-27 21:57:02
+epoch 1488, test error 136, learning_rate=0.0509485416114
+2015-11-27 21:57:13
+epoch 1489, test error 140, learning_rate=0.0508466474712
+2015-11-27 21:57:24
+epoch 1490, test error 141, learning_rate=0.0507449544966
+2015-11-27 21:57:35
+epoch 1491, test error 142, learning_rate=0.050643466413
+2015-11-27 21:57:46
+epoch 1492, test error 142, learning_rate=0.0505421794951
+2015-11-27 21:57:57
+epoch 1493, test error 140, learning_rate=0.0504410974681
+2015-11-27 21:58:08
+epoch 1494, test error 143, learning_rate=0.0503402166069
+2015-11-27 21:58:19
+epoch 1495, test error 143, learning_rate=0.0502395369112
+2015-11-27 21:58:30
+epoch 1496, test error 139, learning_rate=0.0501390583813
+2015-11-27 21:58:41
+epoch 1497, test error 141, learning_rate=0.0500387810171
+2015-11-27 21:58:52
+epoch 1498, test error 140, learning_rate=0.0499387048185
+2015-11-27 21:59:03
+epoch 1499, test error 142, learning_rate=0.0498388297856
+2015-11-27 21:59:14
+epoch 1500, test error 139, learning_rate=0.0497391521931
+2015-11-27 21:59:25
+epoch 1501, test error 145, learning_rate=0.0496396757662
+2015-11-27 21:59:36
+epoch 1502, test error 143, learning_rate=0.0495403967798
+2015-11-27 21:59:47
+epoch 1503, test error 141, learning_rate=0.049441318959
+2015-11-27 21:59:58
+epoch 1504, test error 141, learning_rate=0.0493424385786
+2015-11-27 22:00:09
+epoch 1505, test error 145, learning_rate=0.0492437556386
+2015-11-27 22:00:20
+epoch 1506, test error 139, learning_rate=0.049145270139
+2015-11-27 22:00:31
+epoch 1507, test error 141, learning_rate=0.0490469820797
+2015-11-27 22:00:42
+epoch 1508, test error 142, learning_rate=0.0489488877356
+2015-11-27 22:00:53
+epoch 1509, test error 139, learning_rate=0.0488509908319
+2015-11-27 22:01:04
+epoch 1510, test error 143, learning_rate=0.0487532913685
+2015-11-27 22:01:15
+epoch 1511, test error 142, learning_rate=0.0486557856202
+2015-11-27 22:01:26
+epoch 1512, test error 138, learning_rate=0.048558473587
+2015-11-27 22:01:37
+epoch 1513, test error 141, learning_rate=0.0484613589942
+2015-11-27 22:01:48
+epoch 1514, test error 141, learning_rate=0.0483644381166
+2015-11-27 22:01:59
+epoch 1515, test error 139, learning_rate=0.048267710954
+2015-11-27 22:02:10
+epoch 1516, test error 144, learning_rate=0.0481711775064
+2015-11-27 22:02:21
+epoch 1517, test error 138, learning_rate=0.048074837774
+2015-11-27 22:02:32
+epoch 1518, test error 139, learning_rate=0.0479786880314
+2015-11-27 22:02:43
+epoch 1519, test error 140, learning_rate=0.0478827320039
+2015-11-27 22:02:54
+epoch 1520, test error 141, learning_rate=0.0477869659662
+2015-11-27 22:03:05
+epoch 1521, test error 142, learning_rate=0.0476913936436
+2015-11-27 22:03:16
+epoch 1522, test error 140, learning_rate=0.0475960113108
+2015-11-27 22:03:27
+epoch 1523, test error 140, learning_rate=0.0475008189678
+2015-11-27 22:03:38
+epoch 1524, test error 139, learning_rate=0.0474058203399
+2015-11-27 22:03:49
+epoch 1525, test error 145, learning_rate=0.0473110117018
+2015-11-27 22:04:00
+epoch 1526, test error 140, learning_rate=0.0472163893282
+2015-11-27 22:04:11
+epoch 1527, test error 141, learning_rate=0.0471219569445
+2015-11-27 22:04:22
+epoch 1528, test error 141, learning_rate=0.0470277145505
+2015-11-27 22:04:33
+epoch 1529, test error 144, learning_rate=0.0469336621463
+2015-11-27 22:04:44
+epoch 1530, test error 140, learning_rate=0.0468397960067
+2015-11-27 22:04:55
+epoch 1531, test error 141, learning_rate=0.0467461161315
+2015-11-27 22:05:06
+epoch 1532, test error 144, learning_rate=0.0466526262462
+2015-11-27 22:05:17
+epoch 1533, test error 141, learning_rate=0.0465593226254
+2015-11-27 22:05:28
+epoch 1534, test error 142, learning_rate=0.0464662052691
+2015-11-27 22:05:39
+epoch 1535, test error 139, learning_rate=0.0463732741773
+2015-11-27 22:05:50
+epoch 1536, test error 139, learning_rate=0.04628052935
+2015-11-27 22:06:01
+epoch 1537, test error 143, learning_rate=0.0461879707873
+2015-11-27 22:06:12
+epoch 1538, test error 143, learning_rate=0.0460955947638
+2015-11-27 22:06:23
+epoch 1539, test error 140, learning_rate=0.0460034050047
+2015-11-27 22:06:34
+epoch 1540, test error 141, learning_rate=0.0459113977849
+2015-11-27 22:06:45
+epoch 1541, test error 142, learning_rate=0.0458195768297
+2015-11-27 22:06:56
+epoch 1542, test error 136, learning_rate=0.0457279384136
+2015-11-27 22:07:07
+epoch 1543, test error 138, learning_rate=0.0456364825368
+2015-11-27 22:07:18
+epoch 1544, test error 138, learning_rate=0.0455452091992
+2015-11-27 22:07:28
+epoch 1545, test error 141, learning_rate=0.0454541184008
+2015-11-27 22:07:39
+epoch 1546, test error 144, learning_rate=0.0453632101417
+2015-11-27 22:07:50
+epoch 1547, test error 140, learning_rate=0.0452724844217
+2015-11-27 22:08:01
+epoch 1548, test error 144, learning_rate=0.045181941241
+2015-11-27 22:08:12
+epoch 1549, test error 144, learning_rate=0.0450915768743
+2015-11-27 22:08:23
+epoch 1550, test error 140, learning_rate=0.0450013950467
+2015-11-27 22:08:34
+epoch 1551, test error 140, learning_rate=0.0449113920331
+2015-11-27 22:08:45
+epoch 1552, test error 141, learning_rate=0.0448215715587
+2015-11-27 22:08:56
+epoch 1553, test error 144, learning_rate=0.0447319298983
+2015-11-27 22:09:07
+epoch 1554, test error 138, learning_rate=0.0446424670517
+2015-11-27 22:09:18
+epoch 1555, test error 139, learning_rate=0.0445531830192
+2015-11-27 22:09:29
+epoch 1556, test error 140, learning_rate=0.0444640778005
+2015-11-27 22:09:40
+epoch 1557, test error 142, learning_rate=0.0443751513958
+2015-11-27 22:09:51
+epoch 1558, test error 144, learning_rate=0.044286403805
+2015-11-27 22:10:02
+epoch 1559, test error 137, learning_rate=0.0441978313029
+2015-11-27 22:10:13
+epoch 1560, test error 142, learning_rate=0.0441094376147
+2015-11-27 22:10:24
+epoch 1561, test error 140, learning_rate=0.0440212190151
+2015-11-27 22:10:35
+epoch 1562, test error 138, learning_rate=0.0439331792295
+2015-11-27 22:10:46
+epoch 1563, test error 138, learning_rate=0.0438453145325
+2015-11-27 22:10:57
+epoch 1564, test error 143, learning_rate=0.0437576249242
+2015-11-27 22:11:08
+epoch 1565, test error 140, learning_rate=0.0436701104045
+2015-11-27 22:11:19
+epoch 1566, test error 138, learning_rate=0.0435827709734
+2015-11-27 22:11:30
+epoch 1567, test error 141, learning_rate=0.043495606631
+2015-11-27 22:11:41
+epoch 1568, test error 142, learning_rate=0.0434086173773
+2015-11-27 22:11:52
+epoch 1569, test error 141, learning_rate=0.0433217994869
+2015-11-27 22:12:03
+epoch 1570, test error 143, learning_rate=0.0432351566851
+2015-11-27 22:12:14
+epoch 1571, test error 139, learning_rate=0.043148688972
+2015-11-27 22:12:25
+epoch 1572, test error 138, learning_rate=0.0430623926222
+2015-11-27 22:12:36
+epoch 1573, test error 140, learning_rate=0.0429762676358
+2015-11-27 22:12:47
+epoch 1574, test error 139, learning_rate=0.0428903177381
+2015-11-27 22:12:58
+epoch 1575, test error 141, learning_rate=0.0428045392036
+2015-11-27 22:13:09
+epoch 1576, test error 140, learning_rate=0.0427189320326
+2015-11-27 22:13:20
+epoch 1577, test error 140, learning_rate=0.0426334962249
+2015-11-27 22:13:31
+epoch 1578, test error 140, learning_rate=0.0425482317805
+2015-11-27 22:13:42
+epoch 1579, test error 141, learning_rate=0.0424631349742
+2015-11-27 22:13:53
+epoch 1580, test error 138, learning_rate=0.0423782095313
+2015-11-27 22:14:03
+epoch 1581, test error 139, learning_rate=0.0422934554517
+2015-11-27 22:14:14
+epoch 1582, test error 141, learning_rate=0.0422088690102
+2015-11-27 22:14:25
+epoch 1583, test error 139, learning_rate=0.042124453932
+2015-11-27 22:14:36
+epoch 1584, test error 139, learning_rate=0.0420402064919
+2015-11-27 22:14:47
+epoch 1585, test error 138, learning_rate=0.0419561266899
+2015-11-27 22:14:58
+epoch 1586, test error 141, learning_rate=0.0418722145259
+2015-11-27 22:15:09
+epoch 1587, test error 139, learning_rate=0.04178847
+2015-11-27 22:15:20
+epoch 1588, test error 138, learning_rate=0.0417048931122
+2015-11-27 22:15:31
+epoch 1589, test error 139, learning_rate=0.0416214838624
+2015-11-27 22:15:42
+epoch 1590, test error 142, learning_rate=0.0415382422507
+2015-11-27 22:15:53
+epoch 1591, test error 139, learning_rate=0.041455168277
+2015-11-27 22:16:04
+epoch 1592, test error 141, learning_rate=0.0413722582161
+2015-11-27 22:16:15
+epoch 1593, test error 138, learning_rate=0.0412895157933
+2015-11-27 22:16:26
+epoch 1594, test error 140, learning_rate=0.0412069372833
+2015-11-27 22:16:37
+epoch 1595, test error 137, learning_rate=0.041124522686
+2015-11-27 22:16:48
+epoch 1596, test error 140, learning_rate=0.0410422757268
+2015-11-27 22:16:59
+epoch 1597, test error 140, learning_rate=0.0409601926804
+2015-11-27 22:17:10
+epoch 1598, test error 140, learning_rate=0.0408782735467
+2015-11-27 22:17:21
+epoch 1599, test error 137, learning_rate=0.0407965183258
+2015-11-27 22:17:32
+epoch 1600, test error 138, learning_rate=0.0407149270177
+2015-11-27 22:17:43
+epoch 1601, test error 138, learning_rate=0.0406334996223
+2015-11-27 22:17:54
+epoch 1602, test error 142, learning_rate=0.0405522324145
+2015-11-27 22:18:05
+epoch 1603, test error 136, learning_rate=0.0404711291194
+2015-11-27 22:18:16
+epoch 1604, test error 140, learning_rate=0.0403901897371
+2015-11-27 22:18:27
+epoch 1605, test error 140, learning_rate=0.0403094105422
+2015-11-27 22:18:38
+epoch 1606, test error 138, learning_rate=0.0402287915349
+2015-11-27 22:18:49
+epoch 1607, test error 138, learning_rate=0.0401483364403
+2015-11-27 22:19:00
+epoch 1608, test error 142, learning_rate=0.0400680415332
+2015-11-27 22:19:11
+epoch 1609, test error 144, learning_rate=0.0399879068136
+2015-11-27 22:19:22
+epoch 1610, test error 139, learning_rate=0.0399079322815
+2015-11-27 22:19:33
+epoch 1611, test error 142, learning_rate=0.0398281179368
+2015-11-27 22:19:44
+epoch 1612, test error 140, learning_rate=0.0397484637797
+2015-11-27 22:19:55
+epoch 1613, test error 140, learning_rate=0.0396689660847
+2015-11-27 22:20:06
+epoch 1614, test error 138, learning_rate=0.0395896285772
+2015-11-27 22:20:17
+epoch 1615, test error 141, learning_rate=0.0395104512572
+2015-11-27 22:20:28
+epoch 1616, test error 140, learning_rate=0.0394314303994
+2015-11-27 22:20:38
+epoch 1617, test error 143, learning_rate=0.0393525697291
+2015-11-27 22:20:50
+epoch 1618, test error 142, learning_rate=0.039273865521
+2015-11-27 22:21:00
+epoch 1619, test error 138, learning_rate=0.039195317775
+2015-11-27 22:21:11
+epoch 1620, test error 142, learning_rate=0.0391169264913
+2015-11-27 22:21:22
+epoch 1621, test error 142, learning_rate=0.039038695395
+2015-11-27 22:21:33
+epoch 1622, test error 141, learning_rate=0.0389606207609
+2015-11-27 22:21:44
+epoch 1623, test error 140, learning_rate=0.0388826988637
+2015-11-27 22:21:55
+epoch 1624, test error 141, learning_rate=0.0388049334288
+2015-11-27 22:22:06
+epoch 1625, test error 140, learning_rate=0.038727324456
+2015-11-27 22:22:17
+epoch 1626, test error 140, learning_rate=0.0386498719454
+2015-11-27 22:22:28
+epoch 1627, test error 140, learning_rate=0.0385725721717
+2015-11-27 22:22:39
+epoch 1628, test error 138, learning_rate=0.0384954288602
+2015-11-27 22:22:50
+epoch 1629, test error 139, learning_rate=0.0384184382856
+2015-11-27 22:23:01
+epoch 1630, test error 138, learning_rate=0.0383416041732
+2015-11-27 22:23:12
+epoch 1631, test error 139, learning_rate=0.0382649227977
+2015-11-27 22:23:23
+epoch 1632, test error 137, learning_rate=0.0381883941591
+2015-11-27 22:23:34
+epoch 1633, test error 137, learning_rate=0.0381120182574
+2015-11-27 22:23:45
+epoch 1634, test error 139, learning_rate=0.0380357950926
+2015-11-27 22:23:56
+epoch 1635, test error 139, learning_rate=0.0379597246647
+2015-11-27 22:24:07
+epoch 1636, test error 139, learning_rate=0.0378838069737
+2015-11-27 22:24:18
+epoch 1637, test error 139, learning_rate=0.0378080420196
+2015-11-27 22:24:29
+epoch 1638, test error 140, learning_rate=0.0377324260771
+2015-11-27 22:24:40
+epoch 1639, test error 139, learning_rate=0.0376569628716
+2015-11-27 22:24:51
+epoch 1640, test error 139, learning_rate=0.0375816486776
+2015-11-27 22:25:02
+epoch 1641, test error 139, learning_rate=0.0375064872205
+2015-11-27 22:25:13
+epoch 1642, test error 137, learning_rate=0.0374314747751
+2015-11-27 22:25:24
+epoch 1643, test error 141, learning_rate=0.0373566113412
+2015-11-27 22:25:35
+epoch 1644, test error 137, learning_rate=0.0372819006443
+2015-11-27 22:25:46
+epoch 1645, test error 138, learning_rate=0.037207338959
+2015-11-27 22:25:57
+epoch 1646, test error 140, learning_rate=0.0371329262853
+2015-11-27 22:26:08
+epoch 1647, test error 138, learning_rate=0.0370586626232
+2015-11-27 22:26:19
+epoch 1648, test error 139, learning_rate=0.0369845479727
+2015-11-27 22:26:30
+epoch 1649, test error 137, learning_rate=0.0369105786085
+2015-11-27 22:26:41
+epoch 1650, test error 139, learning_rate=0.036836758256
+2015-11-27 22:26:52
+epoch 1651, test error 136, learning_rate=0.036763086915
+2015-11-27 22:27:03
+epoch 1652, test error 135, learning_rate=0.0366895608604 **
+2015-11-27 22:27:14
+epoch 1653, test error 138, learning_rate=0.0366161838174
+2015-11-27 22:27:25
+epoch 1654, test error 139, learning_rate=0.0365429520607
+2015-11-27 22:27:36
+epoch 1655, test error 138, learning_rate=0.0364698655903
+2015-11-27 22:27:47
+epoch 1656, test error 139, learning_rate=0.0363969281316
+2015-11-27 22:27:58
+epoch 1657, test error 139, learning_rate=0.0363241359591
+2015-11-27 22:28:09
+epoch 1658, test error 141, learning_rate=0.036251489073
+2015-11-27 22:28:20
+epoch 1659, test error 140, learning_rate=0.0361789874732
+2015-11-27 22:28:31
+epoch 1660, test error 137, learning_rate=0.0361066311598
+2015-11-27 22:28:42
+epoch 1661, test error 139, learning_rate=0.0360344201326
+2015-11-27 22:28:53
+epoch 1662, test error 142, learning_rate=0.0359623506665
+2015-11-27 22:29:04
+epoch 1663, test error 140, learning_rate=0.0358904264867
+2015-11-27 22:29:15
+epoch 1664, test error 137, learning_rate=0.0358186475933
+2015-11-27 22:29:26
+epoch 1665, test error 141, learning_rate=0.0357470102608
+2015-11-27 22:29:37
+epoch 1666, test error 142, learning_rate=0.0356755182147
+2015-11-27 22:29:47
+epoch 1667, test error 138, learning_rate=0.0356041677296
+2015-11-27 22:29:59
+epoch 1668, test error 137, learning_rate=0.0355329588056
+2015-11-27 22:30:09
+epoch 1669, test error 142, learning_rate=0.0354618951678
+2015-11-27 22:30:20
+epoch 1670, test error 139, learning_rate=0.0353909730911
+2015-11-27 22:30:31
+epoch 1671, test error 140, learning_rate=0.0353201925755
+2015-11-27 22:30:42
+epoch 1672, test error 141, learning_rate=0.0352495536208
+2015-11-27 22:30:53
+epoch 1673, test error 142, learning_rate=0.0351790562272
+2015-11-27 22:31:04
+epoch 1674, test error 138, learning_rate=0.0351087003946
+2015-11-27 22:31:15
+epoch 1675, test error 142, learning_rate=0.0350384823978
+2015-11-27 22:31:26
+epoch 1676, test error 139, learning_rate=0.034968405962
+2015-11-27 22:31:37
+epoch 1677, test error 137, learning_rate=0.0348984710872
+2015-11-27 22:31:48
+epoch 1678, test error 140, learning_rate=0.0348286740482
+2015-11-27 22:31:59
+epoch 1679, test error 139, learning_rate=0.0347590185702
+2015-11-27 22:32:10
+epoch 1680, test error 140, learning_rate=0.0346895009279
+2015-11-27 22:32:21
+epoch 1681, test error 139, learning_rate=0.0346201211214
+2015-11-27 22:32:32
+epoch 1682, test error 139, learning_rate=0.0345508828759
+2015-11-27 22:32:43
+epoch 1683, test error 138, learning_rate=0.0344817824662
+2015-11-27 22:32:54
+epoch 1684, test error 141, learning_rate=0.0344128198922
+2015-11-27 22:33:05
+epoch 1685, test error 145, learning_rate=0.0343439951539
+2015-11-27 22:33:16
+epoch 1686, test error 138, learning_rate=0.0342753082514
+2015-11-27 22:33:27
+epoch 1687, test error 141, learning_rate=0.0342067591846
+2015-11-27 22:33:38
+epoch 1688, test error 141, learning_rate=0.0341383479536
+2015-11-27 22:33:49
+epoch 1689, test error 142, learning_rate=0.034070070833
+2015-11-27 22:34:00
+epoch 1690, test error 142, learning_rate=0.0340019315481
+2015-11-27 22:34:11
+epoch 1691, test error 143, learning_rate=0.033933930099
+2015-11-27 22:34:22
+epoch 1692, test error 142, learning_rate=0.0338660627604
+2015-11-27 22:34:33
+epoch 1693, test error 142, learning_rate=0.0337983332574
+2015-11-27 22:34:44
+epoch 1694, test error 140, learning_rate=0.033730737865
+2015-11-27 22:34:55
+epoch 1695, test error 141, learning_rate=0.033663276583
+2015-11-27 22:35:06
+epoch 1696, test error 140, learning_rate=0.0335959494114
+2015-11-27 22:35:17
+epoch 1697, test error 141, learning_rate=0.0335287600756
+2015-11-27 22:35:28
+epoch 1698, test error 140, learning_rate=0.0334617048502
+2015-11-27 22:35:39
+epoch 1699, test error 141, learning_rate=0.0333947837353
+2015-11-27 22:35:50
+epoch 1700, test error 138, learning_rate=0.0333279967308
+2015-11-27 22:36:01
+epoch 1701, test error 139, learning_rate=0.0332613401115
+2015-11-27 22:36:12
+epoch 1702, test error 140, learning_rate=0.0331948176026
+2015-11-27 22:36:23
+epoch 1703, test error 139, learning_rate=0.0331284292042
+2015-11-27 22:36:34
+epoch 1704, test error 140, learning_rate=0.0330621749163
+2015-11-27 22:36:45
+epoch 1705, test error 140, learning_rate=0.0329960510135
+2015-11-27 22:36:56
+epoch 1706, test error 139, learning_rate=0.0329300612211
+2015-11-27 22:37:07
+epoch 1707, test error 137, learning_rate=0.0328642018139
+2015-11-27 22:37:18
+epoch 1708, test error 141, learning_rate=0.0327984727919
+2015-11-27 22:37:29
+epoch 1709, test error 141, learning_rate=0.0327328778803
+2015-11-27 22:37:40
+epoch 1710, test error 143, learning_rate=0.0326674133539
+2015-11-27 22:37:51
+epoch 1711, test error 143, learning_rate=0.0326020792127
+2015-11-27 22:38:02
+epoch 1712, test error 138, learning_rate=0.0325368754566
+2015-11-27 22:38:13
+epoch 1713, test error 139, learning_rate=0.0324718020856
+2015-11-27 22:38:24
+epoch 1714, test error 142, learning_rate=0.0324068590999
+2015-11-27 22:38:35
+epoch 1715, test error 140, learning_rate=0.0323420464993
+2015-11-27 22:38:46
+epoch 1716, test error 139, learning_rate=0.0322773642838
+2015-11-27 22:38:57
+epoch 1717, test error 139, learning_rate=0.0322128087282
+2015-11-27 22:39:08
+epoch 1718, test error 140, learning_rate=0.0321483835578
+2015-11-27 22:39:19
+epoch 1719, test error 140, learning_rate=0.0320840887725
+2015-11-27 22:39:30
+epoch 1720, test error 143, learning_rate=0.0320199206471
+2015-11-27 22:39:41
+epoch 1721, test error 143, learning_rate=0.0319558829069
+2015-11-27 22:39:52
+epoch 1722, test error 141, learning_rate=0.0318919718266
+2015-11-27 22:40:03
+epoch 1723, test error 142, learning_rate=0.0318281874061
+2015-11-27 22:40:14
+epoch 1724, test error 142, learning_rate=0.0317645333707
+2015-11-27 22:40:25
+epoch 1725, test error 143, learning_rate=0.0317010059953
+2015-11-27 22:40:36
+epoch 1726, test error 141, learning_rate=0.0316376052797
+2015-11-27 22:40:47
+epoch 1727, test error 142, learning_rate=0.031574331224
+2015-11-27 22:40:58
+epoch 1728, test error 139, learning_rate=0.0315111838281
+2015-11-27 22:41:09
+epoch 1729, test error 140, learning_rate=0.0314481630921
+2015-11-27 22:41:20
+epoch 1730, test error 140, learning_rate=0.031385269016
+2015-11-27 22:41:31
+epoch 1731, test error 141, learning_rate=0.0313224978745
+2015-11-27 22:41:42
+epoch 1732, test error 140, learning_rate=0.0312598533928
+2015-11-27 22:41:53
+epoch 1733, test error 139, learning_rate=0.0311973337084
+2015-11-27 22:42:04
+epoch 1734, test error 140, learning_rate=0.0311349406838
+2015-11-27 22:42:15
+epoch 1735, test error 138, learning_rate=0.0310726724565
+2015-11-27 22:42:25
+epoch 1736, test error 141, learning_rate=0.0310105271637
+2015-11-27 22:42:36
+epoch 1737, test error 139, learning_rate=0.0309485066682
+2015-11-27 22:42:48
+epoch 1738, test error 142, learning_rate=0.0308866109699
+2015-11-27 22:42:58
+epoch 1739, test error 141, learning_rate=0.0308248382062
+2015-11-27 22:43:09
+epoch 1740, test error 140, learning_rate=0.0307631902397
+2015-11-27 22:43:20
+epoch 1741, test error 141, learning_rate=0.0307016652077
+2015-11-27 22:43:31
+epoch 1742, test error 137, learning_rate=0.0306402631104
+2015-11-27 22:43:42
+epoch 1743, test error 138, learning_rate=0.0305789839476
+2015-11-27 22:43:53
+epoch 1744, test error 139, learning_rate=0.0305178258568
+2015-11-27 22:44:04
+epoch 1745, test error 142, learning_rate=0.0304567907006
+2015-11-27 22:44:15
+epoch 1746, test error 139, learning_rate=0.0303958784789
+2015-11-27 22:44:26
+epoch 1747, test error 139, learning_rate=0.0303350873291
+2015-11-27 22:44:37
+epoch 1748, test error 136, learning_rate=0.0302744172513
+2015-11-27 22:44:48
+epoch 1749, test error 140, learning_rate=0.0302138701081
+2015-11-27 22:44:59
+epoch 1750, test error 139, learning_rate=0.0301534440368
+2015-11-27 22:45:10
+epoch 1751, test error 138, learning_rate=0.0300931371748
+2015-11-27 22:45:21
+epoch 1752, test error 139, learning_rate=0.0300329513848
+2015-11-27 22:45:32
+epoch 1753, test error 138, learning_rate=0.0299728866667
+2015-11-27 22:45:43
+epoch 1754, test error 138, learning_rate=0.0299129411578
+2015-11-27 22:45:54
+epoch 1755, test error 139, learning_rate=0.0298531167209
+2015-11-27 22:46:05
+epoch 1756, test error 140, learning_rate=0.0297934114933
+2015-11-27 22:46:16
+epoch 1757, test error 139, learning_rate=0.029733825475
+2015-11-27 22:46:27
+epoch 1758, test error 139, learning_rate=0.0296743586659
+2015-11-27 22:46:38
+epoch 1759, test error 140, learning_rate=0.0296150110662
+2015-11-27 22:46:49
+epoch 1760, test error 140, learning_rate=0.0295557826757
+2015-11-27 22:47:00
+epoch 1761, test error 140, learning_rate=0.0294966716319
+2015-11-27 22:47:11
+epoch 1762, test error 142, learning_rate=0.0294376797974
+2015-11-27 22:47:22
+epoch 1763, test error 139, learning_rate=0.0293788053095
+2015-11-27 22:47:33
+epoch 1764, test error 142, learning_rate=0.0293200481683
+2015-11-27 22:47:44
+epoch 1765, test error 142, learning_rate=0.0292614083737
+2015-11-27 22:47:55
+epoch 1766, test error 142, learning_rate=0.0292028859258
+2015-11-27 22:48:06
+epoch 1767, test error 139, learning_rate=0.0291444808245
+2015-11-27 22:48:17
+epoch 1768, test error 142, learning_rate=0.0290861930698
+2015-11-27 22:48:28
+epoch 1769, test error 141, learning_rate=0.0290280207992
+2015-11-27 22:48:39
+epoch 1770, test error 139, learning_rate=0.0289699658751
+2015-11-27 22:48:50
+epoch 1771, test error 139, learning_rate=0.0289120264351
+2015-11-27 22:49:01
+epoch 1772, test error 143, learning_rate=0.0288542024791
+2015-11-27 22:49:12
+epoch 1773, test error 146, learning_rate=0.0287964940071
+2015-11-27 22:49:23
+epoch 1774, test error 142, learning_rate=0.0287389010191
+2015-11-27 22:49:34
+epoch 1775, test error 143, learning_rate=0.0286814235151
+2015-11-27 22:49:45
+epoch 1776, test error 140, learning_rate=0.0286240614951
+2015-11-27 22:49:56
+epoch 1777, test error 138, learning_rate=0.028566814959
+2015-11-27 22:50:07
+epoch 1778, test error 143, learning_rate=0.0285096820444
+2015-11-27 22:50:18
+epoch 1779, test error 140, learning_rate=0.0284526627511
+2015-11-27 22:50:29
+epoch 1780, test error 139, learning_rate=0.0283957589418
+2015-11-27 22:50:40
+epoch 1781, test error 140, learning_rate=0.0283389687538
+2015-11-27 22:50:51
+epoch 1782, test error 139, learning_rate=0.0282822921872
+2015-11-27 22:51:02
+epoch 1783, test error 140, learning_rate=0.028225729242
+2015-11-27 22:51:13
+epoch 1784, test error 138, learning_rate=0.0281692780554
+2015-11-27 22:51:24
+epoch 1785, test error 140, learning_rate=0.0281129404902
+2015-11-27 22:51:35
+epoch 1786, test error 139, learning_rate=0.0280567146838
+2015-11-27 22:51:46
+epoch 1787, test error 139, learning_rate=0.0280006024987
+2015-11-27 22:51:57
+epoch 1788, test error 140, learning_rate=0.0279446020722
+2015-11-27 22:52:08
+epoch 1789, test error 140, learning_rate=0.0278887134045
+2015-11-27 22:52:19
+epoch 1790, test error 140, learning_rate=0.0278329364955
+2015-11-27 22:52:30
+epoch 1791, test error 141, learning_rate=0.0277772713453
+2015-11-27 22:52:41
+epoch 1792, test error 140, learning_rate=0.0277217179537
+2015-11-27 22:52:52
+epoch 1793, test error 140, learning_rate=0.0276662744582
+2015-11-27 22:53:03
+epoch 1794, test error 142, learning_rate=0.0276109427214
+2015-11-27 22:53:14
+epoch 1795, test error 139, learning_rate=0.0275557208806
+2015-11-27 22:53:25
+epoch 1796, test error 141, learning_rate=0.0275006107986
+2015-11-27 22:53:36
+epoch 1797, test error 142, learning_rate=0.0274456106126
+2015-11-27 22:53:47
+epoch 1798, test error 137, learning_rate=0.0273907203227
+2015-11-27 22:53:58
+epoch 1799, test error 141, learning_rate=0.0273359399289
+2015-11-27 22:54:09
+epoch 1800, test error 141, learning_rate=0.0272812694311
+2015-11-27 22:54:19
+epoch 1801, test error 142, learning_rate=0.0272267069668
+2015-11-27 22:54:30
+epoch 1802, test error 141, learning_rate=0.0271722543985
+2015-11-27 22:54:41
+epoch 1803, test error 140, learning_rate=0.0271179098636
+2015-11-27 22:54:52
+epoch 1804, test error 141, learning_rate=0.0270636752248
+2015-11-27 22:55:03
+epoch 1805, test error 138, learning_rate=0.0270095486194
+2015-11-27 22:55:14
+epoch 1806, test error 138, learning_rate=0.0269555300474
+2015-11-27 22:55:25
+epoch 1807, test error 140, learning_rate=0.0269016195089
+2015-11-27 22:55:36
+epoch 1808, test error 141, learning_rate=0.0268478170037
+2015-11-27 22:55:47
+epoch 1809, test error 141, learning_rate=0.026794122532
+2015-11-27 22:55:58
+epoch 1810, test error 140, learning_rate=0.0267405342311
+2015-11-27 22:56:09
+epoch 1811, test error 140, learning_rate=0.0266870539635
+2015-11-27 22:56:20
+epoch 1812, test error 141, learning_rate=0.0266336798668
+2015-11-27 22:56:31
+epoch 1813, test error 145, learning_rate=0.0265804138035
+2015-11-27 22:56:42
+epoch 1814, test error 142, learning_rate=0.0265272539109
+2015-11-27 22:56:53
+epoch 1815, test error 143, learning_rate=0.0264742001891
+2015-11-27 22:57:04
+epoch 1816, test error 139, learning_rate=0.0264212526381
+2015-11-27 22:57:15
+epoch 1817, test error 140, learning_rate=0.0263684112579
+2015-11-27 22:57:26
+epoch 1818, test error 140, learning_rate=0.0263156741858
+2015-11-27 22:57:37
+epoch 1819, test error 137, learning_rate=0.0262630432844
+2015-11-27 22:57:48
+epoch 1820, test error 142, learning_rate=0.0262105185539
+2015-11-27 22:57:59
+epoch 1821, test error 140, learning_rate=0.0261580981314
+2015-11-27 22:58:10
+epoch 1822, test error 139, learning_rate=0.0261057820171
+2015-11-27 22:58:21
+epoch 1823, test error 140, learning_rate=0.0260535702109
+2015-11-27 22:58:32
+epoch 1824, test error 140, learning_rate=0.0260014645755
+2015-11-27 22:58:43
+epoch 1825, test error 142, learning_rate=0.0259494613856
+2015-11-27 22:58:54
+epoch 1826, test error 140, learning_rate=0.0258975625038
+2015-11-27 22:59:05
+epoch 1827, test error 137, learning_rate=0.0258457679302
+2015-11-27 22:59:16
+epoch 1828, test error 138, learning_rate=0.0257940776646
+2015-11-27 22:59:27
+epoch 1829, test error 140, learning_rate=0.0257424898446
+2015-11-27 22:59:38
+epoch 1830, test error 137, learning_rate=0.0256910063326
+2015-11-27 22:59:49
+epoch 1831, test error 138, learning_rate=0.0256396252662
+2015-11-27 23:00:00
+epoch 1832, test error 140, learning_rate=0.0255883466452
+2015-11-27 23:00:11
+epoch 1833, test error 139, learning_rate=0.0255371704698
+2015-11-27 23:00:22
+epoch 1834, test error 137, learning_rate=0.0254860967398
+2015-11-27 23:00:33
+epoch 1835, test error 138, learning_rate=0.0254351254553
+2015-11-27 23:00:44
+epoch 1836, test error 139, learning_rate=0.0253842566162
+2015-11-27 23:00:55
+epoch 1837, test error 138, learning_rate=0.02533348836
+2015-11-27 23:01:06
+epoch 1838, test error 138, learning_rate=0.0252828225493
+2015-11-27 23:01:17
+epoch 1839, test error 140, learning_rate=0.0252322573215
+2015-11-27 23:01:28
+epoch 1840, test error 139, learning_rate=0.0251817926764
+2015-11-27 23:01:39
+epoch 1841, test error 137, learning_rate=0.0251314304769
+2015-11-27 23:01:50
+epoch 1842, test error 140, learning_rate=0.0250811688602
+2015-11-27 23:02:00
+epoch 1843, test error 138, learning_rate=0.0250310078263
+2015-11-27 23:02:11
+epoch 1844, test error 142, learning_rate=0.0249809473753
+2015-11-27 23:02:23
+epoch 1845, test error 138, learning_rate=0.0249309856445
+2015-11-27 23:02:34
+epoch 1846, test error 139, learning_rate=0.0248811244965
+2015-11-27 23:02:45
+epoch 1847, test error 138, learning_rate=0.0248313620687
+2015-11-27 23:02:56
+epoch 1848, test error 138, learning_rate=0.0247817002237
+2015-11-27 23:03:06
+epoch 1849, test error 139, learning_rate=0.0247321370989
+2015-11-27 23:03:17
+epoch 1850, test error 138, learning_rate=0.0246826726943
+2015-11-27 23:03:28
+epoch 1851, test error 140, learning_rate=0.0246333088726
+2015-11-27 23:03:39
+epoch 1852, test error 138, learning_rate=0.024584043771
+2015-11-27 23:03:50
+epoch 1853, test error 140, learning_rate=0.024534875527
+2015-11-27 23:04:01
+epoch 1854, test error 143, learning_rate=0.0244858060032
+2015-11-27 23:04:12
+epoch 1855, test error 141, learning_rate=0.0244368351996
+2015-11-27 23:04:23
+epoch 1856, test error 141, learning_rate=0.0243879612535
+2015-11-27 23:04:34
+epoch 1857, test error 141, learning_rate=0.0243391860276
+2015-11-27 23:04:45
+epoch 1858, test error 138, learning_rate=0.0242905076593
+2015-11-27 23:04:56
+epoch 1859, test error 138, learning_rate=0.0242419280112
+2015-11-27 23:05:07
+epoch 1860, test error 139, learning_rate=0.0241934452206
+2015-11-27 23:05:18
+epoch 1861, test error 138, learning_rate=0.0241450592875
+2015-11-27 23:05:29
+epoch 1862, test error 138, learning_rate=0.0240967702121
+2015-11-27 23:05:40
+epoch 1863, test error 140, learning_rate=0.0240485779941
+2015-11-27 23:05:51
+epoch 1864, test error 138, learning_rate=0.0240004807711
+2015-11-27 23:06:02
+epoch 1865, test error 136, learning_rate=0.0239524804056
+2015-11-27 23:06:13
+epoch 1866, test error 139, learning_rate=0.0239045768976
+2015-11-27 23:06:24
+epoch 1867, test error 136, learning_rate=0.0238567683846
+2015-11-27 23:06:35
+epoch 1868, test error 139, learning_rate=0.0238090548664
+2015-11-27 23:06:46
+epoch 1869, test error 141, learning_rate=0.0237614382058
+2015-11-27 23:06:57
+epoch 1870, test error 142, learning_rate=0.0237139165401
+2015-11-27 23:07:08
+epoch 1871, test error 139, learning_rate=0.0236664898694
+2015-11-27 23:07:19
+epoch 1872, test error 140, learning_rate=0.0236191581935
+2015-11-27 23:07:30
+epoch 1873, test error 140, learning_rate=0.0235719196498
+2015-11-27 23:07:41
+epoch 1874, test error 140, learning_rate=0.0235247761011
+2015-11-27 23:07:52
+epoch 1875, test error 143, learning_rate=0.0234777275473
+2015-11-27 23:08:03
+epoch 1876, test error 138, learning_rate=0.0234307721257
+2015-11-27 23:08:14
+epoch 1877, test error 140, learning_rate=0.0233839116991
+2015-11-27 23:08:25
+epoch 1878, test error 139, learning_rate=0.0233371444046
+2015-11-27 23:08:36
+epoch 1879, test error 142, learning_rate=0.0232904702425
+2015-11-27 23:08:47
+epoch 1880, test error 140, learning_rate=0.0232438892126
+2015-11-27 23:08:58
+epoch 1881, test error 138, learning_rate=0.023197401315
+2015-11-27 23:09:09
+epoch 1882, test error 140, learning_rate=0.0231510065496
+2015-11-27 23:09:20
+epoch 1883, test error 141, learning_rate=0.0231047049165
+2015-11-27 23:09:31
+epoch 1884, test error 140, learning_rate=0.0230584964156
+2015-11-27 23:09:41
+epoch 1885, test error 140, learning_rate=0.0230123791844
+2015-11-27 23:09:52
+epoch 1886, test error 139, learning_rate=0.0229663550854
+2015-11-27 23:10:03
+epoch 1887, test error 139, learning_rate=0.022920422256
+2015-11-27 23:10:14
+epoch 1888, test error 139, learning_rate=0.0228745825589
+2015-11-27 23:10:26
+epoch 1889, test error 138, learning_rate=0.0228288341314
+2015-11-27 23:10:37
+epoch 1890, test error 140, learning_rate=0.0227831769735
+2015-11-27 23:10:47
+epoch 1891, test error 139, learning_rate=0.0227376110852
+2015-11-27 23:10:58
+epoch 1892, test error 137, learning_rate=0.0226921364665
+2015-11-27 23:11:09
+epoch 1893, test error 139, learning_rate=0.0226467531174
+2015-11-27 23:11:20
+epoch 1894, test error 139, learning_rate=0.022601461038
+2015-11-27 23:11:31
+epoch 1895, test error 139, learning_rate=0.0225562583655
+2015-11-27 23:11:42
+epoch 1896, test error 139, learning_rate=0.0225111469626
+2015-11-27 23:11:53
+epoch 1897, test error 140, learning_rate=0.0224661249667
+2015-11-27 23:12:04
+epoch 1898, test error 140, learning_rate=0.0224211923778
+2015-11-27 23:12:15
+epoch 1899, test error 141, learning_rate=0.0223763510585
+2015-11-27 23:12:26
+epoch 1900, test error 141, learning_rate=0.0223315991461
+2015-11-27 23:12:37
+epoch 1901, test error 142, learning_rate=0.0222869366407
+2015-11-27 23:12:48
+epoch 1902, test error 140, learning_rate=0.0222423635423
+2015-11-27 23:12:59
+epoch 1903, test error 141, learning_rate=0.0221978798509
+2015-11-27 23:13:10
+epoch 1904, test error 138, learning_rate=0.0221534855664
+2015-11-27 23:13:21
+epoch 1905, test error 139, learning_rate=0.0221091788262
+2015-11-27 23:13:32
+epoch 1906, test error 139, learning_rate=0.022064961493
+2015-11-27 23:13:43
+epoch 1907, test error 137, learning_rate=0.0220208317041
+2015-11-27 23:13:54
+epoch 1908, test error 142, learning_rate=0.0219767913222
+2015-11-27 23:14:05
+epoch 1909, test error 139, learning_rate=0.0219328384846
+2015-11-27 23:14:16
+epoch 1910, test error 143, learning_rate=0.0218889731914
+2015-11-27 23:14:27
+epoch 1911, test error 139, learning_rate=0.0218451954424
+2015-11-27 23:14:38
+epoch 1912, test error 139, learning_rate=0.0218015052378
+2015-11-27 23:14:50
+epoch 1913, test error 139, learning_rate=0.0217579025775
+2015-11-27 23:15:01
+epoch 1914, test error 138, learning_rate=0.0217143874615
+2015-11-27 23:15:12
+epoch 1915, test error 138, learning_rate=0.0216709598899
+2015-11-27 23:15:24
+epoch 1916, test error 138, learning_rate=0.0216276179999
+2015-11-27 23:15:35
+epoch 1917, test error 138, learning_rate=0.0215843636543
+2015-11-27 23:15:46
+epoch 1918, test error 139, learning_rate=0.0215411949903
+2015-11-27 23:15:57
+epoch 1919, test error 140, learning_rate=0.0214981138706
+2015-11-27 23:16:08
+epoch 1920, test error 141, learning_rate=0.0214551184326
+2015-11-27 23:16:19
+epoch 1921, test error 140, learning_rate=0.0214122086763
+2015-11-27 23:16:30
+epoch 1922, test error 139, learning_rate=0.0213693846017
+2015-11-27 23:16:41
+epoch 1923, test error 139, learning_rate=0.0213266462088
+2015-11-27 23:16:52
+epoch 1924, test error 138, learning_rate=0.0212839934975
+2015-11-27 23:17:02
+epoch 1925, test error 138, learning_rate=0.0212414264679
+2015-11-27 23:17:13
+epoch 1926, test error 139, learning_rate=0.0211989432573
+2015-11-27 23:17:24
+epoch 1927, test error 139, learning_rate=0.0211565457284
+2015-11-27 23:17:35
+epoch 1928, test error 138, learning_rate=0.0211142338812
+2015-11-27 23:17:46
+epoch 1929, test error 143, learning_rate=0.0210720058531
+2015-11-27 23:17:57
+epoch 1930, test error 137, learning_rate=0.0210298616439
+2015-11-27 23:18:08
+epoch 1931, test error 139, learning_rate=0.0209878031164
+2015-11-27 23:18:19
+epoch 1932, test error 139, learning_rate=0.020945828408
+2015-11-27 23:18:30
+epoch 1933, test error 140, learning_rate=0.0209039375186
+2015-11-27 23:18:41
+epoch 1934, test error 141, learning_rate=0.0208621304482
+2015-11-27 23:19:29
+epoch 1935, test error 140, learning_rate=0.0208204071969
+2015-11-27 23:19:40
+epoch 1936, test error 140, learning_rate=0.0207787677646
