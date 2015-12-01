@@ -24,7 +24,6 @@ from load_data import load_umontreal_data, load_mnist
 def ReLU(x):
     y = T.maximum(0.0, x)
     return(y)
-
 #### sigmoid
 def Sigmoid(x):
     y = T.nnet.sigmoid(x)
