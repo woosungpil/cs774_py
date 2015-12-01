@@ -415,22 +415,61 @@ if __name__ == '__main__':
     dataset = 'data/mnist_batches.npz'
     #dataset = 'data/mnist.pkl.gz'
 
+#    if len(sys.argv) < 2:
+#        print "Usage: {0} [dropout|backprop]".format(sys.argv[0])
+#        exit(1)
+#
+#    elif sys.argv[1] == "dropout":
+#        dropout = True
+#        results_file_name = "results_dropout.txt"
+#
+#    elif sys.argv[1] == "backprop":
+#        dropout = False
+#        results_file_name = "results_backprop.txt"
+#
+#    else:
+#        print "I don't know how to '{0}'".format(sys.argv[1])
+#        exit(1)
+
+    dropout = False
+    unsup_pretrain = False
+    activation_name = None
+
     if len(sys.argv) < 2:
-        print "Usage: {0} [dropout|backprop]".format(sys.argv[0])
+        print "Usage: {0} [dropout|backprop] [unsup_pretrain] [ReLU | Sigmoid | Tanh | Softplus] [0.x,0.x]".format(sys.argv[0])
         exit(1)
-
-    elif sys.argv[1] == "dropout":
-        dropout = True
-        results_file_name = "results_dropout.txt"
-
-    elif sys.argv[1] == "backprop":
-        dropout = False
-        results_file_name = "results_backprop.txt"
-
     else:
-        print "I don't know how to '{0}'".format(sys.argv[1])
-        exit(1)
+        for _arg in sys.argv[1:]:
+            if str(_arg) == "dropout":
+                dropout = True
+                results_file_name = "results_dropout.txt"
+            elif str(_arg) == "backprop":
+                assert(dropout == False)
+                results_file_name = "results_backprop.txt"
+            elif str(_arg) == "unsup_pretrain":
+                unsup_pretrain = True
+                print "Start with Unsupervised pretraining"
+            elif str(_arg) in ["ReLU","Sigmoid","Tanh","Softplus"]:
+                activation_name = str(_arg)
+            else:
+                for idx, _prop in enumerate(_arg.split(",")):
+                    try:
+                        assert( len(_arg.split(",")) == 2 )
+                    except AssertionError:
+                        print "Only deal with Two rate value"
+                        print "I don't know how to '{0}'".format(sys.argv)
+                        exit(1)
+                    try:
+                        assert( float(_prop) < 1.0 and float(_prop) > 0 )
+                        dropout_rates[idx+1] = float(_prop)
+                    except AssertionError:
+                        print "I don't know how to '{0}', If it is Rate, should be 0.0 < Rate < 1.0".format(sys.argv[1:])
+                        exit(1)
 
+    print "Dropout: %r | Unsupervised-pretraining: %r | Activation Function: %s | Rates: %s"\
+        %(dropout, unsup_pretrain, activation_name, str(dropout_rates[1:]))
+
+ 
     test_mlp(initial_learning_rate=initial_learning_rate,
              learning_rate_decay=learning_rate_decay,
              squared_filter_length_limit=squared_filter_length_limit,

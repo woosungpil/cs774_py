@@ -10,6 +10,11 @@ for dropout, or
 
 for regular backprop with no dropout.
 
+**** bit modified (12/01)
+    ./mlp.py [dropout|backprop] [unsup_pretrain] [ReLU | Tanh | Sigmoid | Softplus] [0.4,0.6]
+    * rate should be continued with comma
+    ** Don't care about order of parameters
+**** Jinpyo
 Use:
 
     ./plot_results.sh results.png
