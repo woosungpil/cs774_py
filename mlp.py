@@ -439,7 +439,7 @@ if __name__ == '__main__':
     # dropout rate for each layer
     #dropout_rates = [ 0.2, 0.4, 0.6 ]
     dropout_rates = [ 0.0, 0.0, 0.0 ]
-    rel_dropout_rates = [ 0.2, 0.4, 0.6 ]
+    rel_dropout_rates = [ 0.2, 0.5, 0.5 ]
     # activation functions for each layer
     # For this demo, we don't need to set the activation functions for the 
     # on top layer, since it is always 10-way Softmax
