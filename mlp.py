@@ -36,10 +36,38 @@ def Tanh(x):
 def Softplus(x):
     y = T.nnet.softplus(x)
     return(y)
-    
+
+
+def _dropout_from_layer(rng, layer, p):
+    """p is the probablity of dropping a unit
+    """
+    srng = theano.tensor.shared_randomstreams.RandomStreams(
+            rng.randint(999999))
+    # p=1-p because 1's indicate keep and p is prob of dropping
+    mask = srng.binomial(n=1, p=1-p, size=layer.shape)
+    # The cast is important because
+    # int * float32 = float64 which pulls things off the gpu
+    output = layer * T.cast(mask, theano.config.floatX)
+    return output
+
+
+def _rel_dropout_from_layer(rng, layer, p):
+    """p is the probablity of dropping a unit
+    """
+    srng = theano.tensor.shared_randomstreams.RandomStreams(
+            rng.randint(999999))
+    # p=1-p because 1's indicate keep and p is prob of dropping
+    mask = srng.binomial(n=1, p=1-p, size=layer.shape)
+    # The cast is important because
+    # int * float32 = float64 which pulls things off the gpu
+    output = layer * T.cast(mask, theano.config.floatX)
+    return output
+
+  
+# JS: it just  initializes input, output, W, b, and param
 class HiddenLayer(object):
     def __init__(self, rng, input, n_in, n_out,
-                 activation, W=None, b=None,
+                 activation, rel_dropout_rate, W=None, b=None,
                  use_bias=False):
 
         self.input = input
@@ -57,37 +85,35 @@ class HiddenLayer(object):
         self.W = W
         self.b = b
 
+        # JS: drops relations by set relations's weights as 0.
+        W_rel_dropout = _rel_dropout_from_layer(rng, self.W, p=rel_dropout_rate)
+
+        # JS: Calculate output with W_rel_dropout instead of W for dropping out relations.
         if use_bias:
-            lin_output = T.dot(input, self.W) + self.b
+            #lin_output = T.dot(input, self.W) + self.b
+            lin_output = T.dot(input, W_rel_dropout) + self.b
         else:
-            lin_output = T.dot(input, self.W)
+            #lin_output = T.dot(input, self.W)
+            lin_output = T.dot(input, W_rel_dropout)
 
         self.output = (lin_output if activation is None else activation(lin_output))
     
         # parameters of the model
+        # JS: shares rel-non-dropped weights!
         if use_bias:
             self.params = [self.W, self.b]
         else:
             self.params = [self.W]
 
 
-def _dropout_from_layer(rng, layer, p):
-    """p is the probablity of dropping a unit
-    """
-    srng = theano.tensor.shared_randomstreams.RandomStreams(
-            rng.randint(999999))
-    # p=1-p because 1's indicate keep and p is prob of dropping
-    mask = srng.binomial(n=1, p=1-p, size=layer.shape)
-    # The cast is important because
-    # int * float32 = float64 which pulls things off the gpu
-    output = layer * T.cast(mask, theano.config.floatX)
-    return output
 
+# JS: it drops output of the layer with the binomial distribution
 class DropoutHiddenLayer(HiddenLayer):
     def __init__(self, rng, input, n_in, n_out,
-                 activation, dropout_rate, use_bias, W=None, b=None):
+                 activation, dropout_rate, use_bias, rel_dropout_rate, W=None, b=None):
         super(DropoutHiddenLayer, self).__init__(
-                rng=rng, input=input, n_in=n_in, n_out=n_out, W=W, b=b,
+                rng=rng, input=input, n_in=n_in, n_out=n_out,
+                rel_dropout_rate=rel_dropout_rate, W=W, b=b,
                 activation=activation, use_bias=use_bias)
 
         self.output = _dropout_from_layer(rng, self.output, p=dropout_rate)
@@ -98,12 +124,15 @@ class MLP(object):
     training.
 
     """
+
+    # JS: the type of input is T.matrix()
     def __init__(self,
             rng,
             input,
             layer_sizes,
             dropout_rates,
             activations,
+            rel_dropout_rates,
             use_bias=True):
 
         #rectified_linear_activation = lambda x: T.maximum(0.0, x)
@@ -115,6 +144,9 @@ class MLP(object):
         next_layer_input = input
         #first_layer = True
         # dropout the input
+        # JS: it drops even the initial input !
+        # JS: why dropout_rate is dropout_rates[layer_counter+1]?
+        # JS: then size of dropout_rates would be activations.size+1
         next_dropout_layer_input = _dropout_from_layer(rng, input, p=dropout_rates[0])
         layer_counter = 0        
         for n_in, n_out in weight_matrix_sizes[:-1]:
@@ -122,7 +154,8 @@ class MLP(object):
                     input=next_dropout_layer_input,
                     activation=activations[layer_counter],
                     n_in=n_in, n_out=n_out, use_bias=use_bias,
-                    dropout_rate=dropout_rates[layer_counter + 1])
+                    dropout_rate=dropout_rates[layer_counter + 1],
+                    rel_dropout_rate=rel_dropout_rates[layer_counter + 1])
             self.dropout_layers.append(next_dropout_layer)
             next_dropout_layer_input = next_dropout_layer.output
 
@@ -132,10 +165,12 @@ class MLP(object):
                     input=next_layer_input,
                     activation=activations[layer_counter],
                     # scale the weight matrix W with (1-p)
+                    # JS: why it scales W?
                     W=next_dropout_layer.W * (1 - dropout_rates[layer_counter]),
                     b=next_dropout_layer.b,
                     n_in=n_in, n_out=n_out,
-                    use_bias=use_bias)
+                    use_bias=use_bias,
+                    rel_dropout_rate=rel_dropout_rates[layer_counter + 1])
             self.layers.append(next_layer)
             next_layer_input = next_layer.output
             #first_layer = False
@@ -183,6 +218,7 @@ def test_mlp(
         layer_sizes,
         dataset,
         use_bias,
+        rel_dropout_rates,
         random_seed=1234):
     """
     The dataset is the one from the mlp demo on deeplearning.net.  This training
@@ -224,6 +260,8 @@ def test_mlp(
     x = T.matrix('x')  # the data is presented as rasterized images
     y = T.ivector('y')  # the labels are presented as 1D vector of
                         # [int] labels
+
+    # JS: convert the integer (initial_learning_rate) into array and put it on VRAM
     learning_rate = theano.shared(np.asarray(initial_learning_rate,
         dtype=theano.config.floatX))
 
@@ -234,7 +272,8 @@ def test_mlp(
                      layer_sizes=layer_sizes,
                      dropout_rates=dropout_rates,
                      activations=activations,
-                     use_bias=use_bias)
+                     use_bias=use_bias,
+                     rel_dropout_rates=rel_dropout_rates)
 
     # Build the expresson for the cost function.
     cost = classifier.negative_log_likelihood(y)
@@ -300,7 +339,7 @@ def test_mlp(
         # parameter and constrains it if so... maybe this is a bit silly but it
         # should work for now.
         if param.get_value(borrow=True).ndim == 2:
-            #squared_norms = T.sum(stepped_param**2, axis=1).reshape((stepped_param.shape[0],1))
+            #squared_norms = T/.sum(stepped_param**2, axis=1).reshape((stepped_param.shape[0],1))
             #scale = T.clip(T.sqrt(squared_filter_length_limit / squared_norms), 0., 1.)
             #updates[param] = stepped_param * scale
             
@@ -393,10 +432,14 @@ if __name__ == '__main__':
     squared_filter_length_limit = 15.0
     n_epochs = 1000
     batch_size = 100
+    # JS: it seems input is 28 by 28 image
+    # JS: And the input of a unit of the input layer is a color vector. e.g. (r,g,b)
     layer_sizes = [ 28*28, 1200, 1200, 10 ]
     
     # dropout rate for each layer
-    dropout_rates = [ 0.2, 0.4, 0.6 ]
+    #dropout_rates = [ 0.2, 0.4, 0.6 ]
+    dropout_rates = [ 0.0, 0.0, 0.0 ]
+    rel_dropout_rates = [ 0.2, 0.4, 0.6 ]
     # activation functions for each layer
     # For this demo, we don't need to set the activation functions for the 
     # on top layer, since it is always 10-way Softmax
@@ -415,61 +458,22 @@ if __name__ == '__main__':
     dataset = 'data/mnist_batches.npz'
     #dataset = 'data/mnist.pkl.gz'
 
-#    if len(sys.argv) < 2:
-#        print "Usage: {0} [dropout|backprop]".format(sys.argv[0])
-#        exit(1)
-#
-#    elif sys.argv[1] == "dropout":
-#        dropout = True
-#        results_file_name = "results_dropout.txt"
-#
-#    elif sys.argv[1] == "backprop":
-#        dropout = False
-#        results_file_name = "results_backprop.txt"
-#
-#    else:
-#        print "I don't know how to '{0}'".format(sys.argv[1])
-#        exit(1)
-
-    dropout = False
-    unsup_pretrain = False
-    activation_name = None
-
     if len(sys.argv) < 2:
-        print "Usage: {0} [dropout|backprop] [unsup_pretrain] [ReLU | Sigmoid | Tanh | Softplus] [0.x,0.x]".format(sys.argv[0])
+        print "Usage: {0} [dropout|backprop]".format(sys.argv[0])
         exit(1)
+
+    elif sys.argv[1] == "dropout":
+        dropout = True
+        results_file_name = "results_dropout.txt"
+
+    elif sys.argv[1] == "backprop":
+        dropout = False
+        results_file_name = "results_backprop.txt"
+
     else:
-        for _arg in sys.argv[1:]:
-            if str(_arg) == "dropout":
-                dropout = True
-                results_file_name = "results_dropout.txt"
-            elif str(_arg) == "backprop":
-                assert(dropout == False)
-                results_file_name = "results_backprop.txt"
-            elif str(_arg) == "unsup_pretrain":
-                unsup_pretrain = True
-                print "Start with Unsupervised pretraining"
-            elif str(_arg) in ["ReLU","Sigmoid","Tanh","Softplus"]:
-                activation_name = str(_arg)
-            else:
-                for idx, _prop in enumerate(_arg.split(",")):
-                    try:
-                        assert( len(_arg.split(",")) == 2 )
-                    except AssertionError:
-                        print "Only deal with Two rate value"
-                        print "I don't know how to '{0}'".format(sys.argv)
-                        exit(1)
-                    try:
-                        assert( float(_prop) < 1.0 and float(_prop) > 0 )
-                        dropout_rates[idx+1] = float(_prop)
-                    except AssertionError:
-                        print "I don't know how to '{0}', If it is Rate, should be 0.0 < Rate < 1.0".format(sys.argv[1:])
-                        exit(1)
+        print "I don't know how to '{0}'".format(sys.argv[1])
+        exit(1)
 
-    print "Dropout: %r | Unsupervised-pretraining: %r | Activation Function: %s | Rates: %s"\
-        %(dropout, unsup_pretrain, activation_name, str(dropout_rates[1:]))
-
- 
     test_mlp(initial_learning_rate=initial_learning_rate,
              learning_rate_decay=learning_rate_decay,
              squared_filter_length_limit=squared_filter_length_limit,
@@ -483,5 +487,6 @@ if __name__ == '__main__':
              dataset=dataset,
              results_file_name=results_file_name,
              use_bias=False,
+             rel_dropout_rates=rel_dropout_rates,
              random_seed=random_seed)
 
