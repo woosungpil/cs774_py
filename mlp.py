@@ -36,7 +36,21 @@ def Tanh(x):
 def Softplus(x):
     y = T.nnet.softplus(x)
     return(y)
-    
+
+def _uniform_fuzzy(rng, layer):
+    """p is the probablity of dropping a unit
+    """
+    srng = theano.tensor.shared_randomstreams.RandomStreams(
+            rng.randint(999999))
+    # p=1-p because 1's indicate keep and p is prob of dropping
+    membership = srng.uniform(low=0.0, high=1.0, size=layer.shape)
+    # The cast is important because
+    # int * float32 = float64 which pulls things off the gpu
+    output = layer * T.cast(membership, theano.config.floatX)
+    return output
+
+
+
 class HiddenLayer(object):
     def __init__(self, rng, input, n_in, n_out,
                  activation, W=None, b=None,
@@ -63,6 +77,9 @@ class HiddenLayer(object):
             lin_output = T.dot(input, self.W)
 
         self.output = (lin_output if activation is None else activation(lin_output))
+
+        # JS: add uniform fuzzy membership
+        self.output = _uniform_fuzzy(rng, self.output);
     
         # parameters of the model
         if use_bias:
@@ -396,7 +413,8 @@ if __name__ == '__main__':
     layer_sizes = [ 28*28, 1200, 1200, 10 ]
     
     # dropout rate for each layer
-    dropout_rates = [ 0.2, 0.4, 0.6 ]
+    #dropout_rates = [ 0.2, 0.4, 0.6 ]
+    dropout_rates = [ 0.0, 0.0, 0.0 ]
     # activation functions for each layer
     # For this demo, we don't need to set the activation functions for the 
     # on top layer, since it is always 10-way Softmax
