@@ -1,3 +1,45 @@
+
+Memberships
+-----------
+
+The membership naming rule is
+<granularity>-<determinism_and_codomain>
+.
+
+You can composite your own membership functions with below components with the naming rule.
+
+GRANULARITY
+ unit   i.e., unit-wise means unit-wise membership.
+ rel    i.e., relation-wise means relation-wise membership.
+
+DETERMINISM and CODOMAIN
+ binomial <rates>     
+    i.e., binomial distribution means PROBABILISTIC BINARY membership with binomial distribution.
+        It needs rates for distribution of each layer.
+    e.g., "unit-binomial" is exactly same with Dropout.
+ uniform                    
+    i.e., uniform distribution means PROBABILISTIC FUZZY membership with uniform distribution.
+ rect <threshold>
+    i.e., rectifier means DETERMINISTIC BINARY membership which returns zero if rectifier input 
+        is below the threshold.
+    e.g., "unit-rect 0" would be same with the membership of Rectifier.    
+ sigmoid
+    i.e., sigmoid means DETERMINISTIC FUZZY membership
+
+
+Multiple Memberships
+--------------------
+Multiple memberships can be applied together by multiplying them together by Assumption 3,
+if they are independent with each other.
+
+
+
+
+
+
+
+Below is readme from Theano dropout implementation by ~~
+=========================================================
 Theano implementation of dropout.  See: http://arxiv.org/abs/1207.0580
 
 Run with:

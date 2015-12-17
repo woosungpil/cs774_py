@@ -454,7 +454,7 @@ if __name__ == '__main__':
     activation_name = None
 
     if len(sys.argv) < 2:
-        print "Usage: {0} [dropout|backprop] [unsup_pretrain] [ReLU | Sigmoid | Tanh | Softplus] [0.x,0.x]".format(sys.argv[0])
+        print "Usage: {0} [dropout|backprop] [unsup_pretrain] [ReLU | Sigmoid | Tanh | Softplus] [0.x,0.x,0.x]".format(sys.argv[0])
         exit(1)
     else:
         for _arg in sys.argv[1:]:
@@ -469,23 +469,32 @@ if __name__ == '__main__':
                 print "Start with Unsupervised pretraining"
             elif str(_arg) in ["ReLU","Sigmoid","Tanh","Softplus"]:
                 activation_name = str(_arg)
+                if str(_arg) == "ReLU":
+                    activations = [ ReLU, ReLU ]
+                elif str(_arg) == "Sigmoid":
+                    activations = [ Sigmoid, Sigmoid ]
+                elif str(_arg) == "Tanh":
+                    activations = [ Tanh, Tanh ]
+                elif str(_arg) == "Softplus":
+                    activations = [ Softplus, Softplus ]
             else:
                 for idx, _prop in enumerate(_arg.split(",")):
                     try:
-                        assert( len(_arg.split(",")) == 2 )
+                        assert( len(_arg.split(",")) == 3 )
                     except AssertionError:
                         print "Only deal with Two rate value"
                         print "I don't know how to '{0}'".format(sys.argv)
                         exit(1)
                     try:
-                        assert( float(_prop) < 1.0 and float(_prop) > 0 )
-                        dropout_rates[idx+1] = float(_prop)
+                        assert( float(_prop) <= 1.0 and float(_prop) >= 0 )
+                        dropout_rates[idx] = float(_prop)
                     except AssertionError:
                         print "I don't know how to '{0}', If it is Rate, should be 0.0 < Rate < 1.0".format(sys.argv[1:])
                         exit(1)
 
     print "Dropout: %r | Unsupervised-pretraining: %r | Activation Function: %s | Rates: %s"\
-        %(dropout, unsup_pretrain, activation_name, str(dropout_rates[1:]))
+        %(dropout, unsup_pretrain, str(activations), str(dropout_rates))
+        #%(dropout, unsup_pretrain, activation_name, str(dropout_rates[1:]))
 
  
     test_mlp(initial_learning_rate=initial_learning_rate,
